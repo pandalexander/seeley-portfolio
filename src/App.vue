@@ -4,7 +4,7 @@ import Hero from "./components/Hero.vue";
 </script>
 
 <template>
-  <div class="pl-5 pr-5 overflow-hidden">
+  <div class="pl-5 pr-5">
     <Header />
     <main class="max-w-2xl mx-auto p-4">
       <Hero />
