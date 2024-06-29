@@ -1,8 +1,8 @@
 <template>
   <section>
     <h1 class="text-2xl">
-      Making the web better, one
-      <span class="italic text-emerald-600">&lt;div&gt;</span> at a time.
+      Making software better, one
+      <span class="italic text-emerald-600">&gt;program</span> at a time.
     </h1>
     <img
       src="/src/assets/main.png"
