@@ -7,28 +7,28 @@
         <li>
           <a
             href="#"
-            class="hover:text-slate-500 transition ease-in-out duration-300"
+            class="hover:text-emerald-600 transition ease-in-out duration-300"
             >Home</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="hover:text-slate-500 transition ease-in-out duration-300"
+            class="hover:text-emerald-600 transition ease-in-out duration-300"
             >About</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="hover:text-slate-500 transition ease-in-out duration-300"
+            class="hover:text-emerald-600 transition ease-in-out duration-300"
             >Projects</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="hover:text-slate-500 transition ease-in-out duration-300"
+            class="hover:text-emerald-600 transition ease-in-out duration-300"
             >Contact</a
           >
         </li>
