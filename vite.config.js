@@ -5,4 +5,5 @@ import tailwindcss from "tailwindcss";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), tailwindcss()],
+  base: "/vite-deploy-demo/",
 });
