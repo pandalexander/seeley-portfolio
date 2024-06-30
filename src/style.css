@@ -21,3 +21,15 @@
 * {
   color: black;
 }
+
+h1 {
+  @apply text-3xl;
+}
+
+h2 {
+  @apply text-2xl font-semibold;
+}
+
+p {
+  @apply text-base;
+}

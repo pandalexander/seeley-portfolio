@@ -1,5 +1,5 @@
 <template>
-  <header class="text-slate-900 p-4 m-7 sticky top-0">
+  <header class="text-primary p-4 m-7 sticky top-0">
     <nav
       class="flex flex-col justify-between items-center mx-auto gap-5 rounded-full"
     >
@@ -7,28 +7,28 @@
         <li>
           <a
             href="#"
-            class="hover:text-emerald-600 transition ease-in-out duration-300"
+            class="hover:text-secondary transition ease-in-out duration-300"
             >Home</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="hover:text-emerald-600 transition ease-in-out duration-300"
+            class="hover:text-secondary transition ease-in-out duration-300"
             >About</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="hover:text-emerald-600 transition ease-in-out duration-300"
+            class="hover:text-secondary transition ease-in-out duration-300"
             >Projects</a
           >
         </li>
         <li>
           <a
             href="#"
-            class="hover:text-emerald-600 transition ease-in-out duration-300"
+            class="hover:text-secondary transition ease-in-out duration-300"
             >Contact</a
           >
         </li>
