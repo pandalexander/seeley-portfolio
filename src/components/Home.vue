@@ -6,37 +6,37 @@
       <ul class="flex space-x-4 bg-gray-200 rounded-full py-4 px-7">
         <li>
           <a
-            href="#"
-            class="hover:text-secondary transition ease-in-out duration-300"
-            >Home</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
+            href="#about"
             class="hover:text-secondary transition ease-in-out duration-300"
             >About</a
           >
         </li>
         <li>
           <a
-            href="#"
+            href="#skills"
+            class="hover:text-secondary transition ease-in-out duration-300"
+            >Skills</a
+          >
+        </li>
+        <li>
+          <a
+            href="#projects"
             class="hover:text-secondary transition ease-in-out duration-300"
             >Projects</a
           >
         </li>
-        <li>
+        <!-- <li>
           <a
             href="#"
             class="hover:text-secondary transition ease-in-out duration-300"
             >Contact</a
           >
-        </li>
+        </li> -->
       </ul>
     </nav>
   </header>
   <main class="max-w-2xl mx-auto p-4">
-    <section>
+    <section id="about">
       <h1 class="">
         Making software better, one
         <span class="italic text-secondary">&gt;program</span> at a time.
@@ -47,8 +47,9 @@
       <h3>Hi, I'm Alex!</h3>
       <p>
         I'm a dedicated software developer based in Colorado Springs. With two
-        years of self-taught experience and a recent three-month internship in
-        IT, I'm thrilled to create simple solutions across various platforms and
+        years of self-taught experience and a
+        <span id="skills">recent</span> three-month internship in IT, I'm
+        thrilled to create simple solutions across various platforms and
         technologies.
       </p>
       <h2 class="pt-6 pb-3">Skills</h2>
@@ -74,7 +75,7 @@
       <p class="text-center">Rust, Node.js</p>
       <div class="flex items-center justify-between mt-9">
         <div class="flex-grow"><hr /></div>
-        <h3 class="mx-4 text-secondary">Other</h3>
+        <h3 id="projects" class="mx-4 text-secondary">Other</h3>
         <div class="flex-grow"><hr /></div>
       </div>
       <p class="text-center">Git, Webpack, Bootstrap, Raspberry&nbsp;Pi</p>
