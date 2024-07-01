@@ -1,5 +1,5 @@
 <template>
-  <header class="text-primary p-4 m-7 sticky top-0">
+  <header class="text-primary p-11 sticky top-0">
     <nav
       class="flex flex-col justify-between items-center mx-auto gap-5 rounded-full"
     >
