@@ -2,6 +2,7 @@
 import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
+import Projects from "./components/Projects.vue";
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import About from "./components/About.vue";
     <main class="max-w-2xl mx-auto p-4">
       <Hero />
       <About />
+      <Projects />
     </main>
   </div>
 </template>

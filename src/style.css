@@ -35,5 +35,9 @@ h3 {
 }
 
 p {
-  @apply text-lg pt-3 leading-loose;
+  @apply text-lg py-3 leading-loose;
+}
+
+li {
+  @apply text-lg leading-relaxed;
 }
