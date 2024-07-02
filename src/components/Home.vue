@@ -1,18 +1,26 @@
 <template>
   <div class="h-screen flex justify-center items-center">
     <div class="flex flex-col">
-      <h1 class="font-secondary font-extrabold text-center text-7xl">
+      <h1
+        class="font-secondary font-extrabold text-center text-7xl opacity-0 animate-fade-in"
+      >
         Alex Seeley
       </h1>
-      <h3 class="text-center mt-3">Software Developer</h3>
-      <img
-        src="../assets/arrow-down.svg"
-        alt=""
-        class="h-6 mt-6 animate-bounce"
-      />
+      <h3 class="text-center mt-3 opacity-0 animate-fade-in-late">
+        Software Developer
+      </h3>
+      <div class="flex justify-center opacity-0 animate-fade-in-super-late">
+        <img
+          src="../assets/arrow-down.svg"
+          alt=""
+          class="h-6 mt-6 animate-bounce"
+        />
+      </div>
     </div>
   </div>
-  <header class="text-primary p-11 sticky top-0">
+  <header
+    class="text-primary p-11 pt-0 sticky top-0 opacity-0 animate-fade-in-fast"
+  >
     <nav
       class="flex flex-col justify-between items-center mx-auto gap-5 rounded-full"
     >
@@ -51,7 +59,7 @@
   <div id="about"></div>
   <main class="max-w-2xl mx-auto p-4">
     <section>
-      <h1 class="">
+      <h1>
         Making software better, one
         <span class="italic text-secondary">&gt;program</span> at a time.
       </h1>
@@ -189,3 +197,9 @@
     </div>
   </main>
 </template>
+
+<style scoped></style>
+
+<script setup>
+console.log("hello script setup");
+</script>

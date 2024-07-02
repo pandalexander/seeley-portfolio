@@ -11,6 +11,33 @@ export default {
         primary: "#0f172a", // Example primary color
         secondary: "#059669", // Example secondary color #
       },
+      keyframes: {
+        fadeInFast: {
+          "0%": { opacity: 0, transform: "translate3d(0, 5%, 0)" },
+          "100%": { opacity: 1, transform: "translate3d(0, 0, 0)" },
+        },
+
+        fadeIn: {
+          "0%": { opacity: 0, transform: "translate3d(0, 25%, 0)" },
+          "100%": { opacity: 1, transform: "translate3d(0, 0, 0)" },
+        },
+
+        fadeInLate: {
+          "0%": { opacity: 0, transform: "translate3d(0, 25%, 0)" },
+          "100%": { opacity: 1, transform: "translate3d(0, 0, 0)" },
+        },
+
+        fadeInSuperLate: {
+          "0%": { opacity: 0, transform: "translate3d(0, 25%, 0)" },
+          "100%": { opacity: 1, transform: "translate3d(0, 0, 0)" },
+        },
+      },
+      animation: {
+        "fade-in-fast": "fadeInFast .75s ease-in-out forwards",
+        "fade-in": "fadeIn 1.5s ease-in-out forwards",
+        "fade-in-late": "fadeInLate 1.5s ease-in-out 1s forwards",
+        "fade-in-super-late": "fadeInSuperLate 1.5s ease-in-out 2s forwards",
+      },
     },
   },
   plugins: [],
