@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 :root {
-  font-family: Plus Jakarta Sans, system-ui, Avenir, Helvetica, Arial,
-    sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -20,6 +18,8 @@
 
 * {
   color: black;
+  font-family: Plus Jakarta Sans, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
 }
 
 h1 {

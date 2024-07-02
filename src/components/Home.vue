@@ -1,4 +1,17 @@
 <template>
+  <div class="h-screen flex justify-center items-center">
+    <div class="flex flex-col">
+      <h1 class="font-secondary font-extrabold text-center text-7xl">
+        Alex Seeley
+      </h1>
+      <h3 class="text-center mt-3">Software Developer</h3>
+      <img
+        src="../assets/arrow-down.svg"
+        alt=""
+        class="h-6 mt-6 animate-bounce"
+      />
+    </div>
+  </div>
   <header class="text-primary p-11 sticky top-0">
     <nav
       class="flex flex-col justify-between items-center mx-auto gap-5 rounded-full"
