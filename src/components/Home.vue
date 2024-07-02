@@ -35,23 +35,44 @@
       </ul>
     </nav>
   </header>
+  <div id="about"></div>
   <main class="max-w-2xl mx-auto p-4">
-    <section id="about">
+    <section>
       <h1 class="">
         Making software better, one
         <span class="italic text-secondary">&gt;program</span> at a time.
       </h1>
     </section>
 
+    <div class="grid grid-cols-1 md:grid-cols-[1fr,1fr] gap-4 pt-4">
+      <!-- Left column for the image -->
+      <div class="flex justify-center items-center">
+        <img
+          src="../assets/main.png"
+          alt=""
+          class="w-4/5 sm:w-2/3 md:w-full lg:w-full xl:w-full h-auto max-w-full"
+        />
+      </div>
+
+      <!-- Right column for the text -->
+      <div>
+        <h3>Hi, I'm Alex!</h3>
+        <p>
+          I'm a dedicated software developer based in Colorado Springs. With two
+          years of self-taught experience and a recent three-month internship in
+          IT, I'm thrilled to create simple solutions across various platforms
+          and <span id="skills">technologies</span>.
+        </p>
+      </div>
+    </div>
+
+    <!-- <img
+      src="../assets/main.png"
+      alt=""
+      class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/2 h-auto max-w-full"
+    /> -->
+
     <div class="my-12">
-      <h3>Hi, I'm Alex!</h3>
-      <p>
-        I'm a dedicated software developer based in Colorado Springs. With two
-        years of self-taught experience and a
-        <span id="skills">recent</span> three-month internship in IT, I'm
-        thrilled to create simple solutions across various platforms and
-        technologies.
-      </p>
       <h2 class="pt-6 pb-3">Skills</h2>
       <div class="flex items-center justify-between">
         <div class="flex-grow"><hr /></div>
