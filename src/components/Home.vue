@@ -18,9 +18,7 @@
       </div>
     </div>
   </div>
-  <header
-    class="text-primary p-11 pt-0 sticky top-0 opacity-0 animate-fade-in-fast"
-  >
+  <header class="text-primary p-11 sticky top-0 opacity-0 animate-fade-in-fast">
     <nav
       class="flex flex-col justify-between items-center mx-auto gap-5 rounded-full"
     >
