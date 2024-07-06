@@ -18,6 +18,7 @@
       </div>
     </div>
   </div>
+  <div id="about"></div>
   <header class="text-primary p-11 sticky top-0 opacity-0 animate-fade-in-fast">
     <nav
       class="flex flex-col justify-between items-center mx-auto gap-5 rounded-full"
@@ -54,7 +55,6 @@
       </ul>
     </nav>
   </header>
-  <div id="about"></div>
   <main class="max-w-2xl mx-auto p-4">
     <section>
       <h1>
@@ -194,10 +194,127 @@
       </ul>
     </div>
   </main>
+  <h2>Contact</h2>
+  <form
+    id="contact-form"
+    class="flex flex-col gap-4 sm:w-full lg:w-2/3 ml-auto mr-auto"
+  >
+    <!-- To simplify the tutorial, the value is static. -->
+
+    <label class="hidden">Name</label>
+    <input
+      type="text"
+      name="user_name"
+      class="bg-white text-black border-black"
+      placeholder="Name"
+      required
+    />
+    <label class="hidden">Email</label>
+    <input
+      type="email"
+      name="user_email"
+      class="bg-white text-black"
+      placeholder="Email"
+      required
+    />
+    <label class="hidden">Message</label>
+    <textarea
+      name="message"
+      class="bg-white text-black h-40"
+      placeholder="Message..."
+    ></textarea>
+    <div class="h-6 flex justify-center items-center">
+      <Transition>
+        <span v-show="success" class="text-secondary"
+          >Thank you for your submission!</span
+        >
+      </Transition>
+      <Transition>
+        <span v-show="failure" class="text-orange-500"
+          >Sorry, something went wrong.</span
+        >
+      </Transition>
+    </div>
+
+    <input
+      type="submit"
+      value="Send"
+      class="bg-white text-black col-span-2 hover:cursor-pointer"
+    />
+  </form>
+  <div class="p-11"></div>
 </template>
 
-<style scoped></style>
+<style scoped>
+input,
+textarea {
+  border: solid 1px white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: solid 1px #059669;
+  background-color: #fefefe;
+}
+
+/* we will explain what these classes do next! */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+</style>
 
 <script setup>
-console.log("hello script setup");
+import { ref } from "vue";
+
+let success = ref(false);
+let failure = ref(false);
+
+function formSuccess() {
+  success.value = true;
+  setTimeout(() => {
+    success.value = false;
+  }, 3000);
+}
+
+function formFailure() {
+  failure.value = true;
+  setTimeout(() => {
+    failure.value = false;
+  }, 3000);
+}
+
+(function () {
+  // https://dashboard.emailjs.com/admin/account
+  emailjs.init({
+    publicKey: "Hi_aJvsLw-gusIqCn",
+  });
+})();
+window.onload = function () {
+  document
+    .getElementById("contact-form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      emailjs.sendForm("port_service", "port_contact_form", this).then(
+        () => {
+          console.log("SUCCESS!");
+          formSuccess();
+          this.reset();
+        },
+        (error) => {
+          formFailure();
+          console.log("FAILED...", error);
+        }
+      );
+      return false;
+    });
+};
 </script>
