@@ -45,13 +45,13 @@
             >Projects</a
           >
         </li>
-        <!-- <li>
+        <li>
           <a
-            href="#"
+            href="#contact"
             class="hover:text-secondary transition ease-in-out duration-300"
             >Contact</a
           >
-        </li> -->
+        </li>
       </ul>
     </nav>
   </header>
@@ -183,7 +183,7 @@
 
       <h3 class="text-secondary">Web Development Projects</h3>
       <ul class="list-disc pl-4 pt-3">
-        <li>
+        <li id="contact">
           To-Do List App: Built with vanilla JavaScript, employing
           object-oriented programming and local storage.
         </li>
@@ -226,21 +226,37 @@
     <div class="h-6 flex justify-center items-center">
       <Transition>
         <span v-show="success" class="text-secondary"
-          >Thank you for your submission!</span
+          >Thank you for your submission! I'll reply soon.</span
         >
       </Transition>
       <Transition>
         <span v-show="failure" class="text-orange-500"
-          >Sorry, something went wrong.</span
+          >Sorry, something went wrong. So sorry!</span
         >
       </Transition>
     </div>
 
-    <input
+    <button
+      type="submit"
+      class="bg-white text-black col-span-2 hover:cursor-pointer p-4 rounded-md hover:bg-slate-200 transition-colors duration-400 ease-in-out"
+    >
+      <div
+        v-show="isFormWaiting"
+        class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] text-secondary"
+      >
+        <span
+          class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+          >Loading...</span
+        >
+      </div>
+      <span v-show="!isFormWaiting">Send</span>
+    </button>
+
+    <!-- <input
       type="submit"
       value="Send"
       class="bg-white text-black col-span-2 hover:cursor-pointer"
-    />
+    /> -->
   </form>
   <div class="p-11"></div>
 </template>
@@ -250,7 +266,7 @@ input,
 textarea {
   border: solid 1px white;
   padding: 8px;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 input:focus,
@@ -277,6 +293,7 @@ import { ref } from "vue";
 
 let success = ref(false);
 let failure = ref(false);
+let isFormWaiting = ref(false);
 
 function formSuccess() {
   success.value = true;
@@ -292,6 +309,14 @@ function formFailure() {
   }, 3000);
 }
 
+function formWaiting() {
+  isFormWaiting.value = true;
+}
+
+function formComplete() {
+  isFormWaiting.value = false;
+}
+
 (function () {
   // https://dashboard.emailjs.com/admin/account
   emailjs.init({
@@ -303,14 +328,17 @@ window.onload = function () {
     .getElementById("contact-form")
     .addEventListener("submit", function (event) {
       event.preventDefault();
+      formWaiting();
       emailjs.sendForm("port_service", "port_contact_form", this).then(
         () => {
           console.log("SUCCESS!");
           formSuccess();
           this.reset();
+          formComplete();
         },
         (error) => {
           formFailure();
+          formComplete();
           console.log("FAILED...", error);
         }
       );
