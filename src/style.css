@@ -25,7 +25,7 @@
 }
 
 .home-background {
-  background-color: #e5e5f7;
+  background-color: #f1f5f9;
   background-image: 
   /* Gradient overlay for the fade effect */ linear-gradient(
       to bottom,
@@ -33,7 +33,7 @@
       rgb(241, 245, 249) 100%
     ),
     /* Original background image */
-      repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 10px),
+      repeating-radial-gradient(circle at 0 0, transparent 0, #f1f5f9 10px),
     repeating-linear-gradient(rgb(5, 150, 105, 0.4), rgb(241, 245, 249));
 }
 
