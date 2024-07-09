@@ -80,8 +80,9 @@
           <p>
             I'm a dedicated software developer based in Colorado Springs. With
             two years of self-taught experience and a recent three-month
-            internship in IT, I'm thrilled to create simple solutions across
-            various platforms and <span id="skills">technologies</span>.
+            internship in IT, I'm thrilled to create
+            <span id="skills"></span>simple solutions across various platforms
+            and technologies.
           </p>
         </div>
       </div>
