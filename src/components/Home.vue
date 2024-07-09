@@ -1,24 +1,24 @@
 <template>
-  <div id="scrollArea">
-    <div class="h-screen flex justify-center items-center">
-      <div class="flex flex-col">
-        <h1
-          class="font-secondary font-extrabold text-center text-7xl opacity-0 animate-fade-in"
-        >
-          Alex Seeley
-        </h1>
-        <h3 class="text-center mt-3 opacity-0 animate-fade-in-late">
-          Software Developer
-        </h3>
-        <div class="flex justify-center opacity-0 animate-fade-in-super-late">
-          <img
-            src="../assets/arrow-down.svg"
-            alt=""
-            class="h-6 mt-6 animate-bounce"
-          />
-        </div>
+  <div class="h-screen flex justify-center items-center home-background">
+    <div class="flex flex-col">
+      <h1
+        class="font-secondary font-extrabold text-center text-7xl opacity-0 animate-fade-in"
+      >
+        Alex Seeley
+      </h1>
+      <h3 class="text-center mt-3 opacity-0 animate-fade-in-late">
+        Software Developer
+      </h3>
+      <div class="flex justify-center opacity-0 animate-fade-in-super-late">
+        <img
+          src="../assets/arrow-down.svg"
+          alt=""
+          class="h-6 mt-6 animate-bounce"
+        />
       </div>
     </div>
+  </div>
+  <div id="scrollArea" class="pl-5 pr-5">
     <div id="about"></div>
     <header
       class="text-primary p-11 sticky top-0 opacity-0 animate-fade-in-fast"
@@ -58,7 +58,7 @@
         </ul>
       </nav>
     </header>
-    <main class="max-w-2xl mx-auto p-4">
+    <main class="max-w-3xl mx-auto p-4">
       <section>
         <h1>
           Making software better, one
@@ -75,8 +75,8 @@
           />
         </div>
         <!-- Right column for the text -->
-        <div>
-          <h3>Hi, I'm Alex!</h3>
+        <div class="flex flex-col justify-center items-center">
+          <h2 class="font-secondary">Hi, I'm Alex!</h2>
           <p>
             I'm a dedicated software developer based in Colorado Springs. With
             two years of self-taught experience and a recent three-month
@@ -85,167 +85,163 @@
           </p>
         </div>
       </div>
-      <!-- <img
-        src="../assets/main.png"
-        alt=""
-        class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/2 h-auto max-w-full"
-      /> -->
-      <div class="my-12">
+      <div class="">
         <h2 class="pt-6 pb-3">Skills</h2>
         <div class="flex items-center justify-between">
           <div class="flex-grow"><hr /></div>
-          <h3 class="mx-4 text-secondary font-bold">Frontend</h3>
+          <h2 class="mx-4 text-red-400 font-bold">Frontend</h2>
           <div class="flex-grow"><hr /></div>
         </div>
         <div
-          class="flex flex-wrap justify-center gap-4 p-4 bg-stone-200 rounded-xl shadow-lg"
+          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-zinc-100 to-red-100"
         >
           <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/html-5.svg" alt="" class="h-14" />
-            <p class="-mt-2">HTML</p>
+            <p class="p-0">HTML</p>
           </div>
 
           <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/css-3.svg" alt="" class="h-14" />
-            <p class="-mt-2">CSS</p>
+            <p class="p-0">CSS</p>
           </div>
           <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/javascript.svg" alt="" class="h-14" />
-            <p class="-mt-2">Javascript</p>
+            <p class="p-0">Javascript</p>
           </div>
           <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/vue.svg" alt="" class="h-14" />
-            <p class="-mt-2">Vue.js</p>
+            <p class="p-0">Vue.js</p>
           </div>
           <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/tailwindcss-icon.svg" alt="" class="h-12" />
-            <p class="-mt-0">Tailwind</p>
+            <p class="p-0">Tailwind</p>
           </div>
           <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/react.svg" alt="" class="h-14" />
-            <p class="-mt-2">React</p>
+            <p class="p-0">React</p>
           </div>
           <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/bootstrap.svg" alt="" class="h-14" />
-            <p class="-mt-2">Bootstrap</p>
-          </div>
-        </div>
-        <div class="flex items-center justify-between mt-9">
-          <div class="flex-grow"><hr /></div>
-          <h3 class="mx-4 text-secondary font-bold">Mobile</h3>
-          <div class="flex-grow"><hr /></div>
-        </div>
-
-        <div
-          class="flex flex-wrap justify-center gap-4 p-4 bg-slate-200 rounded-xl shadow-lg"
-        >
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/dotnet_bot.svg" alt="" class="h-16" />
-            <p class="-mt-2">.NET MAUI</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/xaml.svg" alt="" class="h-16" />
-            <p class="-mt-2">XAML</p>
+            <p class="p-0">Bootstrap</p>
           </div>
         </div>
 
         <div class="flex items-center justify-between mt-9">
           <div class="flex-grow"><hr /></div>
-          <h3 class="mx-4 text-secondary font-bold">Backend</h3>
+          <h2 class="mx-4 text-orange-400 font-bold">Backend</h2>
           <div class="flex-grow"><hr /></div>
         </div>
 
         <div
-          class="flex flex-wrap justify-center gap-4 p-4 bg-indigo-200 rounded-xl shadow-lg"
+          class="flex flex-wrap justify-center gap-4 p-4 pt-7 bg-gradient-to-br from-zinc-100 to-orange-100 rounded-xl shadow-neumorphic"
         >
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <img src="../assets/redis.svg" alt="" class="h-16" />
-            <p class="-mt-2">Redis</p>
+            <p class="p-0">Redis</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <img src="../assets/rust.svg" alt="" class="h-16" />
-            <p class="-mt-2">Rust</p>
+            <p class="p-0">Rust</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <img src="../assets/nodejs-icon.svg" alt="" class="h-16" />
-            <p class="-mt-2">Node.js</p>
+            <p class="p-0">Node.js</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <img src="../assets/java.svg" alt="" class="h-16" />
-            <p class="-mt-2">Java</p>
+            <p class="p-0">Java</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <img src="../assets/spring-icon.svg" alt="" class="h-16" />
-            <p class="-mt-2">Spring</p>
+            <p class="p-0">Spring</p>
           </div>
         </div>
 
         <div class="flex items-center justify-between mt-9">
           <div class="flex-grow"><hr /></div>
-          <h3 id="projects" class="mx-4 text-secondary font-bold">Other</h3>
+          <h2 class="mx-4 text-indigo-400 font-bold">Mobile</h2>
           <div class="flex-grow"><hr /></div>
         </div>
 
         <div
-          class="flex flex-wrap justify-center gap-4 p-4 bg-violet-200 rounded-xl shadow-lg"
+          class="flex flex-wrap justify-center gap-4 p-4 pt-7 bg-gradient-to-br from-zinc-100 to-indigo-100 rounded-xl shadow-neumorphic"
+        >
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/dotnet_bot.svg" alt="" class="h-16" />
+            <p class="p-0">.NET&nbsp;MAUI</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/xaml.svg" alt="" class="h-16" />
+            <p class="p-0">XAML</p>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between mt-9">
+          <div class="flex-grow"><hr /></div>
+          <h2 class="mx-4 text-emerald-400 font-bold">Other</h2>
+          <div class="flex-grow"><hr /></div>
+        </div>
+
+        <div
+          class="flex flex-wrap justify-center gap-4 p-4 pt-7 bg-gradient-to-br from-zinc-100 to-emerald-100 rounded-xl shadow-neumorphic"
         >
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <img src="../assets/docker-icon.svg" alt="" class="h-16" />
-            <p class="-mt-2">Docker</p>
+            <p class="p-0">Docker</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <img src="../assets/git-icon.svg" alt="" class="h-16" />
-            <p class="-mt-2">Git</p>
+            <p class="p-0">Git</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <img src="../assets/raspberry-pi.svg" alt="" class="h-16" />
-            <p class="-mt-2">Raspberry Pi</p>
+            <p class="p-0">Raspberry Pi</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <img src="../assets/terminal.svg" alt="" class="h-16" />
-            <p class="-mt-2">CLI</p>
+            <p class="p-0">CLI</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <img src="../assets/webpack.svg" alt="" class="h-16" />
-            <p class="-mt-2">Webpack</p>
+            <p id="projects" class="p-0">Webpack</p>
           </div>
         </div>
       </div>

@@ -11,6 +11,9 @@ export default {
         primary: "#0f172a", // Example primary color
         secondary: "#059669", // Example secondary color #
       },
+      boxShadow: {
+        neumorphic: "inset 0rem 0.2rem 0.4rem 0 rgb(0,0,0,0.1)",
+      },
       keyframes: {
         fadeInFast: {
           "0%": { opacity: 0, transform: "translate3d(0, 5%, 0)" },
