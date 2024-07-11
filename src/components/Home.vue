@@ -1,3 +1,63 @@
+<script setup>
+import { ref } from "vue";
+import Cube from "./Cube.vue";
+
+let success = ref(false);
+let failure = ref(false);
+let isFormWaiting = ref(false);
+
+function formSuccess() {
+  success.value = true;
+  setTimeout(() => {
+    success.value = false;
+  }, 3000);
+}
+
+function formFailure() {
+  failure.value = true;
+  setTimeout(() => {
+    failure.value = false;
+  }, 3000);
+}
+
+function formWaiting() {
+  isFormWaiting.value = true;
+}
+
+function formComplete() {
+  isFormWaiting.value = false;
+}
+
+(function () {
+  // https://dashboard.emailjs.com/admin/account
+  emailjs.init({
+    publicKey: "Hi_aJvsLw-gusIqCn",
+  });
+})();
+window.onload = function () {
+  document
+    .getElementById("contact-form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      formWaiting();
+      emailjs.sendForm("port_service", "port_contact_form", this).then(
+        () => {
+          console.log("SUCCESS!");
+          formSuccess();
+          this.reset();
+          formComplete();
+        },
+        (error) => {
+          formFailure();
+          formComplete();
+          console.log("FAILED...", error);
+        }
+      );
+      return false;
+    });
+};
+</script>
+
 <template>
   <div
     class="h-screen flex justify-center items-center home-background animate-fade-in-bg"
@@ -11,6 +71,9 @@
       <h3 class="text-center mt-3 opacity-0 animate-fade-in-late">
         Software Developer
       </h3>
+      <div class="flex justify-center items-center">
+        <Cube />
+      </div>
       <div class="flex justify-center opacity-0 animate-fade-in-super-late">
         <img
           src="../assets/arrow-down.svg"
@@ -402,62 +465,3 @@ textarea:focus {
   opacity: 0;
 }
 </style>
-
-<script setup>
-import { ref } from "vue";
-
-let success = ref(false);
-let failure = ref(false);
-let isFormWaiting = ref(false);
-
-function formSuccess() {
-  success.value = true;
-  setTimeout(() => {
-    success.value = false;
-  }, 3000);
-}
-
-function formFailure() {
-  failure.value = true;
-  setTimeout(() => {
-    failure.value = false;
-  }, 3000);
-}
-
-function formWaiting() {
-  isFormWaiting.value = true;
-}
-
-function formComplete() {
-  isFormWaiting.value = false;
-}
-
-(function () {
-  // https://dashboard.emailjs.com/admin/account
-  emailjs.init({
-    publicKey: "Hi_aJvsLw-gusIqCn",
-  });
-})();
-window.onload = function () {
-  document
-    .getElementById("contact-form")
-    .addEventListener("submit", function (event) {
-      event.preventDefault();
-      formWaiting();
-      emailjs.sendForm("port_service", "port_contact_form", this).then(
-        () => {
-          console.log("SUCCESS!");
-          formSuccess();
-          this.reset();
-          formComplete();
-        },
-        (error) => {
-          formFailure();
-          formComplete();
-          console.log("FAILED...", error);
-        }
-      );
-      return false;
-    });
-};
-</script>
