@@ -2,12 +2,19 @@
   <div>
     <div class="scene">
       <div class="cube" :class="currentClass">
-        <div class="cube__face cube__face--front">front</div>
-        <div class="cube__face cube__face--back">back</div>
-        <div class="cube__face cube__face--right">right</div>
-        <div class="cube__face cube__face--left">left</div>
-        <div class="cube__face cube__face--top">top</div>
-        <div class="cube__face cube__face--bottom">bottom</div>
+        <div class="cube__face cube__face--front">
+          <div
+            class="-mt-40 font-secondary font-extrabold text-center text-7xl text-primary"
+          >
+            Alex Seeley
+          </div>
+          <div style="margin-top: 20px" class="text-fifth">Developer</div>
+        </div>
+        <div class="cube__face cube__face--back">Flexpert</div>
+        <div class="cube__face cube__face--right">Learner</div>
+        <div class="cube__face cube__face--left">Teammate</div>
+        <div class="cube__face cube__face--top">Enthusiast</div>
+        <div class="cube__face cube__face--bottom">Simplifier</div>
       </div>
     </div>
   </div>
@@ -42,17 +49,16 @@ export default {
 <style scoped>
 * {
   box-sizing: border-box;
+  font-family: Junge;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Junge;
 }
 
 .scene {
   width: 200px;
   height: 200px;
-  border: 1px solid #f1f5f9;
-  margin: 80px;
   perspective: 400px;
 }
 
@@ -62,7 +68,18 @@ body {
   position: relative;
   transform-style: preserve-3d;
   transform: translateZ(-100px);
-  transition: transform 1s;
+  transition: transform 6s;
+}
+
+.front-face-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-row-gap: 10px;
+}
+
+.above-item {
+  grid-row: -1;
 }
 
 .cube.show-front {
@@ -93,44 +110,46 @@ body {
   position: absolute;
   width: 200px;
   height: 200px;
-  border: 4px solid #f77c6c;
-  border-radius: 9px;
+  /* border-radius: 9px; */
   line-height: 200px;
-  font-size: 40px;
-  font-weight: bold;
-  color: white;
+  font-size: 1.5rem;
   text-align: center;
 }
 
-/* font: FFFFFF
-yellowy: f8e9a1
-bluey: a8d0e6
-salmony: f76c6c
-navyy: 374785
-darkNavy: 24305E */
+/* primary: "#e43D12",
+        secondary: "#d6536D",
+        third: "#ffa2b6",
+        fourth: "#efb11d",
+        fifth: "#ebe9e1", */
 
 .cube__face--front {
-  background: #f77c6c;
+  background: #e43d12;
+  color: #ebe9e1;
 }
 
 .cube__face--right {
-  background: #f8e9a1;
+  background: #d6536d;
+  color: #ebe9e1;
 }
 
 .cube__face--back {
-  background: #f77c6c;
+  background: #e43d12;
+  color: #ebe9e1;
 }
 
 .cube__face--left {
-  background: #f8e9a1;
+  background: #d6536d;
+  color: #ebe9e1;
 }
 
 .cube__face--top {
-  background: #374785;
+  background: #efb11d;
+  color: #ebe9e1;
 }
 
 .cube__face--bottom {
-  background: #24305e;
+  background: #efb11d;
+  color: #ebe9e1;
 }
 
 .cube__face--front {

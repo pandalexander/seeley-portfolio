@@ -10,7 +10,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #f1f5f9;
+  background-color: #ebe9e1;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,16 +25,16 @@
 }
 
 .home-background {
-  background-color: #f1f5f9;
+  background-color: #ebe9e1;
   background-image: 
   /* Gradient overlay for the fade effect */ linear-gradient(
       to bottom,
       rgba(241, 245, 249, 0) 0%,
-      rgb(241, 245, 249) 100%
+      #ebe9e1 100%
     ),
     /* Original background image */
-      repeating-radial-gradient(circle at 0 0, transparent 0, #f1f5f9 90px),
-    repeating-linear-gradient(rgb(5, 150, 105, 0.2), rgb(241, 245, 249));
+      repeating-radial-gradient(circle at 0 0, transparent 0, #ebe9e1 90px),
+    repeating-linear-gradient(#efb11d33, #ebe9e1);
 }
 
 h1 {
@@ -52,8 +52,10 @@ h3 {
 p {
   @apply text-lg py-3 leading-loose;
   @apply text-center;
+  @apply text-primary;
 }
 
 li {
   @apply text-lg leading-relaxed;
+  @apply text-primary;
 }

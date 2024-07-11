@@ -63,24 +63,26 @@ window.onload = function () {
     class="h-screen flex justify-center items-center home-background animate-fade-in-bg"
   >
     <div class="flex flex-col">
-      <h1
-        class="font-secondary font-extrabold text-center text-7xl opacity-0 animate-fade-in"
+      <!-- <h1
+        class="font-secondary font-extrabold text-center text-7xl opacity-0 animate-fade-in p-4 text-primary"
       >
         Alex Seeley
-      </h1>
-      <h3 class="text-center mt-3 opacity-0 animate-fade-in-late">
+      </h1> -->
+      <!-- <h3 class="text-center mt-3 opacity-0 animate-fade-in-late">
         Software Developer
-      </h3>
-      <div class="flex justify-center items-center">
+      </h3> -->
+      <div
+        class="flex justify-center items-center opacity-0 animate-fade-in-late pt-24 m-8"
+      >
         <Cube />
       </div>
-      <div class="flex justify-center opacity-0 animate-fade-in-super-late">
+      <!-- <div class="flex justify-center opacity-0 animate-fade-in-super-late">
         <img
           src="../assets/arrow-down.svg"
           alt=""
           class="h-6 mt-6 animate-bounce"
         />
-      </div>
+      </div> -->
     </div>
   </div>
   <div id="scrollArea" class="">
@@ -91,32 +93,32 @@ window.onload = function () {
       <nav
         class="flex flex-col justify-between items-center mx-auto gap-5 rounded-full"
       >
-        <ul class="flex space-x-4 bg-gray-200 rounded-full py-4 px-7">
+        <ul class="flex space-x-4 bg-secondary rounded-full py-4 px-7">
           <li>
             <a
               href="#about"
-              class="hover:text-secondary transition ease-in-out duration-300"
+              class="hover:text-fourth transition ease-in-out duration-300 text-fifth"
               >About</a
             >
           </li>
           <li>
             <a
               href="#skills"
-              class="hover:text-secondary transition ease-in-out duration-300"
+              class="hover:text-fourth transition ease-in-out duration-300 text-fifth"
               >Skills</a
             >
           </li>
           <li>
             <a
               href="#projects"
-              class="hover:text-secondary transition ease-in-out duration-300"
+              class="hover:text-fourth transition ease-in-out duration-300 text-fifth"
               >Projects</a
             >
           </li>
           <li>
             <a
               href="#contact"
-              class="hover:text-secondary transition ease-in-out duration-300"
+              class="hover:text-fourth transition ease-in-out duration-300 text-fifth"
               >Contact</a
             >
           </li>
@@ -127,7 +129,7 @@ window.onload = function () {
       <section>
         <h1 class="text-center">
           Making software better, one
-          <span class="italic text-secondary">&gt;program</span> at a time.
+          <span class="italic text-primary">&gt;program</span> at a time.
         </h1>
       </section>
       <div class="grid grid-cols-1 md:grid-cols-[1fr,1fr] gap-4 pt-4">
@@ -384,7 +386,7 @@ window.onload = function () {
       <input
         type="text"
         name="user_name"
-        class="bg-white text-black border-black"
+        class="bg-white text-secondary"
         placeholder="Name"
         required
       />
@@ -392,42 +394,42 @@ window.onload = function () {
       <input
         type="email"
         name="user_email"
-        class="bg-white text-black"
+        class="bg-white text-secondary"
         placeholder="Email"
         required
       />
       <label class="hidden">Message</label>
       <textarea
         name="message"
-        class="bg-white text-black h-40"
+        class="bg-white text-secondary h-40"
         placeholder="Message..."
       ></textarea>
       <div class="h-6 flex justify-center items-center">
         <Transition>
-          <span v-show="success" class="text-secondary"
+          <span v-show="success" class="text-primary"
             >Thank you for your submission! I'll reply soon.</span
           >
         </Transition>
         <Transition>
-          <span v-show="failure" class="text-orange-500"
+          <span v-show="failure" class="text-fourth"
             >Sorry, something went wrong. So sorry!</span
           >
         </Transition>
       </div>
       <button
         type="submit"
-        class="bg-white text-black col-span-2 hover:cursor-pointer p-4 rounded-md hover:bg-slate-200 transition-colors duration-400 ease-in-out"
+        class="bg-secondary text-primary col-span-2 hover:cursor-pointer p-4 rounded-md hover:bg-primary transition-colors duration-400 ease-in-out"
       >
         <div
           v-show="isFormWaiting"
-          class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] text-secondary"
+          class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] text-fifth"
         >
           <span
             class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
             >Loading...</span
           >
         </div>
-        <span v-show="!isFormWaiting">Send</span>
+        <span v-show="!isFormWaiting" class="text-fifth">Send</span>
       </button>
       <!-- <input
         type="submit"
@@ -450,7 +452,7 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border: solid 1px #059669;
+  border: solid 1px;
   background-color: #fefefe;
 }
 
