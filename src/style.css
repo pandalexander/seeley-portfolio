@@ -34,17 +34,8 @@
     ),
     /* Original background image */
       repeating-radial-gradient(circle at 0 0, transparent 0, #f1f5f9 90px),
-    repeating-linear-gradient(rgb(5, 150, 105, 0.1), rgb(241, 245, 249));
+    repeating-linear-gradient(rgb(5, 150, 105, 0.2), rgb(241, 245, 249));
 }
-/* 
-background-color: #e5e5f7;
-opacity: 0.8;
-background-image: repeating-radial-gradient(
-    circle at 0 0,
-    transparent 0,
-    #e5e5f7 40px
-  ),
-  repeating-linear-gradient(#444cf755, #444cf7); */
 
 h1 {
   @apply text-3xl;
@@ -60,6 +51,7 @@ h3 {
 
 p {
   @apply text-lg py-3 leading-loose;
+  @apply text-center;
 }
 
 li {

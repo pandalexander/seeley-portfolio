@@ -1,5 +1,7 @@
 <template>
-  <div class="h-screen flex justify-center items-center home-background">
+  <div
+    class="h-screen flex justify-center items-center home-background animate-fade-in-bg"
+  >
     <div class="flex flex-col">
       <h1
         class="font-secondary font-extrabold text-center text-7xl opacity-0 animate-fade-in"
@@ -18,7 +20,7 @@
       </div>
     </div>
   </div>
-  <div id="scrollArea" class="pl-5 pr-5">
+  <div id="scrollArea" class="">
     <div id="about"></div>
     <header
       class="text-primary p-11 sticky top-0 opacity-0 animate-fade-in-fast"
@@ -58,9 +60,9 @@
         </ul>
       </nav>
     </header>
-    <main class="max-w-3xl mx-auto p-4">
+    <main class="max-w-4xl mx-auto p-4">
       <section>
-        <h1>
+        <h1 class="text-center">
           Making software better, one
           <span class="italic text-secondary">&gt;program</span> at a time.
         </h1>
@@ -90,7 +92,7 @@
         <h2 class="pt-6 pb-3">Skills</h2>
         <div class="flex items-center justify-between">
           <div class="flex-grow"><hr /></div>
-          <h2 class="mx-4 text-red-400 font-bold">Frontend</h2>
+          <h2 class="mx-4 text-red-400 font-bold">Go-To Toolkit</h2>
           <div class="flex-grow"><hr /></div>
         </div>
         <div
@@ -230,7 +232,7 @@
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <img src="../assets/raspberry-pi.svg" alt="" class="h-16" />
-            <p class="p-0">Raspberry Pi</p>
+            <p class="p-0">Raspberry&nbsp;Pi</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"

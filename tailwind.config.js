@@ -21,25 +21,30 @@ export default {
         },
 
         fadeIn: {
-          "0%": { opacity: 0, transform: "translate3d(0, 25%, 0)" },
+          "0%": { opacity: 0, transform: "translate3d(-11px, -11px, 0)" },
           "100%": { opacity: 1, transform: "translate3d(0, 0, 0)" },
         },
 
         fadeInLate: {
-          "0%": { opacity: 0, transform: "translate3d(0, 25%, 0)" },
+          "0%": { opacity: 0, transform: "translate3d(11px, 11px, 0)" },
           "100%": { opacity: 1, transform: "translate3d(0, 0, 0)" },
         },
 
         fadeInSuperLate: {
-          "0%": { opacity: 0, transform: "translate3d(0, 25%, 0)" },
+          "0%": { opacity: 0, transform: "translate3d(0, -5px, 0)" },
+          "100%": { opacity: 1, transform: "translate3d(0, 0, 0)" },
+        },
+        fadeInBg: {
+          "0%": { opacity: 0, transform: "translate3d(0, 0, 0)" },
           "100%": { opacity: 1, transform: "translate3d(0, 0, 0)" },
         },
       },
       animation: {
         "fade-in-fast": "fadeInFast .75s ease-in-out forwards",
         "fade-in": "fadeIn 1.5s ease-in-out forwards",
-        "fade-in-late": "fadeInLate 1.5s ease-in-out 1s forwards",
+        "fade-in-late": "fadeInLate 1.5s ease-in-out forwards",
         "fade-in-super-late": "fadeInSuperLate 1.5s ease-in-out 2s forwards",
+        "fade-in-bg": "fadeInSuperLate 3s ease-in-out forwards",
       },
     },
   },
