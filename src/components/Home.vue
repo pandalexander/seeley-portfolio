@@ -144,7 +144,7 @@ window.onload = function () {
         <!-- Right column for the text -->
         <div class="flex flex-col justify-center items-center">
           <h2 class="font-secondary">Hi, I'm Alex!</h2>
-          <p class="text-left">
+          <p class="text-left px-4">
             I'm a dedicated software developer based in Colorado Springs. With
             two years of self-taught experience and a recent three-month
             internship in IT, I'm thrilled to create simple solutions across
@@ -159,7 +159,9 @@ window.onload = function () {
         <h1 class="text-center mb-16">Skills</h1>
         <div class="flex flex-col items-center justify-center">
           <h2 class="mx-4 text-primary font-bold my-0">Go-To Toolkit</h2>
-          <p>I feel confident building with these and do so regularly.</p>
+          <p class="px-4">
+            I feel confident building with these and do so regularly.
+          </p>
         </div>
         <div
           class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-cyan-200"
@@ -230,7 +232,9 @@ window.onload = function () {
 
         <div class="flex flex-col items-center justify-center mt-16">
           <h2 class="text-primary font-bold my-0">Supporting Gear</h2>
-          <p>I understand enough to do the basics, eager to grow.</p>
+          <p class="px-4">
+            I understand enough to do the basics, eager to grow.
+          </p>
         </div>
 
         <div
@@ -294,7 +298,7 @@ window.onload = function () {
 
         <div class="flex flex-col items-center justify-center mt-12">
           <h2 class="mx-4 text-primary font-bold">The Sandbox</h2>
-          <p>
+          <p class="px-4">
             I have been exposed to these tools, most of them in a team setting.
             Still have a lot to learn.
           </p>
