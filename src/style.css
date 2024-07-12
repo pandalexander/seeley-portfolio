@@ -36,13 +36,20 @@
       repeating-radial-gradient(circle at 0 0, transparent 0, #ebe9e1 90px),
     repeating-linear-gradient(#ebe9e133, #ebe9e13f);
 }
+hr {
+  border: 0.5px solid;
+  margin-bottom: 140px;
+  border: #ebe9e1;
+}
 
 h1 {
   @apply text-3xl;
+  @apply font-secondary;
 }
 
 h2 {
   @apply text-2xl font-semibold text-center my-5;
+  @apply text-third;
 }
 
 h3 {
@@ -52,7 +59,7 @@ h3 {
 p {
   @apply text-lg py-3 leading-loose;
   @apply text-center;
-  @apply text-primary;
+  @apply text-third;
 }
 
 li {

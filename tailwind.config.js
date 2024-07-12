@@ -15,7 +15,7 @@ export default {
         fifth: "#ebe9e1", // tan
       },
       boxShadow: {
-        neumorphic: "inset 0rem 0.2rem 0.4rem 0 rgb(0,0,0,0.1)",
+        neumorphic: "inset 0rem 0.3rem 0.3rem 0 rgb(0,0,0,0.1)",
       },
       keyframes: {
         fadeInFast: {

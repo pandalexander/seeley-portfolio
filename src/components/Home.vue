@@ -127,9 +127,9 @@ window.onload = function () {
     </header>
     <main class="max-w-4xl mx-auto p-4">
       <section>
-        <h1 class="text-center">
+        <h1 class="text-center font-primary">
           Making software better, one
-          <span class="italic text-primary">&gt;program</span> at a time.
+          <span class="italic text-secondary">&gt;program</span> at a time.
         </h1>
       </section>
       <div class="grid grid-cols-1 md:grid-cols-[1fr,1fr] gap-4 pt-4">
@@ -144,24 +144,25 @@ window.onload = function () {
         <!-- Right column for the text -->
         <div class="flex flex-col justify-center items-center">
           <h2 class="font-secondary">Hi, I'm Alex!</h2>
-          <p>
+          <p class="text-left">
             I'm a dedicated software developer based in Colorado Springs. With
             two years of self-taught experience and a recent three-month
-            internship in IT, I'm thrilled to create
-            <span id="skills"></span>simple solutions across various platforms
-            and technologies.
+            internship in IT, I'm thrilled to create simple solutions across
+            various platforms and technologies.
           </p>
         </div>
       </div>
+
+      <hr id="skills" class="border-secondary" />
+
       <div class="">
-        <h2 class="pt-6 pb-3">Skills</h2>
-        <div class="flex items-center justify-between">
-          <div class="flex-grow"><hr /></div>
-          <h2 class="mx-4 text-red-400 font-bold">Go-To Toolkit</h2>
-          <div class="flex-grow"><hr /></div>
+        <h1 class="text-center mb-16">Skills</h1>
+        <div class="flex flex-col items-center justify-center">
+          <h2 class="mx-4 text-primary font-bold my-0">Go-To Toolkit</h2>
+          <p>I feel confident building with these and do so regularly.</p>
         </div>
         <div
-          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-zinc-100 to-red-100"
+          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-cyan-200"
         >
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
@@ -191,32 +192,78 @@ window.onload = function () {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
+            <img src="../assets/pinia.svg" alt="" class="h-14" />
+            <p class="p-0">Pinia</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
             <img src="../assets/tailwindcss-icon.svg" alt="" class="h-12" />
             <p class="p-0">Tailwind</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
+            <img src="../assets/vitejs.svg" alt="" class="h-14" />
+            <p class="p-0">Vite</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/visual-studio-code.svg" alt="" class="h-14" />
+            <p class="p-0">VS&nbsp;Code</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/webstorm.svg" alt="" class="h-14" />
+            <p class="p-0">Webstorm</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <img src="../assets/git-icon.svg" alt="" class="h-16" />
+            <p class="p-0">Git</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center justify-center mt-16">
+          <h2 class="text-primary font-bold my-0">Supporting Gear</h2>
+          <p>I understand enough to do the basics, eager to grow.</p>
+        </div>
+
+        <div
+          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-100 to-cyan-100"
+        >
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
             <img src="../assets/react.svg" alt="" class="h-14" />
             <p class="p-0">React</p>
           </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <img src="../assets/nodejs-icon.svg" alt="" class="h-16" />
+            <p class="p-0">Node.js</p>
+          </div>
+
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/bootstrap.svg" alt="" class="h-14" />
             <p class="p-0">Bootstrap</p>
           </div>
-        </div>
 
-        <div class="flex items-center justify-between mt-9">
-          <div class="flex-grow"><hr /></div>
-          <h2 class="mx-4 text-orange-400 font-bold">Backend</h2>
-          <div class="flex-grow"><hr /></div>
-        </div>
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <img src="../assets/rust.svg" alt="" class="h-16" />
+            <p class="p-0">Rust</p>
+          </div>
 
-        <div
-          class="flex flex-wrap justify-center gap-4 p-4 pt-7 bg-gradient-to-br from-zinc-100 to-orange-100 rounded-xl shadow-neumorphic"
-        >
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
@@ -224,16 +271,62 @@ window.onload = function () {
             <p class="p-0">Redis</p>
           </div>
           <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/linux-tux.svg" alt="" class="h-14" />
+            <p class="p-0">Linux</p>
+          </div>
+
+          <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/rust.svg" alt="" class="h-16" />
-            <p class="p-0">Rust</p>
+            <img src="../assets/raspberry-pi.svg" alt="" class="h-16" />
+            <p class="p-0">Raspberry&nbsp;Pi</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/xaml.svg" alt="" class="h-16" />
+            <p class="p-0">XAML</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center justify-center mt-12">
+          <h2 class="mx-4 text-primary font-bold">The Sandbox</h2>
+          <p>
+            I have exposed to these tools in a team setting, but still have a
+            lot to learn.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-50 to-cyan-50"
+        >
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/dotnet_bot.svg" alt="" class="h-16" />
+            <p class="p-0">.NET&nbsp;MAUI</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/typesense-icon.svg" alt="" class="h-14" />
+            <p class="p-0">Typesense</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/nodejs-icon.svg" alt="" class="h-16" />
-            <p class="p-0">Node.js</p>
+            <img src="../assets/webpack.svg" alt="" class="h-16" />
+            <p class="p-0">Webpack</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <img src="../assets/docker-icon.svg" alt="" class="h-16" />
+            <p class="p-0">Docker</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
@@ -248,75 +341,13 @@ window.onload = function () {
             <p class="p-0">Spring</p>
           </div>
         </div>
-
-        <div class="flex items-center justify-between mt-9">
-          <div class="flex-grow"><hr /></div>
-          <h2 class="mx-4 text-indigo-400 font-bold">Mobile</h2>
-          <div class="flex-grow"><hr /></div>
-        </div>
-
-        <div
-          class="flex flex-wrap justify-center gap-4 p-4 pt-7 bg-gradient-to-br from-zinc-100 to-indigo-100 rounded-xl shadow-neumorphic"
-        >
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <img src="../assets/dotnet_bot.svg" alt="" class="h-16" />
-            <p class="p-0">.NET&nbsp;MAUI</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <img src="../assets/xaml.svg" alt="" class="h-16" />
-            <p class="p-0">XAML</p>
-          </div>
-        </div>
-
-        <div class="flex items-center justify-between mt-9">
-          <div class="flex-grow"><hr /></div>
-          <h2 class="mx-4 text-emerald-400 font-bold">Other</h2>
-          <div class="flex-grow"><hr /></div>
-        </div>
-
-        <div
-          class="flex flex-wrap justify-center gap-4 p-4 pt-7 bg-gradient-to-br from-zinc-100 to-emerald-100 rounded-xl shadow-neumorphic"
-        >
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/docker-icon.svg" alt="" class="h-16" />
-            <p class="p-0">Docker</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/git-icon.svg" alt="" class="h-16" />
-            <p class="p-0">Git</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/raspberry-pi.svg" alt="" class="h-16" />
-            <p class="p-0">Raspberry&nbsp;Pi</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/terminal.svg" alt="" class="h-16" />
-            <p class="p-0">CLI</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/webpack.svg" alt="" class="h-16" />
-            <p id="projects" class="p-0">Webpack</p>
-          </div>
-        </div>
       </div>
-      <div class="my-12">
-        <h2>Projects & Experience</h2>
 
-        <hr class="mt-6" />
+      <hr id="projects" class="border-secondary mt-12" />
+
+      <div>
+        <h1 class="text-center mb-16">Projects and Experience</h1>
+
         <h3 class="text-secondary">Vue-based Documentation App</h3>
         <p>
           During my internship, I collaborated on a markdown document
@@ -327,7 +358,6 @@ window.onload = function () {
           <li>Search functionality</li>
           <li>Document tagging system</li>
         </ul>
-        <hr class="mt-6" />
         <h3 class="text-secondary">.NET MAUI Mobile Application</h3>
         <p>
           Collaborated on a front-end team to develop a .NET MAUI app, now
@@ -339,7 +369,6 @@ window.onload = function () {
           using Bootstrap, demonstrating my ability to create professional,
           responsive web pages for business use.
         </p>
-        <hr class="mt-6" />
         <h3 class="text-secondary">Raspberry Pi System Monitor</h3>
         <p>
           Set up a Raspberry Pi unit using Rust and Git to create a system that
@@ -347,14 +376,12 @@ window.onload = function () {
           project showcased my ability to work with embedded systems and backend
           technologies.
         </p>
-        <hr class="mt-6" />
         <h3 class="text-secondary">React News Article Generator</h3>
         <p>
           Created a React app to practice state management. Users can fill out
           input fields to generate a customized, satire news article, showcasing
           my ability to work with React and manage application state.
         </p>
-        <hr class="mt-6" />
         <h3 class="text-secondary">Photographer's Portfolio Website</h3>
         <p>
           Developed a photographer's website using Bootstrap for responsive
@@ -362,10 +389,9 @@ window.onload = function () {
           allowing visitors to send messages directly to the photographer's
           inbox.
         </p>
-        <hr class="mt-6" />
         <h3 class="text-secondary">Web Development Projects</h3>
         <ul class="list-disc pl-4 pt-3">
-          <li id="contact">
+          <li>
             To-Do List App: Built with vanilla JavaScript, employing
             object-oriented programming and local storage.
           </li>
@@ -375,69 +401,68 @@ window.onload = function () {
           </li>
         </ul>
       </div>
-    </main>
-    <h2>Contact</h2>
-    <form
-      id="contact-form"
-      class="flex flex-col gap-4 sm:w-full lg:w-2/3 ml-auto mr-auto"
-    >
-      <!-- To simplify the tutorial, the value is static. -->
-      <label class="hidden">Name</label>
-      <input
-        type="text"
-        name="user_name"
-        class="bg-white text-secondary"
-        placeholder="Name"
-        required
-      />
-      <label class="hidden">Email</label>
-      <input
-        type="email"
-        name="user_email"
-        class="bg-white text-secondary"
-        placeholder="Email"
-        required
-      />
-      <label class="hidden">Message</label>
-      <textarea
-        name="message"
-        class="bg-white text-secondary h-40"
-        placeholder="Message..."
-      ></textarea>
-      <div class="h-6 flex justify-center items-center">
-        <Transition>
-          <span v-show="success" class="text-primary"
-            >Thank you for your submission! I'll reply soon.</span
-          >
-        </Transition>
-        <Transition>
-          <span v-show="failure" class="text-fourth"
-            >Sorry, something went wrong. So sorry!</span
-          >
-        </Transition>
-      </div>
-      <button
-        type="submit"
-        class="bg-secondary text-primary col-span-2 hover:cursor-pointer p-4 rounded-md hover:bg-primary transition-colors duration-400 ease-in-out"
+
+      <hr id="contact" class="border-secondary my-12" />
+
+      <h1 class="text-center mb-5">Contact</h1>
+
+      <form
+        id="contact-form"
+        class="flex flex-col gap-4 sm:w-full lg:w-2/3 ml-auto mr-auto"
       >
-        <div
-          v-show="isFormWaiting"
-          class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] text-fifth"
-        >
-          <span
-            class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-            >Loading...</span
-          >
+        <!-- To simplify the tutorial, the value is static. -->
+        <label class="hidden">Name</label>
+        <input
+          type="text"
+          name="user_name"
+          class="bg-white text-secondary"
+          placeholder="Name"
+          required
+        />
+        <label class="hidden">Email</label>
+        <input
+          type="email"
+          name="user_email"
+          class="bg-white text-secondary"
+          placeholder="Email"
+          required
+        />
+        <label class="hidden">Message</label>
+        <textarea
+          name="message"
+          class="bg-white text-secondary h-40"
+          placeholder="Message..."
+        ></textarea>
+        <div class="h-6 flex justify-center items-center">
+          <Transition>
+            <span v-show="success" class="text-primary"
+              >Thank you for your submission! I'll reply soon.</span
+            >
+          </Transition>
+          <Transition>
+            <span v-show="failure" class="text-fourth"
+              >Sorry, something went wrong. So sorry!</span
+            >
+          </Transition>
         </div>
-        <span v-show="!isFormWaiting" class="text-fifth">Send</span>
-      </button>
-      <!-- <input
-        type="submit"
-        value="Send"
-        class="bg-white text-black col-span-2 hover:cursor-pointer"
-      /> -->
-    </form>
-    <div class="p-11"></div>
+        <button
+          type="submit"
+          class="bg-secondary text-primary col-span-2 hover:cursor-pointer p-4 rounded-md hover:bg-primary transition-colors duration-400 ease-in-out"
+        >
+          <div
+            v-show="isFormWaiting"
+            class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] text-fifth"
+          >
+            <span
+              class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+              >Loading...</span
+            >
+          </div>
+          <span v-show="!isFormWaiting" class="text-fifth">Send</span>
+        </button>
+      </form>
+      <div class="p-11"></div>
+    </main>
   </div>
 </template>
 
