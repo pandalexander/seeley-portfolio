@@ -220,7 +220,7 @@ window.onload = function () {
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/webstorm.svg" alt="" class="h-14" />
-            <p class="p-0"></p>
+            <p class="p-0">Webstorm</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
@@ -233,7 +233,7 @@ window.onload = function () {
         <div class="flex flex-col items-center justify-center mt-16">
           <h2 class="text-primary font-bold my-0">Supporting Gear</h2>
           <p class="px-4">
-            I understand enough to do the basics, eager to grow.
+            I understand enough to do the basics. Eager to grow.
           </p>
         </div>
 
