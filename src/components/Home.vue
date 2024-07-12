@@ -218,7 +218,7 @@ window.onload = function () {
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/webstorm.svg" alt="" class="h-14" />
-            <p class="p-0">Webstorm</p>
+            <p class="p-0"></p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
@@ -295,8 +295,8 @@ window.onload = function () {
         <div class="flex flex-col items-center justify-center mt-12">
           <h2 class="mx-4 text-primary font-bold">The Sandbox</h2>
           <p>
-            I have exposed to these tools in a team setting, but still have a
-            lot to learn.
+            I have been exposed to these tools, most of them in a team setting.
+            Still have a lot to learn.
           </p>
         </div>
 
