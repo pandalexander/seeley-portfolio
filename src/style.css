@@ -25,16 +25,16 @@
 }
 
 .home-background {
-  background-color: #ebe9e1;
+  background-color: #5da7ae45;
   background-image: 
   /* Gradient overlay for the fade effect */ linear-gradient(
       to bottom,
       rgba(241, 245, 249, 0) 0%,
-      #ebe9e1 100%
+      #ebe9e1 70%
     ),
     /* Original background image */
       repeating-radial-gradient(circle at 0 0, transparent 0, #ebe9e1 90px),
-    repeating-linear-gradient(#efb11d33, #ebe9e1);
+    repeating-linear-gradient(#ebe9e133, #ebe9e13f);
 }
 
 h1 {

@@ -8,18 +8,11 @@ export default {
         secondary: ["Junge", "cursive"],
       },
       colors: {
-        // whitey: "#ebe9e1",
-        // yellowy: "#efb11d",
-        // salmony: "#ffa2b6",
-        // orange: "#e43d12",
-        // navyy: "#374785",
-        // darkNavy: "#24305E",
-
-        primary: "#e43D12",
-        secondary: "#d6536D",
-        third: "#ffa2b6",
-        fourth: "#efb11d",
-        fifth: "#ebe9e1",
+        primary: "#292830", // black
+        secondary: "#5da7ae", // blue green
+        third: "#543d46", // grape
+        fourth: "#f1bb3b", // yellow
+        fifth: "#ebe9e1", // tan
       },
       boxShadow: {
         neumorphic: "inset 0rem 0.2rem 0.4rem 0 rgb(0,0,0,0.1)",

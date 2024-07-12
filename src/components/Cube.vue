@@ -10,11 +10,11 @@
           </div>
           <div style="margin-top: 20px" class="text-fifth">Developer</div>
         </div>
-        <div class="cube__face cube__face--back">Flexpert</div>
+        <div class="cube__face cube__face--back">Simplifier</div>
         <div class="cube__face cube__face--right">Learner</div>
-        <div class="cube__face cube__face--left">Teammate</div>
+        <div class="cube__face cube__face--left">Collaborator</div>
         <div class="cube__face cube__face--top">Enthusiast</div>
-        <div class="cube__face cube__face--bottom">Simplifier</div>
+        <div class="cube__face cube__face--bottom">Adapter</div>
       </div>
     </div>
   </div>
@@ -123,33 +123,33 @@ body {
         fifth: "#ebe9e1", */
 
 .cube__face--front {
-  background: #e43d12;
+  background: #5da7ae;
   color: #ebe9e1;
 }
 
 .cube__face--right {
-  background: #d6536d;
+  background: #543d46;
   color: #ebe9e1;
 }
 
 .cube__face--back {
-  background: #e43d12;
+  background: #5da7ae;
   color: #ebe9e1;
 }
 
 .cube__face--left {
-  background: #d6536d;
+  background: #543d46;
   color: #ebe9e1;
 }
 
 .cube__face--top {
-  background: #efb11d;
-  color: #ebe9e1;
+  background: #f1bb3b;
+  color: #543d46;
 }
 
 .cube__face--bottom {
-  background: #efb11d;
-  color: #ebe9e1;
+  background: #f1bb3b;
+  color: #543d46;
 }
 
 .cube__face--front {
