@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import Cube from "./Cube.vue";
+import Card from "./Card.vue";
 
 let success = ref(false);
 let failure = ref(false);
@@ -63,26 +64,11 @@ window.onload = function () {
     class="h-screen flex justify-center items-center home-background animate-fade-in-bg"
   >
     <div class="flex flex-col">
-      <!-- <h1
-        class="font-secondary font-extrabold text-center text-7xl opacity-0 animate-fade-in p-4 text-primary"
-      >
-        Alex Seeley
-      </h1> -->
-      <!-- <h3 class="text-center mt-3 opacity-0 animate-fade-in-late">
-        Software Developer
-      </h3> -->
       <div
         class="flex justify-center items-center opacity-0 animate-fade-in-late pt-24 m-8"
       >
         <Cube />
       </div>
-      <!-- <div class="flex justify-center opacity-0 animate-fade-in-super-late">
-        <img
-          src="../assets/arrow-down.svg"
-          alt=""
-          class="h-6 mt-6 animate-bounce"
-        />
-      </div> -->
     </div>
   </div>
   <div id="scrollArea" class="">
@@ -351,6 +337,18 @@ window.onload = function () {
 
       <div>
         <h1 class="text-center mb-16">Projects and Experience</h1>
+
+        <Card
+          projectTitle="TITLE"
+          projectDescription="Description"
+          projectContent="I am content!"
+        />
+
+        <Card
+          projectTitle="Megan"
+          projectDescription="baby"
+          projectContent="I am elsie!"
+        />
 
         <h3 class="text-secondary">Vue-based Documentation App</h3>
         <p>
