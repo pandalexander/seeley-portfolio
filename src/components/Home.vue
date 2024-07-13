@@ -79,7 +79,7 @@ window.onload = function () {
       <nav
         class="flex flex-col justify-between items-center mx-auto gap-5 rounded-full"
       >
-        <ul class="flex space-x-4 bg-secondary rounded-full py-4 px-7">
+        <ul class="flex space-x-4 bg-primary rounded-full py-4 px-7">
           <li>
             <a
               href="#about"
@@ -129,8 +129,8 @@ window.onload = function () {
         </div>
         <!-- Right column for the text -->
         <div class="flex flex-col justify-center items-center">
-          <h2 class="font-secondary">Hi, I'm Alex!</h2>
-          <p class="text-left px-4">
+          <h2 class="text-primary">Hi, I'm Alex!</h2>
+          <p class="text-left px-4 text-primary">
             I'm a dedicated software developer based in Colorado Springs. With
             two years of self-taught experience and a recent three-month
             internship in IT, I'm thrilled to create simple solutions across
