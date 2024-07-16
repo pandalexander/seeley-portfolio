@@ -56,6 +56,7 @@ hr {
 h1 {
   @apply text-3xl;
   @apply font-secondary;
+  @apply text-secondary;
 }
 
 h2 {

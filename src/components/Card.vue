@@ -23,7 +23,7 @@ function toggleVisible() {
 
 <template>
   <div
-    class="container flex flex-col shadow-2xl rounded-3xl justify-center items-center p-6 bg-gradient-to-br from-fifth to-white border-solid - border-third border-y-2 border-x-4"
+    class="container flex flex-col shadow-md rounded-3xl justify-center items-center p-6 bg-gradient-to-br from-fifth to-white border-solid - border-y-2 border-x-4"
   >
     <div class="w-full flex items-center max-h-12">
       <button
@@ -65,5 +65,9 @@ function toggleVisible() {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
+}
+
+.content * {
+  text-align: left;
 }
 </style>

@@ -83,28 +83,28 @@ window.onload = function () {
           <li>
             <a
               href="#about"
-              class="hover:text-fourth transition ease-in-out duration-300 text-fifth"
+              class="hover:text-white transition ease-in-out duration-300 text-fifth"
               >About</a
             >
           </li>
           <li>
             <a
               href="#skills"
-              class="hover:text-fourth transition ease-in-out duration-300 text-fifth"
+              class="hover:text-white transition ease-in-out duration-300 text-fifth"
               >Skills</a
             >
           </li>
           <li>
             <a
               href="#projects"
-              class="hover:text-fourth transition ease-in-out duration-300 text-fifth"
+              class="hover:text-white transition ease-in-out duration-300 text-fifth"
               >Projects</a
             >
           </li>
           <li>
             <a
               href="#contact"
-              class="hover:text-fourth transition ease-in-out duration-300 text-fifth"
+              class="hover:text-white transition ease-in-out duration-300 text-fifth"
               >Contact</a
             >
           </li>
@@ -113,7 +113,7 @@ window.onload = function () {
     </header>
     <main class="max-w-4xl mx-auto p-4">
       <section>
-        <h1 class="text-center font-primary">
+        <h1 class="text-center font-primary text-primary">
           Making software better, one
           <span class="italic text-secondary">&gt;program</span> at a time.
         </h1>
@@ -142,7 +142,7 @@ window.onload = function () {
       <hr id="skills" class="border-secondary" />
 
       <div class="">
-        <h1 class="text-center mb-16">Skills</h1>
+        <h1 class="text-center mb-9 text-5xl">Skills</h1>
         <div class="flex flex-col items-center justify-center">
           <h2 class="my-0">Go-To Toolkit</h2>
           <p class="px-4">
@@ -336,7 +336,7 @@ window.onload = function () {
       <hr id="projects" class="border-secondary mt-12" />
 
       <div>
-        <h1 class="text-center mb-16">Projects and Experience</h1>
+        <h1 class="text-center mb-9 text-5xl">Projects and Experience</h1>
 
         <h2>
           My Work at
@@ -348,12 +348,12 @@ window.onload = function () {
           >
         </h2>
 
-        <Card class="mb-4">
+        <Card class="mt-6 border-secondary">
           <template #projectTitle>
             <h3>Vue-based Documentation App</h3>
           </template>
           <template #projectDescription>
-            <p class="text-left">
+            <p>
               During my internship, I collaborated on a markdown document
               application, contributing to several key features:
             </p>
@@ -367,9 +367,9 @@ window.onload = function () {
           </template>
         </Card>
 
-        <Card class="mb-4">
+        <Card class="mt-6 border-secondary">
           <template #projectTitle>
-            <h3>Vue-based Documentation App</h3>
+            <h3>.NET MAUI Mobile Application</h3>
           </template>
           <template #projectDescription>
             <p class="text-left">
@@ -378,61 +378,128 @@ window.onload = function () {
             </p>
           </template>
           <template #projectContent>
-            <ul class="list-disc pl-4 py-3">
-              <li>Document creation, saving, and deletion</li>
-              <li>Search functionality</li>
-              <li>Document tagging system</li>
-            </ul>
+            <p>
+              Collaborated on a front-end team to develop a .NET MAUI app, now
+              available on the App Store. This experience broadened my skills in
+              mobile development and cross-platform solutions.
+            </p>
+            <p>
+              Designed and implemented a privacy policy landing page for an app
+              using Bootstrap, demonstrating my ability to create professional,
+              responsive web pages for business use.
+            </p>
           </template>
         </Card>
 
-        <h3 class="text-secondary">.NET MAUI Mobile Application</h3>
-        <p>
-          Collaborated on a front-end team to develop a .NET MAUI app, now
-          available on the App Store. This experience broadened my skills in
-          mobile development and cross-platform solutions.
-        </p>
-        <p>
-          Designed and implemented a privacy policy landing page for an app
-          using Bootstrap, demonstrating my ability to create professional,
-          responsive web pages for business use.
-        </p>
-        <h3 class="text-secondary">Raspberry Pi System Monitor</h3>
-        <p>
-          Set up a Raspberry Pi unit using Rust and Git to create a system that
-          runs looped HTTP requests, updating the status of the stack. This
-          project showcased my ability to work with embedded systems and backend
-          technologies.
-        </p>
-        <h3 class="text-secondary">React News Article Generator</h3>
-        <p>
-          Created a React app to practice state management. Users can fill out
-          input fields to generate a customized, satire news article, showcasing
-          my ability to work with React and manage application state.
-        </p>
-        <h3 class="text-secondary">Photographer's Portfolio Website</h3>
-        <p>
-          Developed a photographer's website using Bootstrap for responsive
-          design. Integrated EmailJS to create a functional contact form,
-          allowing visitors to send messages directly to the photographer's
-          inbox.
-        </p>
-        <h3 class="text-secondary">Web Development Projects</h3>
-        <ul class="list-disc pl-4 pt-3">
-          <li>
-            To-Do List App: Built with vanilla JavaScript, employing
-            object-oriented programming and local storage.
-          </li>
-          <li>
-            Tic-Tac-Toe Game and Etch-A-Sketch: Demonstrating proficiency in
-            front-end web technologies.
-          </li>
-        </ul>
+        <Card class="mt-6 border-secondary">
+          <template #projectTitle>
+            <h3>Raspberry Pi System Monitor</h3>
+          </template>
+          <template #projectDescription>
+            <p class="text-left">
+              During my internship, I collaborated on a markdown document
+              application, contributing to several key features:
+            </p>
+          </template>
+          <template #projectContent>
+            <p>
+              Set up a Raspberry Pi unit using Rust and Git to create a system
+              that runs looped HTTP requests, updating the status of the stack.
+              This project showcased my ability to work with embedded systems
+              and backend technologies.
+            </p>
+          </template>
+        </Card>
+
+        <h2 class="mt-8">
+          My
+          <a
+            href="https://github.com/pandalexander"
+            class="text-fourth hover:text-secondary transition ease-in-out duration-300"
+            >Solo</a
+          >
+          Work
+        </h2>
+
+        <Card class="mt-6 border-fourth">
+          <template #projectTitle>
+            <h3>React News Article Generator</h3>
+          </template>
+          <template #projectDescription>
+            <p>
+              During my internship, I collaborated on a markdown document
+              application, contributing to several key features:
+            </p>
+          </template>
+          <template #projectContent>
+            <p>
+              Created a React app to practice state management. Users can fill
+              out input fields to generate a customized, satire news article,
+              showcasing my ability to work with React and manage application
+              state.
+            </p>
+          </template>
+        </Card>
+
+        <Card class="mt-6 border-fourth">
+          <template #projectTitle>
+            <h3>Photographer's Portfolio Website</h3>
+          </template>
+          <template #projectDescription>
+            <p class="text-left">
+              During my internship, I collaborated on a markdown document
+              application, contributing to several key features:
+            </p>
+          </template>
+          <template #projectContent>
+            <p>
+              Developed a photographer's website using Bootstrap for responsive
+              design. Integrated EmailJS to create a functional contact form,
+              allowing visitors to send messages directly to the photographer's
+              inbox.
+            </p>
+          </template>
+        </Card>
+
+        <Card class="mt-6 border-fourth">
+          <template #projectTitle>
+            <h3>To-Do List App</h3>
+          </template>
+          <template #projectDescription>
+            <p>
+              Built with vanilla JavaScript, employing object-oriented
+              programming and local storage.
+            </p>
+          </template>
+          <template #projectContent>
+            <p>
+              Developed a photographer's website using Bootstrap for responsive
+              design. Integrated EmailJS to create a functional contact form,
+              allowing visitors to send messages directly to the photographer's
+              inbox.
+            </p>
+          </template>
+        </Card>
+
+        <Card class="mt-6 border-fourth">
+          <template #projectTitle>
+            <h3>Tic-Tac-Toe Game and Etch-A-Sketch</h3>
+          </template>
+          <template #projectDescription>
+            <p>
+              Built with vanilla JavaScript, employing object-oriented
+              programming and local storage.
+            </p>
+          </template>
+          <template #projectContent>
+            <p>Demonstrating proficiency in front-end web technologies.</p>
+          </template>
+        </Card>
       </div>
 
       <hr id="contact" class="border-secondary my-12" />
 
-      <h1 class="text-center mb-5">Contact</h1>
+      <h1 class="text-center mb-9 text-5xl">Contact</h1>
 
       <form
         id="contact-form"
@@ -443,7 +510,7 @@ window.onload = function () {
         <input
           type="text"
           name="user_name"
-          class="bg-white text-secondary"
+          class="bg-white text-primary"
           placeholder="Name"
           required
         />
@@ -451,14 +518,14 @@ window.onload = function () {
         <input
           type="email"
           name="user_email"
-          class="bg-white text-secondary"
+          class="bg-white focus:border-blue"
           placeholder="Email"
           required
         />
         <label class="hidden">Message</label>
         <textarea
           name="message"
-          class="bg-white text-secondary h-40"
+          class="bg-white text-primary h-40"
           placeholder="Message..."
         ></textarea>
         <div class="h-6 flex justify-center items-center">
@@ -475,7 +542,7 @@ window.onload = function () {
         </div>
         <button
           type="submit"
-          class="bg-secondary text-primary col-span-2 hover:cursor-pointer p-4 rounded-md hover:bg-primary transition-colors duration-400 ease-in-out"
+          class="bg-secondary text-primary col-span-2 hover:cursor-pointer p-4 rounded-md hover:bg-fourth transition-colors duration-400 ease-in-out"
         >
           <div
             v-show="isFormWaiting"
@@ -507,6 +574,7 @@ textarea:focus {
   outline: none;
   border: solid 1px;
   background-color: #fefefe;
+  border-color: #5da7ae;
 }
 
 /* we will explain what these classes do next! */
