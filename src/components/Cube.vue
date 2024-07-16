@@ -123,36 +123,36 @@ body {
         fifth: "#ebe9e1", */
 
 .cube__face--front {
-  @apply bg-gradient-to-tr from-red-300 to-cyan-300;
+  @apply bg-gradient-to-br from-red-300 to-cyan-300;
 
   /* background: #292830; */
-  color: #ebe9e1;
+  color: white;
 }
 
 .cube__face--right {
   /* background: #f1bb3b;
   color: #292830; */
-  @apply bg-gradient-to-br from-red-300 to-cyan-300;
-  color: #ebe9e1;
+  @apply bg-gradient-to-tr to-red-300 from-cyan-300;
+  color: white;
 }
 
 .cube__face--back {
   /* background: #292830;
   color: #ebe9e1; */
-  @apply bg-gradient-to-tr to-red-300 from-cyan-300;
-  color: #ebe9e1;
+  @apply bg-gradient-to-br from-red-300 to-cyan-300;
+  color: white;
 }
 
 .cube__face--left {
   /* background: #f1bb3b;
   color: #292830; */
-  @apply bg-gradient-to-br from-red-300 to-cyan-300;
-  color: #ebe9e1;
+  @apply bg-gradient-to-tr to-red-300 from-cyan-300;
+  color: white;
 }
 
 .cube__face--top {
-  @apply bg-gradient-to-br from-red-300 to-cyan-300;
-  color: #ebe9e1;
+  @apply bg-gradient-to-tr from-red-300 to-cyan-300;
+  color: white;
 
   /* background: #5da7ae;
   color: #ebe9e1; */
@@ -161,8 +161,8 @@ body {
 .cube__face--bottom {
   /* background: #543d46;
   color: #ebe9e1; */
-  @apply bg-gradient-to-br from-red-300 to-cyan-300;
-  color: #ebe9e1;
+  @apply bg-gradient-to-tr from-red-300 to-cyan-300;
+  color: white;
 }
 
 .cube__face--front {

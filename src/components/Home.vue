@@ -113,28 +113,31 @@ window.onload = function () {
     </header>
     <main class="max-w-4xl mx-auto p-4">
       <section>
-        <h1 class="text-center font-primary text-primary">
-          Making software better, one
-          <span class="italic text-secondary">&gt;program</span> at a time.
+        <h1 class="text-center font-primary text-primary mb-12">
+          Making the world a nicer place, one
+          <span class="italic text-fourth font-mono">&gt;error</span> at a time.
         </h1>
       </section>
-      <div class="grid grid-cols-1 md:grid-cols-[1fr,1fr] gap-4 pt-4">
+      <div
+        class="grid grid-cols-1 md:grid-cols-[1fr,2fr] gap-6 p-6 bg-white shadow-lg rounded-xl"
+      >
         <!-- Left column for the image -->
         <div class="flex justify-center items-center">
           <img
-            src="../assets/main.png"
+            src="../assets/me-face.png"
             alt=""
-            class="w-4/5 sm:w-2/3 md:w-full lg:w-full xl:w-full h-auto max-w-full"
+            class="w-auto h-auto max-w-52 rounded-full bg-gradient-to-br from-red-300 to-cyan-300 shadow-lg shadow-zinc-300"
           />
         </div>
         <!-- Right column for the text -->
-        <div class="flex flex-col justify-center items-center">
-          <h2 class="text-primary">Hi, I'm Alex!</h2>
-          <p class="text-left px-4 text-primary">
-            I'm a dedicated software developer based in Colorado Springs. With
-            two years of self-taught experience and a recent three-month
-            internship in IT, I'm thrilled to create simple solutions across
-            various platforms and technologies.
+        <div
+          class="flex flex-col justify-center sm:items-center md:items-start"
+        >
+          <h2 class="text-third">Hi, I'm Alex!</h2>
+          <p class="text-left text-third">
+            I'm a front-end software developer based in Colorado Springs. To be
+            brief, I'm thrilled to create simple & beautiful user experiences
+            across various technologies.
           </p>
         </div>
       </div>
