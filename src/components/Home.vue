@@ -338,37 +338,54 @@ window.onload = function () {
       <div>
         <h1 class="text-center mb-16">Projects and Experience</h1>
 
-        <Card>
+        <h2>
+          My Work at
+          <a
+            class="text-secondary hover:text-fourth"
+            href="https://www.springsit.com/"
+            target="_blank"
+            >Springs IT</a
+          >
+        </h2>
+
+        <Card class="mb-4">
           <template #projectTitle>
-            <h3 class="text-third font-bold">Project 1</h3>
+            <h3 class="text-third font-bold">Vue-based Documentation App</h3>
           </template>
           <template #projectDescription>
-            <p>This is a description</p>
+            <p class="text-left">
+              During my internship, I collaborated on a markdown document
+              application, contributing to several key features:
+            </p>
           </template>
           <template #projectContent>
-            <p>This is the hidden stuff</p>
+            <ul class="list-disc pl-4 py-3">
+              <li>Document creation, saving, and deletion</li>
+              <li>Search functionality</li>
+              <li>Document tagging system</li>
+            </ul>
           </template>
-          <!-- 
-          <p slot="projectDescription">project Description</p>
-          <p slot="projectContent">project Content</p> -->
         </Card>
 
-        <!-- <Card
-          projectTitle="Megan"
-          projectDescription="baby"
-          projectContent="I am elsie!"
-        /> -->
+        <Card class="mb-4">
+          <template #projectTitle>
+            <h3 class="text-third font-bold">Vue-based Documentation App</h3>
+          </template>
+          <template #projectDescription>
+            <p class="text-left">
+              During my internship, I collaborated on a markdown document
+              application, contributing to several key features:
+            </p>
+          </template>
+          <template #projectContent>
+            <ul class="list-disc pl-4 py-3">
+              <li>Document creation, saving, and deletion</li>
+              <li>Search functionality</li>
+              <li>Document tagging system</li>
+            </ul>
+          </template>
+        </Card>
 
-        <h3 class="text-secondary">Vue-based Documentation App</h3>
-        <p>
-          During my internship, I collaborated on a markdown document
-          application, contributing to several key features:
-        </p>
-        <ul class="list-disc pl-4 py-3">
-          <li>Document creation, saving, and deletion</li>
-          <li>Search functionality</li>
-          <li>Document tagging system</li>
-        </ul>
         <h3 class="text-secondary">.NET MAUI Mobile Application</h3>
         <p>
           Collaborated on a front-end team to develop a .NET MAUI app, now

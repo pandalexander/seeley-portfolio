@@ -25,33 +25,27 @@ function toggleVisible() {
   <div
     class="container flex flex-col shadow-2xl rounded-3xl justify-center items-center p-6 bg-gradient-to-br from-orange-100 to-pink-100"
   >
-    <h3>
-      <slot name="projectTitle"></slot>
-    </h3>
-
     <div class="w-full flex items-center max-h-12">
       <button
         type="button"
-        class="collapsible"
+        class="collapsible mr-4 hover:cursor-pointer"
         @click="toggleVisible"
         :class="{ active: isActive }"
       >
         <img src="../assets/plus.svg" alt="plus symbol" />
       </button>
-      <p class="text-center hover:cursor-pointer" @click="toggleVisible">
-        <slot name="projectDescription"></slot>
-      </p>
+      <slot name="projectTitle"></slot>
     </div>
 
     <div class="w-full">
       <div
         ref="content"
         :style="{ maxHeight: contentHeight }"
-        class="content flex flex-grow justify-start items-center"
+        class="content flex flex-grow justify-start items-start flex-col"
       >
-        <p>
-          <slot name="projectContent"></slot>
-        </p>
+        <slot name="projectDescription"></slot>
+
+        <slot name="projectContent"></slot>
       </div>
     </div>
   </div>
@@ -60,20 +54,12 @@ function toggleVisible() {
 <style scoped>
 .collapsible {
   cursor: pointer;
-  padding: 18px;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
 }
 
-/* .active,
-.collapsible:hover {
-  background-color: #ccc;
-} */
-
 .content {
-  padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
