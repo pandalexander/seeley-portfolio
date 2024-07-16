@@ -291,7 +291,7 @@ window.onload = function () {
         </div>
 
         <div
-          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-50 to-cyan-50"
+          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-100 to-cyan-100"
         >
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
@@ -340,7 +340,7 @@ window.onload = function () {
 
         <Card>
           <template #projectTitle>
-            <h3>Project 1</h3>
+            <h3 class="text-third font-bold">Project 1</h3>
           </template>
           <template #projectDescription>
             <p>This is a description</p>
