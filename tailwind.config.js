@@ -11,8 +11,11 @@ export default {
         primary: "#292830", // black
         secondary: "#5da7ae", // blue green
         third: "#543d46", // grape
-        fourth: "#f1bb3b", // yellow
+        fourth: "#f87171", // yellow
         fifth: "#ebe9e1", // tan
+
+        fourthTwo: "#fceecf",
+        secondaryTwo: "#cce3e5", // blue
       },
       boxShadow: {
         neumorphic: "inset 0rem 0.3rem 0.3rem 0 rgb(0,0,0,0.1)",

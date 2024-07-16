@@ -59,12 +59,12 @@ h1 {
 }
 
 h2 {
-  @apply text-2xl font-semibold text-center my-5;
+  @apply text-2xl font-bold text-center my-5;
   @apply text-third;
 }
 
 h3 {
-  @apply text-xl;
+  @apply text-xl text-third font-medium;
 }
 
 p {

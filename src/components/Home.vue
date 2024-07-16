@@ -144,7 +144,7 @@ window.onload = function () {
       <div class="">
         <h1 class="text-center mb-16">Skills</h1>
         <div class="flex flex-col items-center justify-center">
-          <h2 class="mx-4 text-primary font-bold my-0">Go-To Toolkit</h2>
+          <h2 class="my-0">Go-To Toolkit</h2>
           <p class="px-4">
             I feel confident building with these and do so regularly.
           </p>
@@ -217,14 +217,14 @@ window.onload = function () {
         </div>
 
         <div class="flex flex-col items-center justify-center mt-16">
-          <h2 class="text-primary font-bold my-0">Supporting Gear</h2>
+          <h2 class="my-0">Supporting Gear</h2>
           <p class="px-4">
             I understand enough to do the basics. Eager to grow.
           </p>
         </div>
 
         <div
-          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-100 to-cyan-100"
+          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-fifth to-cyan-200"
         >
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
@@ -283,7 +283,7 @@ window.onload = function () {
         </div>
 
         <div class="flex flex-col items-center justify-center mt-12">
-          <h2 class="mx-4 text-primary font-bold">The Sandbox</h2>
+          <h2 class="my-0">The Sandbox</h2>
           <p class="px-4">
             I have been exposed to these tools, most of them in a team setting.
             Still have a lot to learn.
@@ -291,7 +291,7 @@ window.onload = function () {
         </div>
 
         <div
-          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-100 to-cyan-100"
+          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-fifth"
         >
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
@@ -341,7 +341,7 @@ window.onload = function () {
         <h2>
           My Work at
           <a
-            class="text-secondary hover:text-fourth"
+            class="text-secondary hover:text-fourth transition ease-in-out duration-300"
             href="https://www.springsit.com/"
             target="_blank"
             >Springs IT</a
@@ -350,7 +350,7 @@ window.onload = function () {
 
         <Card class="mb-4">
           <template #projectTitle>
-            <h3 class="text-third font-bold">Vue-based Documentation App</h3>
+            <h3>Vue-based Documentation App</h3>
           </template>
           <template #projectDescription>
             <p class="text-left">
@@ -369,7 +369,7 @@ window.onload = function () {
 
         <Card class="mb-4">
           <template #projectTitle>
-            <h3 class="text-third font-bold">Vue-based Documentation App</h3>
+            <h3>Vue-based Documentation App</h3>
           </template>
           <template #projectDescription>
             <p class="text-left">

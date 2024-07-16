@@ -123,32 +123,45 @@ body {
         fifth: "#ebe9e1", */
 
 .cube__face--front {
-  background: #292830;
+  @apply bg-gradient-to-tr from-red-300 to-cyan-300;
+
+  /* background: #292830; */
   color: #ebe9e1;
 }
 
 .cube__face--right {
-  background: #f1bb3b;
-  color: #292830;
+  /* background: #f1bb3b;
+  color: #292830; */
+  @apply bg-gradient-to-br from-red-300 to-cyan-300;
+  color: #ebe9e1;
 }
 
 .cube__face--back {
-  background: #292830;
+  /* background: #292830;
+  color: #ebe9e1; */
+  @apply bg-gradient-to-tr to-red-300 from-cyan-300;
   color: #ebe9e1;
 }
 
 .cube__face--left {
-  background: #f1bb3b;
-  color: #292830;
-}
-
-.cube__face--top {
-  background: #5da7ae;
+  /* background: #f1bb3b;
+  color: #292830; */
+  @apply bg-gradient-to-br from-red-300 to-cyan-300;
   color: #ebe9e1;
 }
 
+.cube__face--top {
+  @apply bg-gradient-to-br from-red-300 to-cyan-300;
+  color: #ebe9e1;
+
+  /* background: #5da7ae;
+  color: #ebe9e1; */
+}
+
 .cube__face--bottom {
-  background: #543d46;
+  /* background: #543d46;
+  color: #ebe9e1; */
+  @apply bg-gradient-to-br from-red-300 to-cyan-300;
   color: #ebe9e1;
 }
 

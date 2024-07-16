@@ -23,7 +23,7 @@ function toggleVisible() {
 
 <template>
   <div
-    class="container flex flex-col shadow-2xl rounded-3xl justify-center items-center p-6 bg-gradient-to-br from-orange-100 to-pink-100"
+    class="container flex flex-col shadow-2xl rounded-3xl justify-center items-center p-6 bg-gradient-to-br from-fifth to-white border-solid - border-third border-y-2 border-x-4"
   >
     <div class="w-full flex items-center max-h-12">
       <button
@@ -34,7 +34,9 @@ function toggleVisible() {
       >
         <img src="../assets/plus.svg" alt="plus symbol" />
       </button>
-      <slot name="projectTitle"></slot>
+      <div @click="toggleVisible">
+        <slot name="projectTitle"></slot>
+      </div>
     </div>
 
     <div class="w-full">
@@ -62,6 +64,6 @@ function toggleVisible() {
 .content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.3s ease-in-out;
 }
 </style>
