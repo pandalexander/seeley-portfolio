@@ -1,9 +1,9 @@
 <script setup>
-defineProps({
-  projectTitle: String,
-  projectDescription: String,
-  projectContent: String,
-});
+// defineProps({
+//   projectTitle: String,
+//   projectDescription: String,
+//   projectContent: String,
+// });
 
 import { ref, onMounted } from "vue";
 
@@ -25,8 +25,11 @@ function toggleVisible() {
   <div
     class="container flex flex-col border-2 border-solid border-primary justify-center items-center"
   >
-    <h3>{{ projectTitle }}</h3>
-    <p>{{ projectDescription }}</p>
+    <h3><slot name="projectTitle"></slot></h3>
+    <p>
+      <slot name="projectDescription"></slot>
+    </p>
+
     <div style="padding: 40px">
       <button
         type="button"
@@ -37,7 +40,7 @@ function toggleVisible() {
         Open Collapsible
       </button>
       <div ref="content" :style="{ maxHeight: contentHeight }" class="content">
-        <p>{{ projectContent }}</p>
+        <p><slot name="projectContent"></slot></p>
       </div>
     </div>
   </div>

@@ -338,17 +338,26 @@ window.onload = function () {
       <div>
         <h1 class="text-center mb-16">Projects and Experience</h1>
 
-        <Card
-          projectTitle="TITLE"
-          projectDescription="Description"
-          projectContent="I am content!"
-        />
+        <Card>
+          <template #projectTitle>
+            <h3>Project 1</h3>
+          </template>
+          <template #projectDescription>
+            <p>This is a description</p>
+          </template>
+          <template #projectContent>
+            <p>This is the hidden stuff</p>
+          </template>
+          <!-- 
+          <p slot="projectDescription">project Description</p>
+          <p slot="projectContent">project Content</p> -->
+        </Card>
 
-        <Card
+        <!-- <Card
           projectTitle="Megan"
           projectDescription="baby"
           projectContent="I am elsie!"
-        />
+        /> -->
 
         <h3 class="text-secondary">Vue-based Documentation App</h3>
         <p>
