@@ -142,7 +142,11 @@ window.onload = function () {
       <hr id="skills" class="border-secondary" />
 
       <div class="">
-        <h1 class="text-center mb-9 text-5xl">Skills</h1>
+        <h1 class="text-5xl">Skills</h1>
+        <hr
+          class="border-primary min-w-full mb-20 mt-2"
+          style="border: 0.25px solid black"
+        />
         <div class="flex flex-col items-center justify-center">
           <h2 class="my-0">Go-To Toolkit</h2>
           <p class="px-4">
@@ -336,7 +340,11 @@ window.onload = function () {
       <hr id="projects" class="border-secondary mt-12" />
 
       <div>
-        <h1 class="text-center mb-9 text-5xl">Projects and Experience</h1>
+        <h1 class="text-5xl">Projects and Experience</h1>
+        <hr
+          class="border-primary min-w-full mb-20 mt-2"
+          style="border: 0.25px solid black"
+        />
 
         <h2>
           My Work at
@@ -499,7 +507,7 @@ window.onload = function () {
 
       <hr id="contact" class="border-secondary my-12" />
 
-      <h1 class="text-center mb-9 text-5xl">Contact</h1>
+      <h1 class="text-center mb-9 text-5xl">Contact Me</h1>
 
       <form
         id="contact-form"

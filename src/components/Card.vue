@@ -23,7 +23,7 @@ function toggleVisible() {
 
 <template>
   <div
-    class="container flex flex-col shadow-md rounded-3xl justify-center items-center p-6 bg-gradient-to-br from-fifth to-white border-solid - border-y-2 border-x-4"
+    class="container flex flex-col shadow-md rounded-sm justify-center items-center p-6 bg-gradient-to-br from-zinc-100 to-white border-solid border-b-4"
   >
     <div class="w-full flex items-center max-h-12">
       <button
