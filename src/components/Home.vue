@@ -478,26 +478,68 @@ window.onload = function () {
             </p>
           </template>
         </Card>
+
         <Card class="mt-6 border-secondary">
           <template #projectTitle>
-            <h3>.NET MAUI Mobile Application</h3>
+            <h3>RAFT: Mobile App for Interactive Discipleship</h3>
           </template>
           <template #projectDescription>
-            <p class="text-left">
-              During my internship, I collaborated on a markdown document
-              application, contributing to several key features:
+            <p>
+              I played a key role in developing a mobile application for my
+              local church,
+              <a
+                href="https://apps.apple.com/us/app/raft-a-discipleship-guide/id6469940868"
+                target="_blank"
+                class="text-secondary"
+                >now live on Apple's App Store</a
+              >. This project showcases my ability to create user-friendly,
+              engaging interfaces for complex content delivery.
             </p>
           </template>
           <template #projectContent>
+            <h3 class="mt-6">Key Contributions:</h3>
+            <ul class="list-disc pl-4 py-3">
+              <li>
+                Contributed to the front-end using .NET MAUI and XAML in Visual
+                Studio, resulting in a responsive and intuitive user interface
+                across 10 curriculum pages.
+              </li>
+              <li>
+                Designed and implemented interactive features including
+                discussion prompts, memorization pop-ups, assessment sliders,
+                and a curriculum completion tracker.
+              </li>
+              <li>
+                Created custom UI elements such as the app logo, completion
+                status buttons, and status bubbles, demonstrating both design
+                and development skills.
+              </li>
+              <li>
+                Managed the app bundling process and successfully published the
+                app on the Apple App Store.
+              </li>
+              <li>
+                Developed a
+                <a
+                  href="https://raftdmd.org/"
+                  target="_blank"
+                  class="text-secondary"
+                  >Bootstrap-based privacy policy page</a
+                >, addressing legal requirements for app publication.
+              </li>
+            </ul>
             <p>
-              Collaborated on a front-end team to develop a .NET MAUI app, now
-              available on the App Store. This experience broadened my skills in
-              mobile development and cross-platform solutions.
+              Technologies:
+              <span class="text-fourth">
+                .NET MAUI, XAML, Visual Studio, app development, Bootstrap
+              </span>
             </p>
             <p>
-              Designed and implemented a privacy policy landing page for an app
-              using Bootstrap, demonstrating my ability to create professional,
-              responsive web pages for business use.
+              This project demonstrates my ability to translate complex
+              requirements into a user-friendly mobile application, combining
+              technical skills with an eye for design. It showcases my
+              experience in the full mobile app development lifecycle, from
+              UI/UX design to App Store publication.
             </p>
           </template>
         </Card>
