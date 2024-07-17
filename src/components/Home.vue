@@ -80,28 +80,28 @@ window.onload = function () {
         class="flex flex-col justify-between items-center mx-auto gap-5 rounded-full"
       >
         <ul class="flex space-x-4 bg-primary rounded-full py-4 px-7">
-          <li>
+          <li class="mb-0">
             <a
               href="#about"
               class="hover:text-white transition ease-in-out duration-300 text-fifth"
               >About</a
             >
           </li>
-          <li>
+          <li class="mb-0">
             <a
               href="#skills"
               class="hover:text-white transition ease-in-out duration-300 text-fifth"
               >Skills</a
             >
           </li>
-          <li>
+          <li class="mb-0">
             <a
               href="#projects"
               class="hover:text-white transition ease-in-out duration-300 text-fifth"
               >Projects</a
             >
           </li>
-          <li>
+          <li class="mb-0">
             <a
               href="#contact"
               class="hover:text-white transition ease-in-out duration-300 text-fifth"
@@ -557,21 +557,108 @@ window.onload = function () {
 
         <Card class="mt-6 border-fourth">
           <template #projectTitle>
-            <h3>React News Article Generator</h3>
+            <h3>Dynamic To-Do List Application</h3>
           </template>
           <template #projectDescription>
             <p>
-              During my internship, I collaborated on a markdown document
-              application, contributing to several key features:
+              I developed a feature-rich, responsive to-do list application
+              using vanilla JavaScript, HTML, and CSS, showcasing my proficiency
+              in base-level front-end development and object-oriented
+              programming principles.
             </p>
           </template>
           <template #projectContent>
+            <h3 class="mt-6">Key Features and Technologies:</h3>
+            <ul class="list-disc pl-4 py-3">
+              <li>
+                Implemented using pure JavaScript, demonstrating strong
+                foundational programming skills
+              </li>
+              <li>
+                Utilized Webpack for efficient module bundling and asset
+                management
+              </li>
+              <li>
+                Designed with raw CSS, showcasing ability to create polished UIs
+                without frameworks
+              </li>
+              <li>
+                Incorporated date handling with date-fns library for improved
+                user experience
+              </li>
+              <li>
+                Implemented local storage for data persistence across sessions
+              </li>
+            </ul>
+            <h4 class="mt-6">Core Functionalities:</h4>
+            <ul class="list-disc pl-4 py-3">
+              <li>
+                Project Management: Users can create, view, and delete multiple
+                projects
+              </li>
+              <li>
+                Task Management: Within each project, users can add, edit, view,
+                and delete tasks
+              </li>
+              <li>
+                Dynamic UI Updates: Real-time UI changes reflect data
+                modifications without page reloads
+              </li>
+              <li>
+                Priority System: Tasks can be assigned different priority levels
+                with visual indicators
+              </li>
+              <li>
+                Due Date Tracking: Implemented date selection and formatting for
+                task deadlines
+              </li>
+              <li>
+                Completion Status: Users can mark tasks as complete/incomplete
+                with visual feedback
+              </li>
+            </ul>
+            <h4 class="mt-6">Advanced Features:</h4>
+            <ul class="list-disc pl-4 py-3">
+              <li>
+                Modal Popups: Created intuitive interfaces for adding/editing
+                tasks and projects
+              </li>
+              <li>
+                Interactive Icons: Utilized SVG icons for a clean, modern UI
+                design
+              </li>
+            </ul>
+
             <p>
-              Created a React app to practice state management. Users can fill
-              out input fields to generate a customized, satire news article,
-              showcasing my ability to work with React and manage application
-              state.
+              Technologies:
+              <span class="text-fourth">
+                HTML, CSS, Vanilla Javascript, Webpack
+              </span>
             </p>
+            <p>
+              This project demonstrates my ability to create complex,
+              interactive web applications from scratch. It showcases my skills
+              in JavaScript, DOM manipulation, event handling, and creating
+              intuitive user interfaces. The use of OOP principles with Project
+              and Todo classes illustrates my understanding of software design
+              patterns and code organization in larger applications.
+            </p>
+            <div class="w-full flex justify-evenly items-center gap-4">
+              <a
+                href="https://pandalexander.github.io/to-do-odin/"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                Live Preview
+              </a>
+              <a
+                href="https://github.com/pandalexander/to-do-odin"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                The Code
+              </a>
+            </div>
           </template>
         </Card>
 
