@@ -360,9 +360,7 @@ window.onload = function () {
         </h2>
         <Card class="mt-6 border-secondary">
           <template #projectTitle>
-            <h3>
-              Documentation App: Streamlining Client Information Management
-            </h3>
+            <h3>Documentation App: Client Data Management</h3>
           </template>
           <template #projectDescription>
             <p>

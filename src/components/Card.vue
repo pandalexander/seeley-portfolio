@@ -25,16 +25,16 @@ function toggleVisible() {
   <div
     class="container flex flex-col shadow-md rounded-sm justify-center items-center p-6 bg-gradient-to-br from-zinc-100 to-white border-solid border-b-4"
   >
-    <div class="w-full flex items-center max-h-12">
+    <div class="w-full flex items-center">
       <button
         type="button"
         class="collapsible mr-4 hover:cursor-pointer"
         @click="toggleVisible"
         :class="{ active: isActive }"
       >
-        <img src="../assets/plus.svg" alt="plus symbol" />
+        <img src="../assets/plus.svg" alt="plus symbol" class="min-w-fit" />
       </button>
-      <div @click="toggleVisible">
+      <div @click="toggleVisible" class="pl-4">
         <slot name="projectTitle"></slot>
       </div>
     </div>
