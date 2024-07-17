@@ -78,4 +78,5 @@ p {
 li {
   @apply text-lg leading-relaxed;
   @apply text-third;
+  @apply mb-2;
 }

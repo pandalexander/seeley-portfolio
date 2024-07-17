@@ -25,8 +25,9 @@ function toggleVisible() {
   <div
     class="container flex flex-col shadow-md rounded-sm justify-center items-center p-6 bg-gradient-to-br from-zinc-100 to-white border-solid border-b-4"
   >
-    <div @click="toggleVisible" class="w-full flex items-center max-h-12">
+    <div class="w-full flex items-center max-h-12">
       <button
+        @click="toggleVisible"
         type="button"
         class="collapsible mr-4 hover:cursor-pointer"
         :class="{ active: isActive }"

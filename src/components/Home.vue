@@ -366,11 +366,10 @@ window.onload = function () {
           </template>
           <template #projectDescription>
             <p>
-              During my internship at Springs IT, I played a key role in
-              developing a Vue.js-based web application for structured
-              documentation. This project aimed to create an in-house solution
-              for managing critical client information, aligning with the
-              company's need for efficient data organization.
+              I played a key role in developing a Vue.js-based web application
+              for structured documentation. This project aimed to create an
+              in-house solution for managing critical client information,
+              aligning with the company's need for efficient data organization.
             </p>
           </template>
           <template #projectContent>
@@ -420,6 +419,67 @@ window.onload = function () {
 
         <Card class="mt-6 border-secondary">
           <template #projectTitle>
+            <h3>Full-Stack Network Monitoring System</h3>
+          </template>
+          <template #projectDescription>
+            <p>
+              I contributed to developing a comprehensive network monitoring
+              solution, showcasing my ability to work across the entire stack
+              and collaborate on complex, real-world problems.
+            </p>
+          </template>
+          <template #projectContent>
+            <h3 class="mt-6">Key Contributions:</h3>
+            <ul class="list-disc pl-4 py-3">
+              <li>
+                Developed Rust code for Raspberry Pi devices to extract and
+                hardware information and unique hashed hardware IDs to send
+                periodic network status updates via HTTP requests.
+              </li>
+              <li>
+                Collaborated on creating a Java Spring API to handle incoming
+                device data, interfacing with a Redis database for efficient
+                data storage and retrieval.
+              </li>
+              <li>
+                Implemented Redis sorted sets and hashes to store device
+                check-in times and system information, enabling real-time
+                monitoring capabilities.
+              </li>
+              <li>
+                Designed RESTful endpoints for data ingestion (PUT) and status
+                retrieval (GET), including a feature to identify offline devices
+                based on check-in times.
+              </li>
+              <li>
+                Containerized the Java Spring application using Docker, ensuring
+                consistent deployment across different environments and
+                facilitating easy scaling and management of the service.
+              </li>
+              <li>
+                Built a Vue.js frontend to visualize the current status of all
+                monitored hardware systems and networks, providing an intuitive
+                user interface.
+              </li>
+            </ul>
+            <p>
+              Technologies:
+              <span class="text-fourth">
+                Rust, Java, Spring Boot, Redis, Docker, Vue.js, Raspberry Pi
+              </span>
+            </p>
+            <p>
+              This project demonstrates my adaptability across different
+              technologies, my understanding of full-stack development
+              principles, and my ability to contribute to robust, scalable
+              solutions. It showcases my experience in building real-time
+              monitoring systems and working with both low-level hardware
+              interactions and high-level web interfaces.
+            </p>
+          </template>
+        </Card>
+        <Card class="mt-6 border-secondary">
+          <template #projectTitle>
             <h3>.NET MAUI Mobile Application</h3>
           </template>
           <template #projectDescription>
@@ -442,27 +502,7 @@ window.onload = function () {
           </template>
         </Card>
 
-        <Card class="mt-6 border-secondary">
-          <template #projectTitle>
-            <h3>Raspberry Pi System Monitor</h3>
-          </template>
-          <template #projectDescription>
-            <p class="text-left">
-              During my internship, I collaborated on a markdown document
-              application, contributing to several key features:
-            </p>
-          </template>
-          <template #projectContent>
-            <p>
-              Set up a Raspberry Pi unit using Rust and Git to create a system
-              that runs looped HTTP requests, updating the status of the stack.
-              This project showcased my ability to work with embedded systems
-              and backend technologies.
-            </p>
-          </template>
-        </Card>
-
-        <h2 class="mt-8">
+        <h2 class="mt-16">
           My
           <a
             href="https://github.com/pandalexander"
