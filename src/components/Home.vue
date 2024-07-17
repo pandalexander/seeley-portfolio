@@ -716,7 +716,7 @@ window.onload = function () {
         </Card>
       </div>
 
-      <hr id="contact" class="border-secondary my-12" />
+      <hr id="contact" class="border-secondary" />
 
       <h1 class="text-center mb-9 text-5xl">Contact Me</h1>
 
