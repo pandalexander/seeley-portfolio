@@ -358,23 +358,63 @@ window.onload = function () {
             >Springs IT</a
           >
         </h2>
-
         <Card class="mt-6 border-secondary">
           <template #projectTitle>
-            <h3>Vue-based Documentation App</h3>
+            <h3>
+              Documentation App: Streamlining Client Information Management
+            </h3>
           </template>
           <template #projectDescription>
             <p>
-              During my internship, I collaborated on a markdown document
-              application, contributing to several key features:
+              During my internship at Springs IT, I played a key role in
+              developing a Vue.js-based web application for structured
+              documentation. This project aimed to create an in-house solution
+              for managing critical client information, aligning with the
+              company's need for efficient data organization.
             </p>
           </template>
           <template #projectContent>
+            <h3 class="mt-6">Key Contributions:</h3>
             <ul class="list-disc pl-4 py-3">
-              <li>Document creation, saving, and deletion</li>
-              <li>Search functionality</li>
-              <li>Document tagging system</li>
+              <li>
+                Designed and implemented a search interface using Typesense to
+                query a Redis database, enabling users to search for any word in
+                document titles or bodies and displaying highlighted results.
+              </li>
+              <li>
+                Aided the implementation of an intuitive tagging system with
+                search functionality, improving document organization and
+                retrieval.
+              </li>
+              <li>
+                Utilized Pinia for state management, ensuring responsive UI
+                updates that accurately reflected backend changes.
+              </li>
+              <li>
+                Implemented key CRUD functionalities, including an integrated
+                document creation process with rapid navigation to the editing
+                interface.
+              </li>
+              <li>
+                Developed real-time save status indicators and error handling to
+                enhance user experience and data integrity.
+              </li>
             </ul>
+            <p>
+              Technologies:
+              <span class="text-fourth">
+                Vue.js, Tailwind CSS, Pinia, RESTful APIs, Typesense, Redis
+              </span>
+            </p>
+            <p>
+              This project showcased my ability to translate business needs into
+              user-friendly interfaces, work effectively with APIs, and
+              implement state management in a real-world application. It
+              demonstrates my passion for creating products that users love and
+              my skills in building intuitive, visually appealing, and
+              performant front-end solutions, including advanced search
+              functionalities.
+            </p>
           </template>
         </Card>
 

@@ -77,5 +77,5 @@ p {
 
 li {
   @apply text-lg leading-relaxed;
-  @apply text-primary;
+  @apply text-third;
 }
