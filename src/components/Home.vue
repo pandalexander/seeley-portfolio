@@ -426,6 +426,7 @@ window.onload = function () {
           My
           <a
             href="https://github.com/pandalexander"
+            target="_blank"
             class="text-fourth hover:text-secondary transition ease-in-out duration-300"
             >Solo</a
           >

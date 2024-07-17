@@ -8,7 +8,8 @@
           >
             Alex Seeley
           </div>
-          <div style="margin-top: 20px" class="text-fifth">Developer</div>
+
+          <div style="margin-top: 20px" class="text-white">Developer</div>
         </div>
         <div class="cube__face cube__face--back">Simplifier</div>
         <div class="cube__face cube__face--right">Learner</div>
