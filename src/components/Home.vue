@@ -360,7 +360,7 @@ window.onload = function () {
         </h2>
         <Card class="mt-6 border-secondary">
           <template #projectTitle>
-            <h3>Documentation App: Client Data Management</h3>
+            <h3>Documentation App: Client Information Management</h3>
           </template>
           <template #projectDescription>
             <p>
@@ -622,7 +622,7 @@ window.onload = function () {
 
         <Card class="mt-6 border-fourth">
           <template #projectTitle>
-            <h3>Dynamic To-Do List Application</h3>
+            <h3>Dynamic To-Do List</h3>
           </template>
           <template #projectDescription>
             <p>
@@ -727,58 +727,175 @@ window.onload = function () {
           </template>
         </Card>
 
-        <Card class="mt-6 border-fourth">
+        <Card class="mt-6 border-amber-300">
           <template #projectTitle>
-            <h3>Photographer's Portfolio Website</h3>
+            <h3>The Projects That Really Matter</h3>
           </template>
           <template #projectDescription>
-            <p class="text-left">
-              During my internship, I collaborated on a markdown document
-              application, contributing to several key features:
+            <p>
+              Throughout my coding journey, I've made many projects. They may
+              not look that pretty or have all the features, but they certainly
+              have a special place in my heart. This is because they were the
+              projects I built to learn the basics! Nothing will ever beat that
+              feeling of seeing your computer actually
+              <span class="font-bold text-third">do</span> something that you
+              told it to do, and I hope for the opportunity to chase that
+              feeling for the rest of my career. I'll let you take a peek at my
+              journey to see how I've progressed until now. I'll be more brief
+              in these sections - I hope you enjoy. (P.S. Please spare me shame
+              and open on a desktop - responsive design wasn't exactly the top
+              priority yet...)
             </p>
           </template>
           <template #projectContent>
+            <h3 class="mt-6">My First Github Repo</h3>
             <p>
-              Developed a photographer's website using Bootstrap for responsive
-              design. Integrated EmailJS to create a functional contact form,
-              allowing visitors to send messages directly to the photographer's
-              inbox.
+              This humble little repo marks the beginning of my journey into the
+              world of software development. This repository serves as a magical
+              reminder of where it all began and symbolizes the excitement and
+              curiosity that fueled my journey into coding.
             </p>
-          </template>
-        </Card>
+            <div class="w-full flex justify-center items-center">
+              <a
+                href="https://github.com/pandalexander/git_test"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                The Code
+              </a>
+            </div>
 
-        <Card class="mt-6 border-fourth">
-          <template #projectTitle>
-            <h3>To-Do List App</h3>
-          </template>
-          <template #projectDescription>
+            <h3 class="mt-12">Learning Logic: Rock Paper Scissors</h3>
             <p>
-              Built with vanilla JavaScript, employing object-oriented
-              programming and local storage.
+              This simple yet engaging project was my first adventure into the
+              world of logical thinking in code. Building this game allowed me
+              to delve into basic decision-making algorithms. It’s a testament
+              to the initial thrill I felt as I began mastering fundamental
+              coding concepts.
             </p>
-          </template>
-          <template #projectContent>
-            <p>
-              Developed a photographer's website using Bootstrap for responsive
-              design. Integrated EmailJS to create a functional contact form,
-              allowing visitors to send messages directly to the photographer's
-              inbox.
-            </p>
-          </template>
-        </Card>
+            <div class="w-full flex justify-evenly items-center gap-4">
+              <a
+                href="https://pandalexander.github.io/rock-paper-scissors/"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                Live Preview
+              </a>
+              <a
+                href="https://github.com/pandalexander/rock-paper-scissors"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                The Code
+              </a>
+            </div>
 
-        <Card class="mt-6 border-fourth">
-          <template #projectTitle>
-            <h3>Tic-Tac-Toe Game and Etch-A-Sketch</h3>
-          </template>
-          <template #projectDescription>
+            <h3 class="mt-12">Learning the DOM: Etch a Sketch</h3>
             <p>
-              Built with vanilla JavaScript, employing object-oriented
-              programming and local storage.
+              Building this toy was my introduction to the fascinating world of
+              the Document Object Model (DOM). Manipulating elements in
+              real-time on the screen was a jaw-dropping experience at the time,
+              and it demonstrated to me the creative potential of web
+              development. This project symbolizes the wonder and joy of
+              bringing interactivity to my code.
             </p>
-          </template>
-          <template #projectContent>
-            <p>Demonstrating proficiency in front-end web technologies.</p>
+            <div class="w-full flex justify-evenly items-center gap-4">
+              <a
+                href="https://pandalexander.github.io/etch-a-sketch/"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                Live Preview
+              </a>
+              <a
+                href="https://github.com/pandalexander/etch-a-sketch"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                The Code
+              </a>
+            </div>
+
+            <h3 class="mt-12">Learning Layout: Admin Dashboard Mockup</h3>
+            <p>
+              This project is where the potential for beauty in front-end was
+              really showcased. Designing this admin dashboard mockup was a
+              memorable moment in my journey, as it introduced me to the
+              complexities of layout and user experience. This project is just
+              plain pretty, and it gave me the joy of creating visually
+              appealing and functional interfaces.
+            </p>
+            <div class="w-full flex justify-evenly items-center gap-4">
+              <a
+                href="https://pandalexander.github.io/odin-admin-dashboard/"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                Live Preview
+              </a>
+              <a
+                href="https://github.com/pandalexander/odin-admin-dashboard"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                The Code
+              </a>
+            </div>
+
+            <h3 class="mt-12">A Personal Favorite: Tic Tac Toe</h3>
+            <p>
+              This project combines both logic and interactivity in a nostalgic
+              game. Building Tic Tac Toe was not only fun but also a great
+              exercise in creating a user-friendly interface and handling game
+              logic. That's not why it's my favorite though - this one is my
+              favorite because my little sister told me she uses it all the
+              time.
+            </p>
+            <div class="w-full flex justify-evenly items-center gap-4">
+              <a
+                href="https://pandalexander.github.io/tic-tac-toe-odin/"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                Live Preview
+              </a>
+              <a
+                href="https://github.com/pandalexander/tic-tac-toe-odin"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                The Code
+              </a>
+            </div>
+
+            <div class="mt-8"></div>
+
+            <p>
+              The past two years have been an exhilarating journey into the
+              world of coding. Each project, whether big or small, has been a
+              stepping stone in my growth as a developer. The challenges I've
+              faced and overcome have only fueled my love for this field.
+              Learning to code has opened up a world of possibilities I never
+              could have imagined.
+            </p>
+            <p>
+              It's not just about writing lines of code; it's about
+              problem-solving, creativity, and continuous learning. The thrill
+              of seeing an idea come to life through programming is
+              unparalleled. As I look to the future, I'm filled with excitement
+              and anticipation. The tech landscape is ever-evolving, and I'm
+              eager to embrace new technologies, tackle more complex challenges,
+              and contribute to brand new solutions.
+            </p>
+            <p>
+              I'm just at the beginning of my coding journey, and the
+              possibilities ahead are boundless. I'm grateful for every bug I've
+              squashed, every feature I've implemented, and every 'ohhhh, I
+              think I'm getting it' moment I've experienced. These experiences
+              have not only made me a better developer but have also reinforced
+              my commitment to this field. I can't wait to see what the next
+              chapter in my coding journey will bring!
+            </p>
           </template>
         </Card>
       </div>
