@@ -115,7 +115,8 @@ window.onload = function () {
       <section>
         <h1 class="text-center font-primary text-primary mb-12">
           Making the world a nicer place, one
-          <span class="italic text-fourth font-mono">&gt;error</span> at a time.
+          <span class="italic text-fourth font-mono">&gt;commit</span> at a
+          time.
         </h1>
       </section>
       <div
