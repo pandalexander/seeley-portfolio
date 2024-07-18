@@ -555,6 +555,73 @@ window.onload = function () {
 
         <Card class="mt-6 border-fourth">
           <template #projectTitle>
+            <h3>Interactive Fake News Generator</h3>
+          </template>
+          <template #projectDescription>
+            <p>
+              I developed a dynamic, responsive web application using React and
+              Tailwind CSS that allows users to create and preview custom "fake
+              news" articles in real-time. This project showcases my proficiency
+              in front-end development practices, state management, and
+              responsive design.
+            </p>
+          </template>
+          <template #projectContent>
+            <h3 class="mt-6">Key Features and Technologies:</h3>
+            <ul class="list-disc pl-4 py-3">
+              <li>
+                React for component-based architecture and efficient UI updates
+              </li>
+              <li>Tailwind CSS for responsive, utility-first styling</li>
+              <li>React Hooks (useState) for state management</li>
+              <li>Two-pane layout for simultaneous editing and preview</li>
+            </ul>
+            <h4 class="mt-6">Highlights:</h4>
+            <ul class="list-disc pl-4 py-3">
+              <li>Real-time preview updating as users input content</li>
+              <li>
+                Responsive design adapting seamlessly from mobile to desktop
+              </li>
+              <li>Efficient state management using React Hooks</li>
+              <li>
+                Modular component structure for maintainability and reusability
+              </li>
+            </ul>
+
+            <p>
+              Technologies:
+              <span class="text-fourth">
+                HTML, CSS, Javascript, React, Tailwind CSS, Vercel
+              </span>
+            </p>
+            <p>
+              This project demonstrates my ability to create interactive,
+              user-friendly web applications using modern front-end
+              technologies, and it makes me excited to continue creating
+              polished, user-centric interfaces that provide engaging and
+              efficient user experiences.
+            </p>
+            <div class="w-full flex justify-evenly items-center gap-4">
+              <a
+                href="https://news-generator-2.vercel.app/"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                Live Preview
+              </a>
+              <a
+                href="https://github.com/pandalexander/news-generator/tree/main/news-generator"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                The Code
+              </a>
+            </div>
+          </template>
+        </Card>
+
+        <Card class="mt-6 border-fourth">
+          <template #projectTitle>
             <h3>Dynamic To-Do List Application</h3>
           </template>
           <template #projectDescription>
