@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="scene">
-      <div class="cube" :class="currentClass">
+      <div class="cube is-spinning">
         <div class="cube__face cube__face--front">
           <div
             class="-mt-40 font-secondary font-extrabold text-center text-7xl text-primary"
@@ -22,29 +22,29 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      sides: ["front", "top", "left", "back", "right", "bottom"],
-      currentSideIndex: 0,
-    };
-  },
-  computed: {
-    currentClass() {
-      return "show-" + this.sides[this.currentSideIndex];
-    },
-  },
-  mounted() {
-    this.rotateCube();
-  },
-  methods: {
-    rotateCube() {
-      setInterval(() => {
-        this.currentSideIndex = (this.currentSideIndex + 1) % this.sides.length;
-      }, 3000); // Rotate every 3 seconds
-    },
-  },
-};
+// export default {
+//   data() {
+//     return {
+//       sides: ["front", "top", "left", "back", "right", "bottom"],
+//       currentSideIndex: 0,
+//     };
+//   },
+//   computed: {
+//     currentClass() {
+//       return "show-" + this.sides[this.currentSideIndex];
+//     },
+//   },
+//   mounted() {
+//     this.rotateCube();
+//   },
+//   methods: {
+//     rotateCube() {
+//       setInterval(() => {
+//         this.currentSideIndex = (this.currentSideIndex + 1) % this.sides.length;
+//       }, 3000); // Rotate every 3 seconds
+//     },
+//   },
+// };
 </script>
 
 <style scoped>
@@ -55,6 +55,48 @@ export default {
 
 body {
   font-family: Junge;
+}
+
+.is-spinning {
+  animation: spinCube 45s infinite ease-in-out;
+  animation-delay: 3s;
+}
+
+/* 
+
+0 0 front 
+0 90 left 
+0 180 back -
+0 270 right -
+
+90 0 bottom -
+270 0 top -
+
+
+*/
+
+@keyframes spinCube {
+  0% {
+    transform: translateZ(-100px) rotateX(0deg) rotateY(0deg);
+  }
+  14% {
+    transform: translateZ(25px) rotateX(360deg) rotateY(180deg);
+  }
+  28% {
+    transform: translateZ(-25px) rotateX(90deg) rotateY(0deg);
+  }
+  42% {
+    transform: translateZ(-100px) rotateX(0deg) rotateY(270deg);
+  }
+  60% {
+    transform: translateZ(25px) rotateX(270deg) rotateY(720deg);
+  }
+  84% {
+    transform: translateZ(-200px) rotateX(0deg) rotateY(90deg);
+  }
+  100% {
+    transform: translateZ(-100px) rotateX(360deg) rotateY(360deg);
+  }
 }
 
 .scene {
