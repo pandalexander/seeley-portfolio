@@ -21,31 +21,7 @@
   </div>
 </template>
 
-<script>
-// export default {
-//   data() {
-//     return {
-//       sides: ["front", "top", "left", "back", "right", "bottom"],
-//       currentSideIndex: 0,
-//     };
-//   },
-//   computed: {
-//     currentClass() {
-//       return "show-" + this.sides[this.currentSideIndex];
-//     },
-//   },
-//   mounted() {
-//     this.rotateCube();
-//   },
-//   methods: {
-//     rotateCube() {
-//       setInterval(() => {
-//         this.currentSideIndex = (this.currentSideIndex + 1) % this.sides.length;
-//       }, 3000); // Rotate every 3 seconds
-//     },
-//   },
-// };
-</script>
+<script></script>
 
 <style scoped>
 * {
@@ -61,19 +37,6 @@ body {
   animation: spinCube 45s infinite ease-in-out;
   animation-delay: 3s;
 }
-
-/* 
-
-0 0 front 
-0 90 left 
-0 180 back -
-0 270 right -
-
-90 0 bottom -
-270 0 top -
-
-
-*/
 
 @keyframes spinCube {
   0% {
@@ -153,42 +116,27 @@ body {
   position: absolute;
   width: 200px;
   height: 200px;
-  /* border-radius: 9px; */
   line-height: 200px;
   font-size: 1.5rem;
   text-align: center;
 }
 
-/* primary: "#e43D12",
-        secondary: "#d6536D",
-        third: "#ffa2b6",
-        fourth: "#efb11d",
-        fifth: "#ebe9e1", */
-
 .cube__face--front {
   @apply bg-gradient-to-br from-red-300 to-cyan-300;
-
-  /* background: #292830; */
   color: white;
 }
 
 .cube__face--right {
-  /* background: #f1bb3b;
-  color: #292830; */
   @apply bg-gradient-to-tr to-red-300 from-cyan-300;
   color: white;
 }
 
 .cube__face--back {
-  /* background: #292830;
-  color: #ebe9e1; */
   @apply bg-gradient-to-br from-red-300 to-cyan-300;
   color: white;
 }
 
 .cube__face--left {
-  /* background: #f1bb3b;
-  color: #292830; */
   @apply bg-gradient-to-tr to-red-300 from-cyan-300;
   color: white;
 }
@@ -196,14 +144,9 @@ body {
 .cube__face--top {
   @apply bg-gradient-to-tr from-red-300 to-cyan-300;
   color: white;
-
-  /* background: #5da7ae;
-  color: #ebe9e1; */
 }
 
 .cube__face--bottom {
-  /* background: #543d46;
-  color: #ebe9e1; */
   @apply bg-gradient-to-tr from-red-300 to-cyan-300;
   color: white;
 }

@@ -909,7 +909,6 @@ window.onload = function () {
         id="contact-form"
         class="flex flex-col gap-4 sm:w-full lg:w-2/3 ml-auto mr-auto"
       >
-        <!-- To simplify the tutorial, the value is static. -->
         <label class="hidden">Name</label>
         <input
           type="text"
@@ -981,7 +980,6 @@ textarea:focus {
   border-color: #5da7ae;
 }
 
-/* we will explain what these classes do next! */
 .v-enter-active,
 .v-leave-active {
   transition: opacity 0.5s ease;
