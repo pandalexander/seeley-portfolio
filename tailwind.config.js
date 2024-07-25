@@ -11,7 +11,7 @@ export default {
         primary: "#292830", // black
         secondary: "#5da7ae", // blue green
         third: "#543d46", // grape
-        fourth: "#f87171", // yellow
+        fourth: "#f87171", // red
         fifth: "#ebe9e1", // tan
 
         fourthTwo: "#fceecf",

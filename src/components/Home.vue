@@ -143,6 +143,31 @@ window.onload = function () {
         </div>
       </div>
 
+      <div class="flex justify-start gap-6 items-center min-w-full p-6">
+        <a
+          href="https://github.com/pandalexander"
+          target="_blank"
+          class="hover:cursor-zoom-in"
+        >
+          <img
+            src="../assets/github-icon.svg"
+            alt="Github Icon"
+            class="max-h-12"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/alex-seeley-339792234/"
+          target="_blank"
+          class="hover:cursor-zoom-in"
+        >
+          <img
+            src="../assets/linkedin-icon.svg"
+            alt="LinkedIn Icon"
+            class="max-h-12"
+          />
+        </a>
+      </div>
+
       <hr id="skills" class="border-secondary" />
 
       <div class="">
