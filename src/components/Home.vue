@@ -555,7 +555,7 @@ window.onload = function () {
             <p>
               Technologies:
               <span class="text-fourth">
-                .NET MAUI, XAML, Visual Studio, app development, Bootstrap
+                .NET MAUI, XAML, Visual Studio, Bootstrap
               </span>
             </p>
             <p>
@@ -581,7 +581,7 @@ window.onload = function () {
 
         <Card class="mt-6 border-fourth">
           <template #projectTitle>
-            <h3>Interactive Fake News Generator</h3>
+            <h3>React Fake News Generator</h3>
           </template>
           <template #projectDescription>
             <p>
