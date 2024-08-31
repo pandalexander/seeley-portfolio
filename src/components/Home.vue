@@ -378,7 +378,7 @@ window.onload = function () {
             <img
               class="w-full"
               src="http://ghchart.rshah.org/pandalexander"
-              alt="2016rshah's Github chart"
+              alt="Alex's current Github chart"
             />
           </div>
         </a>
