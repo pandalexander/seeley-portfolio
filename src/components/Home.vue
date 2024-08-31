@@ -144,11 +144,7 @@ window.onload = function () {
       </div>
 
       <div class="flex justify-start gap-6 items-center min-w-full p-6">
-        <a
-          href="https://github.com/pandalexander"
-          target="_blank"
-          class="hover:cursor-zoom-in"
-        >
+        <a href="https://github.com/pandalexander" target="_blank">
           <img
             src="../assets/github-icon.svg"
             alt="Github Icon"
@@ -158,7 +154,6 @@ window.onload = function () {
         <a
           href="https://www.linkedin.com/in/alex-seeley-339792234/"
           target="_blank"
-          class="hover:cursor-zoom-in"
         >
           <img
             src="../assets/linkedin-icon.svg"
@@ -375,7 +370,20 @@ window.onload = function () {
           style="border: 0.25px solid black"
         />
 
-        <h2>
+        <a href="https://github.com/pandalexander" target="_blank">
+          <div
+            class="flex flex-col justify-start items-center p-6 bg-white shadow-lg rounded-xl"
+          >
+            <h2 class="m-0 mb-6">Current GitHub Contributions</h2>
+            <img
+              class="w-full"
+              src="http://ghchart.rshah.org/pandalexander"
+              alt="2016rshah's Github chart"
+            />
+          </div>
+        </a>
+
+        <h2 class="mt-16 mb-0">
           My Work at
           <a
             class="text-secondary hover:text-fourth transition ease-in-out duration-300"
@@ -384,6 +392,7 @@ window.onload = function () {
             >Springs IT</a
           >
         </h2>
+        <p class="m-0 p-0">(April - July 2024)</p>
         <Card class="mt-6 border-secondary">
           <template #projectTitle>
             <h3>Documentation App: Client Information Management</h3>
