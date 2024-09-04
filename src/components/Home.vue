@@ -392,7 +392,7 @@ window.onload = function () {
             >Springs IT</a
           >
         </h2>
-        <p class="m-0 p-0">(April - July 2024)</p>
+        <p class="m-0 p-0">(April 2024 - July 2024)</p>
         <Card class="mt-6 border-secondary">
           <template #projectTitle>
             <h3>Documentation App: Client Information Management</h3>
@@ -573,6 +573,52 @@ window.onload = function () {
               technical skills with an eye for design. It showcases my
               experience in the full mobile app development lifecycle, from
               UI/UX design to App Store publication.
+            </p>
+          </template>
+        </Card>
+
+        <h2 class="mt-16 mb-0">
+          My Work at
+          <a
+            class="text-secondary hover:text-fourth transition ease-in-out duration-300"
+            href="https://sandalsdiscipleshipministries.com/"
+            target="_blank"
+            >Sandals Discipleship Ministries</a
+          >
+        </h2>
+        <p class="m-0 p-0">(August 2024 - Today)</p>
+
+        <Card class="mt-6 border-secondary">
+          <template #projectTitle>
+            <h3>Web Development and Content Support</h3>
+          </template>
+          <template #projectDescription>
+            <p>
+              As a paid intern, I contribute to the team's digital presence
+              through website updates and user interface design. Additionally, I
+              am poised to assist with the team's mobile app development using
+              React Native, further expanding my skillset in cross-platform
+              mobile technologies. My primary responsibilities include:
+            </p>
+          </template>
+          <template #projectContent>
+            <ul class="list-disc pl-4 py-3">
+              <li>
+                Supporting website updates using WordPress and Divi themes
+              </li>
+              <li>Designing intuitive dashboard widgets with Vue.js</li>
+              <li>
+                Collaborating on the development of responsive web applications
+              </li>
+            </ul>
+            <p>
+              Technologies:
+              <span class="text-fourth"> Vue.js, React Native, WordPress </span>
+            </p>
+            <p>
+              This role allows me to apply my technical knowledge in a dynamic
+              environment, continuously learning and adapting to meet the
+              evolving needs of our digital products.
             </p>
           </template>
         </Card>
