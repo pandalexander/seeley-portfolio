@@ -74,7 +74,7 @@ window.onload = function () {
   <div id="scrollArea" class="">
     <div id="about"></div>
     <header
-      class="text-primary p-11 sticky top-0 opacity-0 animate-fade-in-fast"
+      class="text-primary p-11 sticky top-0 opacity-0 animate-fade-in-fast z-40"
     >
       <nav
         class="flex flex-col justify-between items-center mx-auto gap-5 rounded-full"
@@ -372,14 +372,19 @@ window.onload = function () {
 
         <a href="https://github.com/pandalexander" target="_blank">
           <div
-            class="flex flex-col justify-start items-center p-6 bg-white shadow-lg rounded-xl"
+            class="flex flex-col justify-center items-center p-6 bg-white shadow-lg rounded-xl"
           >
             <h2 class="m-0 mb-6">Current GitHub Contributions</h2>
-            <img
-              class="w-full"
-              src="http://ghchart.rshah.org/pandalexander"
-              alt="Alex's current Github chart"
-            />
+
+            <div class="w-full overflow-x-auto relative z-0">
+              <div class="relative h-48 sm:h-auto sm:max-h-96 min-w-max">
+                <img
+                  class="h-full w-auto sm:w-full sm:h-auto object-cover"
+                  src="http://ghchart.rshah.org/pandalexander"
+                  alt="Alex's current Github chart"
+                />
+              </div>
+            </div>
           </div>
         </a>
 
