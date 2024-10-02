@@ -524,12 +524,20 @@ window.onload = function () {
           <template #projectDescription>
             <p>
               I played a key role in developing a mobile application for my
-              local church,
+              local church, now live on
               <a
                 href="https://apps.apple.com/us/app/raft-a-discipleship-guide/id6469940868"
                 target="_blank"
                 class="text-secondary"
-                >now live on Apple's App Store</a
+              >
+                the App Store</a
+              >
+              and
+              <a
+                href="https://play.google.com/store/apps/details?id=org.harvestdowntown.raft&pcampaignid=web_share"
+                target="_blank"
+                class="text-secondary"
+                >Google Play</a
               >. This project showcases my ability to create user-friendly,
               engaging interfaces for complex content delivery.
             </p>
@@ -554,7 +562,7 @@ window.onload = function () {
               </li>
               <li>
                 Managed the app bundling process and successfully published the
-                app on the Apple App Store.
+                app on the App Store and Google Play.
               </li>
               <li>
                 Developed a
@@ -577,7 +585,7 @@ window.onload = function () {
               requirements into a user-friendly mobile application, combining
               technical skills with an eye for design. It showcases my
               experience in the full mobile app development lifecycle, from
-              UI/UX design to App Store publication.
+              UI/UX design to publication.
             </p>
           </template>
         </Card>
