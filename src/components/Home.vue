@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import Cube from "./Cube.vue";
 import Card from "./Card.vue";
 
@@ -57,6 +57,25 @@ window.onload = function () {
       return false;
     });
 };
+
+const myScrollElement = ref(null);
+
+onMounted(() => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+        console.log(entry.target.classList);
+      } else {
+        entry.target.classList.remove("show");
+      }
+    });
+  });
+
+  const elements = document.querySelectorAll(".hide-then-show");
+
+  elements.forEach((el) => observer.observe(el));
+});
 </script>
 
 <template>
@@ -71,10 +90,10 @@ window.onload = function () {
       </div>
     </div>
   </div>
-  <div id="scrollArea" class="">
+  <div ref="myScrollElement" id="scrollArea" class="">
     <div id="about"></div>
     <header
-      class="text-primary p-11 sticky top-0 opacity-0 animate-fade-in-fast z-40"
+      class="hide-then-show text-primary p-11 sticky top-0 opacity-0 z-40"
     >
       <nav
         class="flex flex-col justify-between items-center mx-auto gap-5 rounded-full"
@@ -113,14 +132,14 @@ window.onload = function () {
     </header>
     <main class="max-w-4xl mx-auto p-4">
       <section>
-        <h1 class="text-center font-primary text-primary mb-12">
+        <h1 class="hide-then-show text-center font-primary text-primary mb-12">
           Making the world a nicer place, one
           <span class="italic text-fourth font-mono">&gt;commit</span> at a
           time.
         </h1>
       </section>
       <div
-        class="grid grid-cols-1 md:grid-cols-[1fr,2fr] gap-6 p-6 bg-white shadow-lg rounded-xl"
+        class="hide-then-show grid grid-cols-1 md:grid-cols-[1fr,2fr] gap-6 p-6 bg-white shadow-lg rounded-xl"
       >
         <!-- Left column for the image -->
         <div class="flex justify-center items-center">
@@ -143,7 +162,9 @@ window.onload = function () {
         </div>
       </div>
 
-      <div class="flex justify-start gap-6 items-center min-w-full p-6">
+      <div
+        class="hide-then-show flex justify-start gap-6 items-center min-w-full p-6"
+      >
         <a href="https://github.com/pandalexander" target="_blank">
           <img
             src="../assets/github-icon.svg"
@@ -166,19 +187,19 @@ window.onload = function () {
       <hr id="skills" class="border-secondary" />
 
       <div class="">
-        <h1 class="text-5xl">Skills</h1>
+        <h1 class="hide-then-show text-5xl">Skills</h1>
         <hr
-          class="border-primary min-w-full mb-20 mt-2"
+          class="hide-then-show border-primary min-w-full mb-20 mt-2"
           style="border: 0.25px solid black"
         />
         <div class="flex flex-col items-center justify-center">
-          <h2 class="my-0">Go-To Toolkit</h2>
-          <p class="px-4">
+          <h2 class="hide-then-show my-0">Go-To Toolkit</h2>
+          <p class="hide-then-show px-4">
             I feel confident building with these and do so regularly.
           </p>
         </div>
         <div
-          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-cyan-200"
+          class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-cyan-200"
         >
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
@@ -245,14 +266,14 @@ window.onload = function () {
         </div>
 
         <div class="flex flex-col items-center justify-center mt-16">
-          <h2 class="my-0">Supporting Gear</h2>
-          <p class="px-4">
+          <h2 class="hide-then-show my-0">Supporting Gear</h2>
+          <p class="hide-then-show px-4">
             I understand enough to do the basics. Eager to grow.
           </p>
         </div>
 
         <div
-          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-fifth to-cyan-200"
+          class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-fifth to-cyan-200"
         >
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
@@ -311,15 +332,15 @@ window.onload = function () {
         </div>
 
         <div class="flex flex-col items-center justify-center mt-12">
-          <h2 class="my-0">The Sandbox</h2>
-          <p class="px-4">
+          <h2 class="hide-then-show my-0">The Sandbox</h2>
+          <p class="hide-then-show px-4">
             I have been exposed to these tools, most of them in a team setting.
             Still have a lot to learn.
           </p>
         </div>
 
         <div
-          class="flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-fifth"
+          class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-fifth"
         >
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
@@ -364,15 +385,15 @@ window.onload = function () {
       <hr id="projects" class="border-secondary mt-12" />
 
       <div>
-        <h1 class="text-5xl">Projects and Experience</h1>
+        <h1 class="hide-then-show text-5xl">Projects and Experience</h1>
         <hr
-          class="border-primary min-w-full mb-20 mt-2"
+          class="hide-then-show border-primary min-w-full mb-20 mt-2"
           style="border: 0.25px solid black"
         />
 
         <a href="https://github.com/pandalexander" target="_blank">
           <div
-            class="flex flex-col justify-center items-center p-6 bg-white shadow-lg rounded-xl"
+            class="hide-then-show flex flex-col justify-center items-center p-6 bg-white shadow-lg rounded-xl"
           >
             <h2 class="m-0 mb-6">Current GitHub Contributions</h2>
 
@@ -388,7 +409,7 @@ window.onload = function () {
           </div>
         </a>
 
-        <h2 class="mt-16 mb-0">
+        <h2 class="hide-then-show mt-16 mb-0">
           My Work at
           <a
             class="text-secondary hover:text-fourth transition ease-in-out duration-300"
@@ -397,8 +418,8 @@ window.onload = function () {
             >Springs IT</a
           >
         </h2>
-        <p class="m-0 p-0">(April 2024 - July 2024)</p>
-        <Card class="mt-6 border-secondary">
+        <p class="hide-then-show m-0 p-0">(April 2024 - July 2024)</p>
+        <Card class="hide-then-show mt-6 border-secondary">
           <template #projectTitle>
             <h3>Documentation App: Client Information Management</h3>
           </template>
@@ -455,7 +476,7 @@ window.onload = function () {
           </template>
         </Card>
 
-        <Card class="mt-6 border-secondary">
+        <Card class="hide-then-show mt-6 border-secondary">
           <template #projectTitle>
             <h3>Full-Stack Network Monitoring System</h3>
           </template>
@@ -517,7 +538,7 @@ window.onload = function () {
           </template>
         </Card>
 
-        <Card class="mt-6 border-secondary">
+        <Card class="hide-then-show mt-6 border-secondary">
           <template #projectTitle>
             <h3>RAFT: Mobile App for Interactive Discipleship</h3>
           </template>
@@ -590,7 +611,7 @@ window.onload = function () {
           </template>
         </Card>
 
-        <h2 class="mt-16 mb-0">
+        <h2 class="hide-then-show mt-16 mb-0">
           My Work at
           <a
             class="text-secondary hover:text-fourth transition ease-in-out duration-300"
@@ -599,9 +620,9 @@ window.onload = function () {
             >Sandals Discipleship Ministries</a
           >
         </h2>
-        <p class="m-0 p-0">(August 2024 - Today)</p>
+        <p class="hide-then-show m-0 p-0">(August 2024 - Today)</p>
 
-        <Card class="mt-6 border-secondary">
+        <Card class="hide-then-show mt-6 border-secondary">
           <template #projectTitle>
             <h3>Web Development and Content Support</h3>
           </template>
@@ -636,7 +657,7 @@ window.onload = function () {
           </template>
         </Card>
 
-        <h2 class="mt-16">
+        <h2 class="hide-then-show mt-16">
           My
           <a
             href="https://github.com/pandalexander"
@@ -647,7 +668,7 @@ window.onload = function () {
           Work
         </h2>
 
-        <Card class="mt-6 border-fourth">
+        <Card class="hide-then-show mt-6 border-fourth">
           <template #projectTitle>
             <h3>React Fake News Generator</h3>
           </template>
@@ -714,7 +735,7 @@ window.onload = function () {
           </template>
         </Card>
 
-        <Card class="mt-6 border-fourth">
+        <Card class="hide-then-show mt-6 border-fourth">
           <template #projectTitle>
             <h3>Dynamic To-Do List</h3>
           </template>
@@ -821,7 +842,7 @@ window.onload = function () {
           </template>
         </Card>
 
-        <Card class="mt-6 border-amber-300">
+        <Card class="hide-then-show mt-6 border-amber-300">
           <template #projectTitle>
             <h3>The Projects That Really Matter</h3>
           </template>
@@ -996,17 +1017,17 @@ window.onload = function () {
 
       <hr id="contact" class="border-secondary" />
 
-      <h1 class="text-center mb-9 text-5xl">Contact Me</h1>
+      <h1 class="hide-then-show text-center mb-9 text-5xl">Contact Me</h1>
 
       <form
         id="contact-form"
-        class="flex flex-col gap-4 sm:w-full lg:w-2/3 ml-auto mr-auto"
+        class="hide-then-show flex flex-col gap-4 sm:w-full lg:w-2/3 ml-auto mr-auto"
       >
         <label class="hidden">Name</label>
         <input
           type="text"
           name="user_name"
-          class="bg-white text-primary"
+          class="hide-then-show bg-white text-primary"
           placeholder="Name"
           required
         />
@@ -1014,14 +1035,14 @@ window.onload = function () {
         <input
           type="email"
           name="user_email"
-          class="bg-white focus:border-blue"
+          class="hide-then-show bg-white focus:border-blue"
           placeholder="Email"
           required
         />
         <label class="hidden">Message</label>
         <textarea
           name="message"
-          class="bg-white text-primary h-40"
+          class="hide-then-show bg-white text-primary h-40"
           placeholder="Message..."
         ></textarea>
         <div class="h-6 flex justify-center items-center">
@@ -1038,7 +1059,7 @@ window.onload = function () {
         </div>
         <button
           type="submit"
-          class="bg-secondary text-primary col-span-2 hover:cursor-pointer p-4 rounded-md hover:bg-fourth transition-colors duration-400 ease-in-out"
+          class="hide-then-show bg-secondary text-primary col-span-2 hover:cursor-pointer p-4 rounded-md hover:bg-fourth transition-colors duration-400 ease-in-out"
         >
           <div
             v-show="isFormWaiting"

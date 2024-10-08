@@ -81,3 +81,16 @@ li {
   @apply text-third;
   @apply mb-2;
 }
+
+.hide-then-show {
+  opacity: 0;
+  transition: all 1.5s;
+  transform: translate(-5rem, 2rem);
+  filter: blur(2px);
+}
+
+.show {
+  opacity: 1;
+  transform: translate(0, 0);
+  filter: blur(0);
+}
