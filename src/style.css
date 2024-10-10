@@ -86,11 +86,10 @@ li {
   opacity: 0;
   transition: all 1.5s;
   transform: translate(-5rem, 2rem);
-  filter: blur(2px);
+  will-change: opacity, transform;
 }
 
 .show {
   opacity: 1;
   transform: translate(0, 0);
-  filter: blur(0);
 }
