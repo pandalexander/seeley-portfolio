@@ -32,7 +32,12 @@ function toggleVisible() {
         @click="toggleVisible"
         :class="{ active: isActive }"
       >
-        <img src="../assets/plus.svg" alt="plus symbol" class="min-w-fit" />
+        <img
+          src="../assets/plus.svg"
+          alt="plus symbol"
+          class="min-w-fit to-spin"
+          :class="{ spun: isActive }"
+        />
       </button>
       <div @click="toggleVisible" class="pl-4">
         <slot name="projectTitle"></slot>
@@ -64,10 +69,20 @@ function toggleVisible() {
 .content {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
+  transition: max-height 1s ease-in-out;
 }
 
 .content * {
   text-align: left;
+}
+
+.to-spin {
+  transform: rotate(-0.5turn);
+  transition: ease-in-out 1s;
+}
+
+.spun {
+  transform: rotate(0.5turn) !important;
+  transition: ease-in-out 1s;
 }
 </style>
