@@ -97,7 +97,7 @@ onMounted(() => {
     >
       <nav class="mx-auto max-w-fit rounded-full">
         <ul
-          class="flex space-x-4 bg-primary rounded-full py-4 px-7 pointer-events-auto"
+          class="flex justify-center items-center space-x-4 bg-primary rounded-full py-4 px-7 pointer-events-auto"
         >
           <li class="mb-0">
             <a
