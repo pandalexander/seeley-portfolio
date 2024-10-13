@@ -93,9 +93,9 @@ onMounted(() => {
   <div ref="myScrollElement" id="scrollArea" class="">
     <div id="about"></div>
     <header
-      class="hide-then-show text-primary p-11 sticky top-0 left-0 right-0 opacity-0 z-40 pointer-events-none"
+      class="hide-then-show text-primary p-11 sticky top-0 left-0 right-0 opacity-0 z-40 pointer-events-none w-fit mx-auto"
     >
-      <nav class="mx-auto max-w-fit rounded-full">
+      <nav class="rounded-full">
         <ul
           class="flex justify-center items-center space-x-4 bg-primary rounded-full py-4 px-7 pointer-events-auto"
         >
