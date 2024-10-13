@@ -35,7 +35,7 @@ function toggleVisible() {
         <img
           src="../assets/plus.svg"
           alt="plus symbol"
-          class="min-w-fit to-spin"
+          class="min-w-6 to-spin"
           :class="{ spun: isActive }"
         />
       </button>
