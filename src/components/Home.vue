@@ -202,6 +202,27 @@ onMounted(() => {
           class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-cyan-200"
         >
           <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <img src="../assets/git-icon.svg" alt="" class="h-16" />
+            <p class="p-0">Git</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/javascript.svg" alt="" class="h-14" />
+            <p class="p-0">Javascript</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/vue.svg" alt="" class="h-14" />
+            <p class="p-0">Vue.js</p>
+          </div>
+
+          <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/html-5.svg" alt="" class="h-14" />
@@ -214,35 +235,26 @@ onMounted(() => {
             <img src="../assets/css-3.svg" alt="" class="h-14" />
             <p class="p-0">CSS</p>
           </div>
+
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/javascript.svg" alt="" class="h-14" />
-            <p class="p-0">Javascript</p>
+            <img src="../assets/vitejs.svg" alt="" class="h-14" />
+            <p class="p-0">Vite</p>
           </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <img src="../assets/vue.svg" alt="" class="h-14" />
-            <p class="p-0">Vue.js</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <img src="../assets/pinia.svg" alt="" class="h-14" />
-            <p class="p-0">Pinia</p>
-          </div>
+
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/tailwindcss-icon.svg" alt="" class="h-12" />
             <p class="p-0">Tailwind</p>
           </div>
+
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/vitejs.svg" alt="" class="h-14" />
-            <p class="p-0">Vite</p>
+            <img src="../assets/pinia.svg" alt="" class="h-14" />
+            <p class="p-0">Pinia</p>
           </div>
 
           <div
@@ -256,12 +268,6 @@ onMounted(() => {
           >
             <img src="../assets/webstorm.svg" alt="" class="h-14" />
             <p class="p-0">Webstorm</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/git-icon.svg" alt="" class="h-16" />
-            <p class="p-0">Git</p>
           </div>
         </div>
 
@@ -278,6 +284,20 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
+            <img src="../assets/linux-tux.svg" alt="" class="h-14" />
+            <p class="p-0">Linux</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <img src="../assets/java.svg" alt="" class="h-16" />
+            <p class="p-0">Java</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
             <img src="../assets/react.svg" alt="" class="h-14" />
             <p class="p-0">React</p>
           </div>
@@ -287,13 +307,6 @@ onMounted(() => {
           >
             <img src="../assets/nodejs-icon.svg" alt="" class="h-16" />
             <p class="p-0">Node.js</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <img src="../assets/bootstrap.svg" alt="" class="h-14" />
-            <p class="p-0">Bootstrap</p>
           </div>
 
           <div
@@ -309,11 +322,12 @@ onMounted(() => {
             <img src="../assets/redis.svg" alt="" class="h-16" />
             <p class="p-0">Redis</p>
           </div>
+
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/linux-tux.svg" alt="" class="h-14" />
-            <p class="p-0">Linux</p>
+            <img src="../assets/bootstrap.svg" alt="" class="h-14" />
+            <p class="p-0">Bootstrap</p>
           </div>
 
           <div
@@ -343,6 +357,48 @@ onMounted(() => {
           class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-fifth"
         >
           <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <img src="../assets/spring-icon.svg" alt="" class="h-16" />
+            <p class="p-0">Spring</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/mysql-icon.svg" alt="" class="h-14" />
+            <p class="p-0">SQL</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <img src="../assets/python.svg" alt="" class="h-14" />
+            <p class="p-0">Python</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <img src="../assets/docker-icon.svg" alt="" class="h-16" />
+            <p class="p-0">Docker</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <img src="../assets/react.svg" alt="" class="h-16" />
+            <p class="p-0">React Native</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <img src="../assets/webpack.svg" alt="" class="h-16" />
+            <p class="p-0">Webpack</p>
+          </div>
+
+          <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <img src="../assets/dotnet_bot.svg" alt="" class="h-16" />
@@ -354,30 +410,6 @@ onMounted(() => {
           >
             <img src="../assets/typesense-icon.svg" alt="" class="h-14" />
             <p class="p-0">Typesense</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/webpack.svg" alt="" class="h-16" />
-            <p class="p-0">Webpack</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/docker-icon.svg" alt="" class="h-16" />
-            <p class="p-0">Docker</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/java.svg" alt="" class="h-16" />
-            <p class="p-0">Java</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <img src="../assets/spring-icon.svg" alt="" class="h-16" />
-            <p class="p-0">Spring</p>
           </div>
         </div>
       </div>
