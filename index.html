@@ -13,10 +13,28 @@
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
     <title>Alex Seeley</title>
-    <script type="module" crossorigin src="/assets/index-CfuDaoJ3.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-AP9d7vI-.css">
+    <script type="module" crossorigin src="/assets/index-BUqmGp0j.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-a5mng0i7.css">
   </head>
   <body>
     <div id="app"></div>
+
+    <svg width="0" height="0">
+      <filter id="blur-and-scale" y="-50%" x="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blurred" />
+
+        <feColorMatrix type="saturate" in="blurred" values="1" />
+
+        <feComponentTransfer in="blurred" result="opacity-adjusted">
+          <feFuncA type="linear" slope="0.6" />
+        </feComponentTransfer>
+
+        <feComposite
+          in="SourceGraphic"
+          in2="opacity-adjusted"
+          operator="over"
+        />
+      </filter>
+    </svg>
   </body>
 </html>
