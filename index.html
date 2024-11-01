@@ -17,5 +17,23 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+
+    <svg width="0" height="0">
+      <filter id="blur-and-scale" y="-50%" x="-50%" width="200%" height="200%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blurred" />
+
+        <feColorMatrix type="saturate" in="blurred" values="1" />
+
+        <feComponentTransfer in="blurred" result="opacity-adjusted">
+          <feFuncA type="linear" slope="0.6" />
+        </feComponentTransfer>
+
+        <feComposite
+          in="SourceGraphic"
+          in2="opacity-adjusted"
+          operator="over"
+        />
+      </filter>
+    </svg>
   </body>
 </html>

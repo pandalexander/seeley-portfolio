@@ -93,3 +93,9 @@ li {
   opacity: 1;
   transform: translate(0, 0);
 }
+
+.filter-blur:hover {
+  filter: url(#blur-and-scale);
+  transform: scale(1.05);
+  cursor: pointer;
+}

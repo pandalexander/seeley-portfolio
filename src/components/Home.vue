@@ -204,69 +204,81 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/git-icon.svg" alt="" class="h-16" />
+            <img src="../assets/git-icon.svg" alt="" class="h-16 filter-blur" />
             <p class="p-0">Git</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/javascript.svg" alt="" class="h-14" />
+            <img
+              src="../assets/javascript.svg"
+              alt=""
+              class="h-14 filter-blur"
+            />
             <p class="p-0">Javascript</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/vue.svg" alt="" class="h-14" />
+            <img src="../assets/vue.svg" alt="" class="h-14 filter-blur" />
             <p class="p-0">Vue.js</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/html-5.svg" alt="" class="h-14" />
+            <img src="../assets/html-5.svg" alt="" class="h-14 filter-blur" />
             <p class="p-0">HTML</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/css-3.svg" alt="" class="h-14" />
+            <img src="../assets/css-3.svg" alt="" class="h-14 filter-blur" />
             <p class="p-0">CSS</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/vitejs.svg" alt="" class="h-14" />
+            <img src="../assets/vitejs.svg" alt="" class="h-14 filter-blur" />
             <p class="p-0">Vite</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/tailwindcss-icon.svg" alt="" class="h-12" />
+            <img
+              src="../assets/tailwindcss-icon.svg"
+              alt=""
+              class="h-12 filter-blur"
+            />
             <p class="p-0">Tailwind</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/pinia.svg" alt="" class="h-14" />
+            <img src="../assets/pinia.svg" alt="" class="h-14 filter-blur" />
             <p class="p-0">Pinia</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/visual-studio-code.svg" alt="" class="h-14" />
+            <img
+              src="../assets/visual-studio-code.svg"
+              alt=""
+              class="h-14 filter-blur"
+            />
             <p class="p-0">VS&nbsp;Code</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/webstorm.svg" alt="" class="h-14" />
+            <img src="../assets/webstorm.svg" alt="" class="h-14 filter-blur" />
             <p class="p-0">Webstorm</p>
           </div>
         </div>
@@ -284,63 +296,79 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/linux-tux.svg" alt="" class="h-14" />
+            <img
+              src="../assets/linux-tux.svg"
+              alt=""
+              class="h-14 filter-blur"
+            />
             <p class="p-0">Linux</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/java.svg" alt="" class="h-16" />
+            <img src="../assets/java.svg" alt="" class="h-16 filter-blur" />
             <p class="p-0">Java</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/react.svg" alt="" class="h-14" />
+            <img src="../assets/react.svg" alt="" class="h-14 filter-blur" />
             <p class="p-0">React</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/nodejs-icon.svg" alt="" class="h-16" />
+            <img
+              src="../assets/nodejs-icon.svg"
+              alt=""
+              class="h-16 filter-blur"
+            />
             <p class="p-0">Node.js</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/rust.svg" alt="" class="h-16" />
+            <img src="../assets/rust.svg" alt="" class="h-16 filter-blur" />
             <p class="p-0">Rust</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/redis.svg" alt="" class="h-16" />
+            <img src="../assets/redis.svg" alt="" class="h-16 filter-blur" />
             <p class="p-0">Redis</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/bootstrap.svg" alt="" class="h-14" />
+            <img
+              src="../assets/bootstrap.svg"
+              alt=""
+              class="h-14 filter-blur"
+            />
             <p class="p-0">Bootstrap</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/raspberry-pi.svg" alt="" class="h-16" />
+            <img
+              src="../assets/raspberry-pi.svg"
+              alt=""
+              class="h-16 filter-blur"
+            />
             <p class="p-0">Raspberry&nbsp;Pi</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/xaml.svg" alt="" class="h-16" />
+            <img src="../assets/xaml.svg" alt="" class="h-16 filter-blur" />
             <p class="p-0">XAML</p>
           </div>
         </div>
@@ -359,56 +387,76 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/spring-icon.svg" alt="" class="h-16" />
+            <img
+              src="../assets/spring-icon.svg"
+              alt=""
+              class="h-16 filter-blur"
+            />
             <p class="p-0">Spring</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/mysql-icon.svg" alt="" class="h-14" />
+            <img
+              src="../assets/mysql-icon.svg"
+              alt=""
+              class="h-14 filter-blur"
+            />
             <p class="p-0">SQL</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/python.svg" alt="" class="h-14" />
+            <img src="../assets/python.svg" alt="" class="h-14 filter-blur" />
             <p class="p-0">Python</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/docker-icon.svg" alt="" class="h-16" />
+            <img
+              src="../assets/docker-icon.svg"
+              alt=""
+              class="h-16 filter-blur"
+            />
             <p class="p-0">Docker</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/react.svg" alt="" class="h-16" />
+            <img src="../assets/react.svg" alt="" class="h-16 filter-blur" />
             <p class="p-0">React Native</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/webpack.svg" alt="" class="h-16" />
+            <img src="../assets/webpack.svg" alt="" class="h-16 filter-blur" />
             <p class="p-0">Webpack</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/dotnet_bot.svg" alt="" class="h-16" />
+            <img
+              src="../assets/dotnet_bot.svg"
+              alt=""
+              class="h-16 filter-blur"
+            />
             <p class="p-0">.NET&nbsp;MAUI</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/typesense-icon.svg" alt="" class="h-14" />
+            <img
+              src="../assets/typesense-icon.svg"
+              alt=""
+              class="h-14 filter-blur"
+            />
             <p class="p-0">Typesense</p>
           </div>
         </div>
