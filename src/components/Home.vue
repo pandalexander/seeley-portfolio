@@ -204,81 +204,111 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/git-icon.svg" alt="" class="h-16 filter-blur" />
+            <a href="https://git-scm.com/" target="_blank"
+              ><img
+                src="../assets/git-icon.svg"
+                alt=""
+                class="h-16 filter-blur"
+            /></a>
             <p class="p-0">Git</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img
-              src="../assets/javascript.svg"
-              alt=""
-              class="h-14 filter-blur"
-            />
+            <a href="https://www.javascript.com/" target="_blank">
+              <img
+                src="../assets/javascript.svg"
+                alt=""
+                class="h-14 filter-blur"
+              />
+            </a>
             <p class="p-0">Javascript</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/vue.svg" alt="" class="h-14 filter-blur" />
+            <a href="https://vuejs.org/" target="_blank"
+              ><img src="../assets/vue.svg" alt="" class="h-14 filter-blur"
+            /></a>
             <p class="p-0">Vue.js</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/html-5.svg" alt="" class="h-14 filter-blur" />
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              ><img src="../assets/html-5.svg" alt="" class="h-14 filter-blur"
+            /></a>
             <p class="p-0">HTML</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/css-3.svg" alt="" class="h-14 filter-blur" />
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              target="_blank"
+              ><img src="../assets/css-3.svg" alt="" class="h-14 filter-blur"
+            /></a>
             <p class="p-0">CSS</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/vitejs.svg" alt="" class="h-14 filter-blur" />
+            <a href="https://vite.dev/" target="_blank"
+              ><img src="../assets/vitejs.svg" alt="" class="h-14 filter-blur"
+            /></a>
             <p class="p-0">Vite</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img
-              src="../assets/tailwindcss-icon.svg"
-              alt=""
-              class="h-12 filter-blur"
-            />
+            <a href="https://tailwindcss.com/" target="_blank">
+              <img
+                src="../assets/tailwindcss-icon.svg"
+                alt=""
+                class="h-12 filter-blur"
+              />
+            </a>
             <p class="p-0">Tailwind</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/pinia.svg" alt="" class="h-14 filter-blur" />
+            <a href="https://pinia.vuejs.org/" target="_blank"
+              ><img src="../assets/pinia.svg" alt="" class="h-14 filter-blur"
+            /></a>
             <p class="p-0">Pinia</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img
-              src="../assets/visual-studio-code.svg"
-              alt=""
-              class="h-14 filter-blur"
-            />
+            <a href="https://code.visualstudio.com/" target="_blank">
+              <img
+                src="../assets/visual-studio-code.svg"
+                alt=""
+                class="h-14 filter-blur"
+              />
+            </a>
             <p class="p-0">VS&nbsp;Code</p>
           </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/webstorm.svg" alt="" class="h-14 filter-blur" />
+            <a href="https://www.jetbrains.com/webstorm/" target="_blank"
+              ><img
+                src="../assets/webstorm.svg"
+                alt=""
+                class="h-14 filter-blur"
+            /></a>
             <p class="p-0">Webstorm</p>
           </div>
         </div>
@@ -296,79 +326,99 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img
-              src="../assets/linux-tux.svg"
-              alt=""
-              class="h-14 filter-blur"
-            />
+            <a href="https://www.linux.org/" target="_blank">
+              <img
+                src="../assets/linux-tux.svg"
+                alt=""
+                class="h-14 filter-blur"
+              />
+            </a>
             <p class="p-0">Linux</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/java.svg" alt="" class="h-16 filter-blur" />
+            <a href="https://www.java.com/en/" target="_blank"
+              ><img src="../assets/java.svg" alt="" class="h-16 filter-blur"
+            /></a>
             <p class="p-0">Java</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/react.svg" alt="" class="h-14 filter-blur" />
+            <a href="https://react.dev/" target="_blank"
+              ><img src="../assets/react.svg" alt="" class="h-14 filter-blur"
+            /></a>
             <p class="p-0">React</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img
-              src="../assets/nodejs-icon.svg"
-              alt=""
-              class="h-16 filter-blur"
-            />
+            <a href="https://nodejs.org/en" target="_blank">
+              <img
+                src="../assets/nodejs-icon.svg"
+                alt=""
+                class="h-16 filter-blur"
+              />
+            </a>
             <p class="p-0">Node.js</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/rust.svg" alt="" class="h-16 filter-blur" />
+            <a href="https://www.rust-lang.org/" target="_blank"
+              ><img src="../assets/rust.svg" alt="" class="h-16 filter-blur"
+            /></a>
             <p class="p-0">Rust</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/redis.svg" alt="" class="h-16 filter-blur" />
+            <a href="https://redis.io/" target="_blank"
+              ><img src="../assets/redis.svg" alt="" class="h-16 filter-blur"
+            /></a>
             <p class="p-0">Redis</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img
-              src="../assets/bootstrap.svg"
-              alt=""
-              class="h-14 filter-blur"
-            />
+            <a href="https://getbootstrap.com/" target="_blank">
+              <img
+                src="../assets/bootstrap.svg"
+                alt=""
+                class="h-14 filter-blur"
+              />
+            </a>
             <p class="p-0">Bootstrap</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img
-              src="../assets/raspberry-pi.svg"
-              alt=""
-              class="h-16 filter-blur"
-            />
+            <a href="https://www.raspberrypi.com/" target="_blank">
+              <img
+                src="../assets/raspberry-pi.svg"
+                alt=""
+                class="h-16 filter-blur"
+              />
+            </a>
             <p class="p-0">Raspberry&nbsp;Pi</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/xaml.svg" alt="" class="h-16 filter-blur" />
+            <a
+              href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/xaml/?view=netdesktop-8.0"
+              target="_blank"
+              ><img src="../assets/xaml.svg" alt="" class="h-16 filter-blur"
+            /></a>
             <p class="p-0">XAML</p>
           </div>
         </div>
@@ -387,76 +437,94 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img
-              src="../assets/spring-icon.svg"
-              alt=""
-              class="h-16 filter-blur"
-            />
+            <a href="https://spring.io/projects/spring-boot" target="_blank">
+              <img
+                src="../assets/spring-icon.svg"
+                alt=""
+                class="h-16 filter-blur"
+              />
+            </a>
             <p class="p-0">Spring</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img
-              src="../assets/mysql-icon.svg"
-              alt=""
-              class="h-14 filter-blur"
-            />
+            <a href="https://en.wikipedia.org/wiki/SQL" target="_blank"
+              ><img
+                src="../assets/sql-icon.svg"
+                alt=""
+                class="h-14 filter-blur"
+            /></a>
             <p class="p-0">SQL</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img src="../assets/python.svg" alt="" class="h-14 filter-blur" />
+            <a href="https://www.python.org/" target="_blank"
+              ><img src="../assets/python.svg" alt="" class="h-14 filter-blur"
+            /></a>
             <p class="p-0">Python</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img
-              src="../assets/docker-icon.svg"
-              alt=""
-              class="h-16 filter-blur"
-            />
+            <a href="https://www.docker.com/" target="_blank">
+              <img
+                src="../assets/docker-icon.svg"
+                alt=""
+                class="h-16 filter-blur"
+              />
+            </a>
             <p class="p-0">Docker</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/react.svg" alt="" class="h-16 filter-blur" />
-            <p class="p-0">React Native</p>
+            <a href="https://reactnative.dev/" target="_blank"
+              ><img src="../assets/react.svg" alt="" class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">React&nbsp;Native</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <img src="../assets/webpack.svg" alt="" class="h-16 filter-blur" />
+            <a href="https://webpack.js.org/" target="_blank"
+              ><img src="../assets/webpack.svg" alt="" class="h-16 filter-blur"
+            /></a>
             <p class="p-0">Webpack</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img
-              src="../assets/dotnet_bot.svg"
-              alt=""
-              class="h-16 filter-blur"
-            />
+            <a
+              href="https://dotnet.microsoft.com/en-us/apps/maui"
+              target="_blank"
+            >
+              <img
+                src="../assets/dotnet_bot.svg"
+                alt=""
+                class="h-16 filter-blur"
+              />
+            </a>
             <p class="p-0">.NET&nbsp;MAUI</p>
           </div>
 
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <img
-              src="../assets/typesense-icon.svg"
-              alt=""
-              class="h-14 filter-blur"
-            />
+            <a href="https://typesense.org/" target="_blank">
+              <img
+                src="../assets/typesense-icon.svg"
+                alt=""
+                class="h-14 filter-blur"
+              />
+            </a>
             <p class="p-0">Typesense</p>
           </div>
         </div>
