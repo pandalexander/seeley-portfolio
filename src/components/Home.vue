@@ -155,9 +155,9 @@ onMounted(() => {
         >
           <h2 class="text-third">Hi, I'm Alex!</h2>
           <p class="text-left text-third">
-            I'm a front-end software developer based in Colorado Springs. To be
-            brief, I'm thrilled to create simple & beautiful user experiences
-            across various technologies.
+            I'm a front-end focused software engineer based in Colorado Springs.
+            To be brief, I'm thrilled to create simple & beautiful user
+            experiences across various technologies.
           </p>
         </div>
       </div>
