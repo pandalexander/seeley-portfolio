@@ -788,6 +788,9 @@ onMounted(() => {
               <li>
                 Supporting website updates using WordPress and Divi themes
               </li>
+              <li>
+                Compiling user stories for Azure based on team brainstorming
+              </li>
               <li>Designing intuitive dashboard widgets with Vue.js</li>
               <li>
                 Collaborating on the development of responsive web applications
