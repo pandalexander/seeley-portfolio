@@ -830,6 +830,97 @@ onMounted(() => {
 
         <Card class="hide-then-show mt-6 border-fourth">
           <template #projectTitle>
+            <h3>College Savings Calculator</h3>
+          </template>
+          <template #projectDescription>
+            <p>
+              I developed a sophisticated college savings calculator using
+              Angular, showcasing my expertise in modern web development
+              frameworks and complex financial computations. This application
+              helps parents plan for their children's education by providing
+              detailed savings projections and monthly contribution
+              recommendations through an intuitive, responsive interface.
+            </p>
+          </template>
+          <template #projectContent>
+            <h3 class="mt-6">Key Features and Technologies:</h3>
+            <ul class="list-disc pl-4 py-3">
+              <li>
+                Built with Angular, demonstrating proficiency in component-based
+                architecture
+              </li>
+              <li>
+                Implemented reactive forms for dynamic user input handling
+              </li>
+              <li>
+                Utilized TypeScript for enhanced type safety and code
+                reliability
+              </li>
+              <li>
+                Created modular components for maintainable, scalable code
+              </li>
+              <li>
+                Incorporated financial calculation algorithms for accurate
+                projections
+              </li>
+            </ul>
+            <h4 class="mt-6">Highlights:</h4>
+            <ul class="list-disc pl-4 py-3">
+              <li>
+                Multi-child support calculating savings needs for up to 10
+                children simultaneously
+              </li>
+              <li>Dynamic form controls that adapt based on user input</li>
+              <li>
+                Complex financial modeling incorporating inflation and
+                investment returns
+              </li>
+              <li>
+                Real-time calculations updating projections instantly as inputs
+                change
+              </li>
+              <li>
+                Monthly payment planning converting total goals into actionable
+                targets
+              </li>
+            </ul>
+
+            <p>
+              Technologies:
+              <span class="text-fourth">
+                Angular, TypeScript, HTML, CSS, Tailwind CSS</span
+              >
+            </p>
+            <p>
+              This project demonstrates my ability to create sophisticated
+              financial planning tools while maintaining clean code
+              architecture. It showcases my proficiency in Angular development,
+              form handling, state management, and implementing complex business
+              logic. The modular design and type-safe approach illustrate my
+              understanding of enterprise-level application development
+              practices.
+            </p>
+            <div class="w-full flex justify-evenly items-center gap-4">
+              <a
+                href="https://pandalexander.github.io/budget/"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                Live Preview
+              </a>
+              <a
+                href="https://github.com/pandalexander/budget"
+                target="_blank"
+                class="bg-transparent hover:bg-secondary text-secondary font-semibold hover:text-white py-2 px-4 border border-secondary hover:border-transparent rounded flex-1 text-center flex justify-center items-center transition-colors duration-400 ease-in-out"
+              >
+                The Code
+              </a>
+            </div>
+          </template>
+        </Card>
+
+        <Card class="hide-then-show mt-6 border-fourth">
+          <template #projectTitle>
             <h3>React Fake News Generator</h3>
           </template>
           <template #projectDescription>
