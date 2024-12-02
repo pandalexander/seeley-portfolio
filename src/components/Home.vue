@@ -229,6 +229,15 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
+            <a href="https://angular.dev/" target="_blank"
+              ><img src="../assets/angular.png" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Angular</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
             <a href="https://vuejs.org/" target="_blank"
               ><img src="../assets/vue.svg" alt="" class="h-14 filter-blur"
             /></a>
