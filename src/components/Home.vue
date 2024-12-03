@@ -247,6 +247,15 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
+            <a href="https://www.typescriptlang.org/" target="_blank"
+              ><img src="../assets/ts.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Typescript</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/HTML"
               target="_blank"
@@ -261,18 +270,12 @@ onMounted(() => {
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/CSS"
               target="_blank"
-              ><img src="../assets/css-3.svg" alt="" class="h-14 filter-blur"
+              ><img
+                src="../assets/css-purple.png"
+                alt=""
+                class="h-14 filter-blur"
             /></a>
             <p class="p-0">CSS</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://vite.dev/" target="_blank"
-              ><img src="../assets/vitejs.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Vite</p>
           </div>
 
           <div
@@ -286,6 +289,15 @@ onMounted(() => {
               />
             </a>
             <p class="p-0">Tailwind</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://vite.dev/" target="_blank"
+              ><img src="../assets/vitejs.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Vite</p>
           </div>
 
           <div
