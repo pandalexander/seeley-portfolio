@@ -155,9 +155,9 @@ onMounted(() => {
         >
           <h2 class="text-third">Hi, I'm Alex!</h2>
           <p class="text-left text-third">
-            I'm a front-end focused software engineer based in Colorado Springs.
-            To be brief, I'm thrilled to create simple & beautiful user
-            experiences across various technologies.
+            I'm a passionate software engineer based in Colorado Springs. To be
+            brief, I'm thrilled to create powerful software solutions across
+            various technologies.
           </p>
         </div>
       </div>
@@ -201,6 +201,18 @@ onMounted(() => {
         <div
           class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-cyan-200"
         >
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://www.postgresql.org/" target="_blank"
+              ><img
+                src="../assets/postgresql-icon.svg"
+                alt=""
+                class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">PostgreSQL</p>
+          </div>
+
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
@@ -303,15 +315,6 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <a href="https://pinia.vuejs.org/" target="_blank"
-              ><img src="../assets/pinia.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Pinia</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
             <a href="https://code.visualstudio.com/" target="_blank">
               <img
                 src="../assets/visual-studio-code.svg"
@@ -358,12 +361,12 @@ onMounted(() => {
           </div>
 
           <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <a href="https://www.java.com/en/" target="_blank"
-              ><img src="../assets/java.svg" alt="" class="h-16 filter-blur"
+            <a href="https://pinia.vuejs.org/" target="_blank"
+              ><img src="../assets/pinia.svg" alt="" class="h-14 filter-blur"
             /></a>
-            <p class="p-0">Java</p>
+            <p class="p-0">Pinia</p>
           </div>
 
           <div
@@ -373,6 +376,15 @@ onMounted(() => {
               ><img src="../assets/react.svg" alt="" class="h-14 filter-blur"
             /></a>
             <p class="p-0">React</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://www.java.com/en/" target="_blank"
+              ><img src="../assets/java.svg" alt="" class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">Java</p>
           </div>
 
           <div
@@ -466,18 +478,6 @@ onMounted(() => {
               />
             </a>
             <p class="p-0">Spring</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://en.wikipedia.org/wiki/SQL" target="_blank"
-              ><img
-                src="../assets/sql-icon.svg"
-                alt=""
-                class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">SQL</p>
           </div>
 
           <div
