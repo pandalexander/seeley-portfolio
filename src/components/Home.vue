@@ -108,18 +108,19 @@ onMounted(() => {
           </li>
           <li class="mb-0">
             <a
-              href="#skills"
-              class="hover:text-white transition ease-in-out duration-300 text-fifth"
-              >Skills</a
-            >
-          </li>
-          <li class="mb-0">
-            <a
               href="#projects"
               class="hover:text-white transition ease-in-out duration-300 text-fifth"
               >Projects</a
             >
           </li>
+          <li class="mb-0">
+            <a
+              href="#skills"
+              class="hover:text-white transition ease-in-out duration-300 text-fifth"
+              >Skills</a
+            >
+          </li>
+
           <li class="mb-0">
             <a
               href="#contact"
@@ -182,381 +183,6 @@ onMounted(() => {
             class="max-h-12"
           />
         </a>
-      </div>
-
-      <!-- <hr />
-
-      <h1 class="hide-then-show text-5xl">Real Stuff</h1>
-      <hr
-        class="hide-then-show border-primary min-w-full mb-20 mt-2"
-        style="border: 0.25px solid black"
-      /> -->
-
-      <hr id="skills" class="border-secondary" />
-
-      <div class="">
-        <h1 class="hide-then-show text-5xl">Skills</h1>
-        <hr
-          class="hide-then-show border-primary min-w-full mb-20 mt-2"
-          style="border: 0.25px solid black"
-        />
-        <div class="flex flex-col items-center justify-center">
-          <h2 class="hide-then-show my-0">Go-To Toolkit</h2>
-          <p class="hide-then-show px-4">
-            I feel confident building with these and do so regularly.
-          </p>
-        </div>
-        <div
-          class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-cyan-200"
-        >
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://www.postgresql.org/" target="_blank"
-              ><img
-                src="../assets/postgresql-icon.svg"
-                alt=""
-                class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">PostgreSQL</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://git-scm.com/" target="_blank"
-              ><img
-                src="../assets/git-icon.svg"
-                alt=""
-                class="h-16 filter-blur"
-            /></a>
-            <p class="p-0">Git</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://www.javascript.com/" target="_blank">
-              <img
-                src="../assets/javascript.svg"
-                alt=""
-                class="h-14 filter-blur"
-              />
-            </a>
-            <p class="p-0">Javascript</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://angular.dev/" target="_blank"
-              ><img src="../assets/angular.png" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Angular</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://vuejs.org/" target="_blank"
-              ><img src="../assets/vue.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Vue.js</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://www.typescriptlang.org/" target="_blank"
-              ><img src="../assets/ts.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Typescript</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-              target="_blank"
-              ><img src="../assets/html-5.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">HTML</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-              target="_blank"
-              ><img
-                src="../assets/css-purple.png"
-                alt=""
-                class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">CSS</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://tailwindcss.com/" target="_blank">
-              <img
-                src="../assets/tailwindcss-icon.svg"
-                alt=""
-                class="h-12 filter-blur"
-              />
-            </a>
-            <p class="p-0">Tailwind</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://vite.dev/" target="_blank"
-              ><img src="../assets/vitejs.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Vite</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://code.visualstudio.com/" target="_blank">
-              <img
-                src="../assets/visual-studio-code.svg"
-                alt=""
-                class="h-14 filter-blur"
-              />
-            </a>
-            <p class="p-0">VS&nbsp;Code</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://www.jetbrains.com/webstorm/" target="_blank"
-              ><img
-                src="../assets/webstorm.svg"
-                alt=""
-                class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Webstorm</p>
-          </div>
-        </div>
-
-        <div class="flex flex-col items-center justify-center mt-16">
-          <h2 class="hide-then-show my-0">Supporting Gear</h2>
-          <p class="hide-then-show px-4">
-            I understand enough to do the basics. Eager to grow.
-          </p>
-        </div>
-
-        <div
-          class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-fifth to-cyan-200"
-        >
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://www.linux.org/" target="_blank">
-              <img
-                src="../assets/linux-tux.svg"
-                alt=""
-                class="h-14 filter-blur"
-              />
-            </a>
-            <p class="p-0">Linux</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://pinia.vuejs.org/" target="_blank"
-              ><img src="../assets/pinia.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Pinia</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://react.dev/" target="_blank"
-              ><img src="../assets/react.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">React</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://www.java.com/en/" target="_blank"
-              ><img src="../assets/java.svg" alt="" class="h-16 filter-blur"
-            /></a>
-            <p class="p-0">Java</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://nodejs.org/en" target="_blank">
-              <img
-                src="../assets/nodejs-icon.svg"
-                alt=""
-                class="h-16 filter-blur"
-              />
-            </a>
-            <p class="p-0">Node.js</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://www.rust-lang.org/" target="_blank"
-              ><img src="../assets/rust.svg" alt="" class="h-16 filter-blur"
-            /></a>
-            <p class="p-0">Rust</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://redis.io/" target="_blank"
-              ><img src="../assets/redis.svg" alt="" class="h-16 filter-blur"
-            /></a>
-            <p class="p-0">Redis</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://getbootstrap.com/" target="_blank">
-              <img
-                src="../assets/bootstrap.svg"
-                alt=""
-                class="h-14 filter-blur"
-              />
-            </a>
-            <p class="p-0">Bootstrap</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://www.raspberrypi.com/" target="_blank">
-              <img
-                src="../assets/raspberry-pi.svg"
-                alt=""
-                class="h-16 filter-blur"
-              />
-            </a>
-            <p class="p-0">Raspberry&nbsp;Pi</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a
-              href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/xaml/?view=netdesktop-8.0"
-              target="_blank"
-              ><img src="../assets/xaml.svg" alt="" class="h-16 filter-blur"
-            /></a>
-            <p class="p-0">XAML</p>
-          </div>
-        </div>
-
-        <div class="flex flex-col items-center justify-center mt-12">
-          <h2 class="hide-then-show my-0">The Sandbox</h2>
-          <p class="hide-then-show px-4">
-            I have been exposed to these tools, most of them in a team setting.
-            Still have a lot to learn.
-          </p>
-        </div>
-
-        <div
-          class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-fifth"
-        >
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://spring.io/projects/spring-boot" target="_blank">
-              <img
-                src="../assets/spring-icon.svg"
-                alt=""
-                class="h-16 filter-blur"
-              />
-            </a>
-            <p class="p-0">Spring</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://www.python.org/" target="_blank"
-              ><img src="../assets/python.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Python</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://www.docker.com/" target="_blank">
-              <img
-                src="../assets/docker-icon.svg"
-                alt=""
-                class="h-16 filter-blur"
-              />
-            </a>
-            <p class="p-0">Docker</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://reactnative.dev/" target="_blank"
-              ><img src="../assets/react.svg" alt="" class="h-16 filter-blur"
-            /></a>
-            <p class="p-0">React&nbsp;Native</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://webpack.js.org/" target="_blank"
-              ><img src="../assets/webpack.svg" alt="" class="h-16 filter-blur"
-            /></a>
-            <p class="p-0">Webpack</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a
-              href="https://dotnet.microsoft.com/en-us/apps/maui"
-              target="_blank"
-            >
-              <img
-                src="../assets/dotnet_bot.svg"
-                alt=""
-                class="h-16 filter-blur"
-              />
-            </a>
-            <p class="p-0">.NET&nbsp;MAUI</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://typesense.org/" target="_blank">
-              <img
-                src="../assets/typesense-icon.svg"
-                alt=""
-                class="h-14 filter-blur"
-              />
-            </a>
-            <p class="p-0">Typesense</p>
-          </div>
-        </div>
       </div>
 
       <hr id="projects" class="border-secondary mt-12" />
@@ -1284,6 +910,373 @@ onMounted(() => {
             </p>
           </template>
         </Card>
+      </div>
+
+      <hr id="skills" class="border-secondary" />
+
+      <div class="">
+        <h1 class="hide-then-show text-5xl">Skills</h1>
+        <hr
+          class="hide-then-show border-primary min-w-full mb-20 mt-2"
+          style="border: 0.25px solid black"
+        />
+        <div class="flex flex-col items-center justify-center">
+          <h2 class="hide-then-show my-0">Go-To Toolkit</h2>
+          <p class="hide-then-show px-4">
+            I feel confident building with these and do so regularly.
+          </p>
+        </div>
+        <div
+          class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-cyan-200"
+        >
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://www.postgresql.org/" target="_blank"
+              ><img
+                src="../assets/postgresql-icon.svg"
+                alt=""
+                class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">PostgreSQL</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://git-scm.com/" target="_blank"
+              ><img
+                src="../assets/git-icon.svg"
+                alt=""
+                class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">Git</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://www.javascript.com/" target="_blank">
+              <img
+                src="../assets/javascript.svg"
+                alt=""
+                class="h-14 filter-blur"
+              />
+            </a>
+            <p class="p-0">Javascript</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://angular.dev/" target="_blank"
+              ><img src="../assets/angular.png" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Angular</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://vuejs.org/" target="_blank"
+              ><img src="../assets/vue.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Vue.js</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://www.typescriptlang.org/" target="_blank"
+              ><img src="../assets/ts.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Typescript</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              ><img src="../assets/html-5.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">HTML</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              target="_blank"
+              ><img
+                src="../assets/css-purple.png"
+                alt=""
+                class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">CSS</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://tailwindcss.com/" target="_blank">
+              <img
+                src="../assets/tailwindcss-icon.svg"
+                alt=""
+                class="h-12 filter-blur"
+              />
+            </a>
+            <p class="p-0">Tailwind</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://vite.dev/" target="_blank"
+              ><img src="../assets/vitejs.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Vite</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://code.visualstudio.com/" target="_blank">
+              <img
+                src="../assets/visual-studio-code.svg"
+                alt=""
+                class="h-14 filter-blur"
+              />
+            </a>
+            <p class="p-0">VS&nbsp;Code</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://www.jetbrains.com/webstorm/" target="_blank"
+              ><img
+                src="../assets/webstorm.svg"
+                alt=""
+                class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Webstorm</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center justify-center mt-16">
+          <h2 class="hide-then-show my-0">Supporting Gear</h2>
+          <p class="hide-then-show px-4">
+            I understand enough to do the basics. Eager to grow.
+          </p>
+        </div>
+
+        <div
+          class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-fifth to-cyan-200"
+        >
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://www.linux.org/" target="_blank">
+              <img
+                src="../assets/linux-tux.svg"
+                alt=""
+                class="h-14 filter-blur"
+              />
+            </a>
+            <p class="p-0">Linux</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://pinia.vuejs.org/" target="_blank"
+              ><img src="../assets/pinia.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Pinia</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://react.dev/" target="_blank"
+              ><img src="../assets/react.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">React</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://www.java.com/en/" target="_blank"
+              ><img src="../assets/java.svg" alt="" class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">Java</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://nodejs.org/en" target="_blank">
+              <img
+                src="../assets/nodejs-icon.svg"
+                alt=""
+                class="h-16 filter-blur"
+              />
+            </a>
+            <p class="p-0">Node.js</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://www.rust-lang.org/" target="_blank"
+              ><img src="../assets/rust.svg" alt="" class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">Rust</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://redis.io/" target="_blank"
+              ><img src="../assets/redis.svg" alt="" class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">Redis</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://getbootstrap.com/" target="_blank">
+              <img
+                src="../assets/bootstrap.svg"
+                alt=""
+                class="h-14 filter-blur"
+              />
+            </a>
+            <p class="p-0">Bootstrap</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://www.raspberrypi.com/" target="_blank">
+              <img
+                src="../assets/raspberry-pi.svg"
+                alt=""
+                class="h-16 filter-blur"
+              />
+            </a>
+            <p class="p-0">Raspberry&nbsp;Pi</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a
+              href="https://learn.microsoft.com/en-us/dotnet/desktop/wpf/xaml/?view=netdesktop-8.0"
+              target="_blank"
+              ><img src="../assets/xaml.svg" alt="" class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">XAML</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center justify-center mt-12">
+          <h2 class="hide-then-show my-0">The Sandbox</h2>
+          <p class="hide-then-show px-4">
+            I have been exposed to these tools, most of them in a team setting.
+            Still have a lot to learn.
+          </p>
+        </div>
+
+        <div
+          class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-fifth"
+        >
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://spring.io/projects/spring-boot" target="_blank">
+              <img
+                src="../assets/spring-icon.svg"
+                alt=""
+                class="h-16 filter-blur"
+              />
+            </a>
+            <p class="p-0">Spring</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://www.python.org/" target="_blank"
+              ><img src="../assets/python.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Python</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://www.docker.com/" target="_blank">
+              <img
+                src="../assets/docker-icon.svg"
+                alt=""
+                class="h-16 filter-blur"
+              />
+            </a>
+            <p class="p-0">Docker</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://reactnative.dev/" target="_blank"
+              ><img src="../assets/react.svg" alt="" class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">React&nbsp;Native</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://webpack.js.org/" target="_blank"
+              ><img src="../assets/webpack.svg" alt="" class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">Webpack</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a
+              href="https://dotnet.microsoft.com/en-us/apps/maui"
+              target="_blank"
+            >
+              <img
+                src="../assets/dotnet_bot.svg"
+                alt=""
+                class="h-16 filter-blur"
+              />
+            </a>
+            <p class="p-0">.NET&nbsp;MAUI</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://typesense.org/" target="_blank">
+              <img
+                src="../assets/typesense-icon.svg"
+                alt=""
+                class="h-14 filter-blur"
+              />
+            </a>
+            <p class="p-0">Typesense</p>
+          </div>
+        </div>
       </div>
 
       <hr id="contact" class="border-secondary" />
