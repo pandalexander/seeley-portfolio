@@ -204,7 +204,7 @@ onMounted(() => {
           style="border: 0.25px solid black"
         />
 
-        <div class="rounded-lg px-12">
+        <div class="rounded-lg md:px-12">
           <h2 class="hide-then-show">
             BTS Consulting - Web Design and Deployment
           </h2>
