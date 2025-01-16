@@ -320,7 +320,8 @@ onMounted(() => {
             <p>
               Technologies:
               <span class="text-fourth">
-                Vue.js, Tailwind CSS, Pinia, RESTful APIs, Typesense, Redis
+                Vue.js 💚, Tailwind CSS 💨, Pinia 🍍, RESTful APIs 🌐, Typesense
+                🔎, Redis 🔴
               </span>
             </p>
             <p>
@@ -383,7 +384,8 @@ onMounted(() => {
             <p>
               Technologies:
               <span class="text-fourth">
-                Rust, Java, Spring Boot, Redis, Docker, Vue.js, Raspberry Pi
+                Rust 🦀, Java ☕, Spring Boot 🌱, Redis 🔴, Docker 🐳, Vue.js
+                💚, Raspberry Pi 🥧
               </span>
             </p>
             <p>
@@ -457,7 +459,7 @@ onMounted(() => {
             <p>
               Technologies:
               <span class="text-fourth">
-                .NET MAUI, XAML, Visual Studio, Bootstrap
+                .NET MAUI 🤖, XAML 📜, Visual Studio 💻, Bootstrap 💜
               </span>
             </p>
             <p>
@@ -509,7 +511,9 @@ onMounted(() => {
             </ul>
             <p>
               Technologies:
-              <span class="text-fourth"> Vue.js, React Native, WordPress </span>
+              <span class="text-fourth">
+                Vue.js 💚, React Native⚛️📱, WordPress 📝
+              </span>
             </p>
             <p>
               This role allows me to apply my technical knowledge in a dynamic
@@ -590,7 +594,8 @@ onMounted(() => {
             <p>
               Technologies:
               <span class="text-fourth">
-                Angular, TypeScript, HTML, CSS, Tailwind CSS</span
+                Angular 🛑, TypeScript 🔵, HTML 🟠, CSS 💅, Tailwind CSS
+                💨</span
               >
             </p>
             <p>
@@ -659,7 +664,8 @@ onMounted(() => {
             <p>
               Technologies:
               <span class="text-fourth">
-                HTML, CSS, Javascript, React, Tailwind CSS, Vercel
+                HTML 🟠, CSS 💅, Javascript 💛, React ⚛️, Tailwind CSS 💨,
+                Vercel 🔺
               </span>
             </p>
             <p>
@@ -765,7 +771,7 @@ onMounted(() => {
             <p>
               Technologies:
               <span class="text-fourth">
-                HTML, CSS, Vanilla Javascript, Webpack
+                HTML 🟠, CSS 💅, Vanilla Javascript 💛, Webpack 📦
               </span>
             </p>
             <p>
