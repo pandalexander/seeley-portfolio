@@ -561,7 +561,7 @@ onMounted(() => {
 
       <hr id="projects" class="border-secondary mt-12" />
 
-      <div class="bg-green-200 flex flex-col">
+      <div class="flex flex-col">
         <h1 class="hide-then-show text-5xl">Projects and Experience</h1>
         <hr
           class="hide-then-show border-primary min-w-full mb-20 mt-2"
