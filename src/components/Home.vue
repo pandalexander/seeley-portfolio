@@ -88,8 +88,12 @@ onMounted(() => {
       >
         <Cube />
       </div>
+      <div class="flex justify-center mt-32">
+        <img src="../assets/arrow-down.svg" alt="" class="animate-bounce" />
+      </div>
     </div>
   </div>
+
   <div ref="myScrollElement" id="scrollArea" class="">
     <div id="about"></div>
     <header
