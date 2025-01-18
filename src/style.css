@@ -99,3 +99,7 @@ li {
   transform: scale(1.05);
   cursor: pointer;
 }
+
+.pop:hover {
+  transform: scale(1.02);
+}

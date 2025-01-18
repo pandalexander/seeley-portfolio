@@ -67,7 +67,6 @@ onMounted(() => {
         entry.target.classList.add("show");
         console.log(entry.target.classList);
       } else {
-        entry.target.classList.remove("show");
       }
     });
   });
@@ -198,72 +197,30 @@ onMounted(() => {
           style="border: 0.25px solid black"
         />
 
-        <h1 class="hide-then-show text-3xl">See It in Action</h1>
-        <hr
-          class="hide-then-show border-primary min-w-full mb-20 mt-2"
-          style="border: 0.25px solid black"
-        />
-
-        <div class="rounded-lg md:px-12">
-          <h2 class="hide-then-show">
-            BTS Consulting - Web Design and Deployment
-          </h2>
-          <a href="https://bts-consulting.vercel.app/" target="_blank">
-            <img
-              src="../assets/bts-hero.png"
-              alt=""
-              class="hide-then-show border-2 border-white rounded-md shadow-lg transition duration-500 hover:-translate-y-2 hover:shadow-sky-400 hover:border-sky-600"
-            />
+        <div class="rounded-lg md:px-12 hide-then-show">
+          <h2 class="">BTS Consulting - Full Web Development and Deployment</h2>
+          <a href="https://www.bts-cos.com/" target="_blank" class="">
+            <div
+              class="bg-white border-2 border-white rounded-lg shadow-md transition duration-500 hover:shadow-sky-300 pop"
+            >
+              <div class="ml-2 flex justify-start space-x-5 items-center">
+                <div class="max-w-8">
+                  <img src="../assets/react.svg" alt="" class="h-14" />
+                </div>
+                <div class="max-w-8">
+                  <img
+                    src="../assets/tailwindcss-icon.svg"
+                    alt=""
+                    class="h-14"
+                  />
+                </div>
+                <div class="max-w-8">
+                  <img src="../assets/vercel-icon.svg" alt="" class="h-14" />
+                </div>
+              </div>
+              <img src="../assets/bts-hero.png" alt="" class="rounded-lg" />
+            </div>
           </a>
-          <Card class="hide-then-show border-black mt-6 mb-6">
-            <template #projectTitle>
-              <h3>Read more...</h3>
-            </template>
-            <template #projectDescription>
-              <p>
-                I developed a modern, mobile-responsive landing page for a local
-                Certified Public Accountant (CPA) using React and Tailwind CSS,
-                deployed seamlessly on Vercel. The website features smooth,
-                engaging animations that create an inviting user experience
-                while showcasing the CPA's services in a professional yet
-                approachable manner. This project solved a real-world business
-                problem by establishing a strong online presence for the client,
-                enabling them to attract and connect with more customers.
-              </p>
-            </template>
-            <template #projectContent>
-              <h3 class="mt-6">Highlights:</h3>
-              <ul class="list-disc pl-4 py-3">
-                <li>
-                  Built with React and Tailwind CSS for speed and design
-                  flexibility.
-                </li>
-                <li>
-                  Deployed on Vercel, ensuring fast load times and reliability.
-                </li>
-                <li>Fully mobile-responsive design to cater to all devices.</li>
-                <li>
-                  Implemented smooth animations for a modern and dynamic user
-                  experience.
-                </li>
-                <li>
-                  Delivered a solution that met business needs and provided
-                  tangible value.
-                </li>
-              </ul>
-              <p>
-                Technologies:
-                <span class="text-fourth">
-                  React ⚛️, Tailwind CSS 💨, Vercel🔺
-                </span>
-              </p>
-              <p>
-                This project showcases my ability to deliver real-world
-                solutions using modern web technologies while focusing on
-                performance, user experience, and responsiveness.
-              </p>
-            </template>
-          </Card>
         </div>
 
         <h1 class="hide-then-show text-3xl mt-20">Behind the Scenes</h1>
