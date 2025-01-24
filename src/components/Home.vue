@@ -973,6 +973,28 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
+            <a href="https://react.dev/" target="_blank"
+              ><img src="../assets/react.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">React</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://tailwindcss.com/" target="_blank">
+              <img
+                src="../assets/tailwindcss-icon.svg"
+                alt=""
+                class="h-12 filter-blur"
+              />
+            </a>
+            <p class="p-0">Tailwind</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
             <a href="https://www.postgresql.org/" target="_blank"
               ><img
                 src="../assets/postgresql-icon.svg"
@@ -1019,15 +1041,6 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <a href="https://vuejs.org/" target="_blank"
-              ><img src="../assets/vue.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Vue.js</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
             <a href="https://www.typescriptlang.org/" target="_blank"
               ><img src="../assets/ts.svg" alt="" class="h-14 filter-blur"
             /></a>
@@ -1062,19 +1075,6 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <a href="https://tailwindcss.com/" target="_blank">
-              <img
-                src="../assets/tailwindcss-icon.svg"
-                alt=""
-                class="h-12 filter-blur"
-              />
-            </a>
-            <p class="p-0">Tailwind</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
             <a href="https://vite.dev/" target="_blank"
               ><img src="../assets/vitejs.svg" alt="" class="h-14 filter-blur"
             /></a>
@@ -1084,25 +1084,19 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <a href="https://code.visualstudio.com/" target="_blank">
-              <img
-                src="../assets/visual-studio-code.svg"
-                alt=""
-                class="h-14 filter-blur"
-              />
-            </a>
-            <p class="p-0">VS&nbsp;Code</p>
-          </div>
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://www.jetbrains.com/webstorm/" target="_blank"
-              ><img
-                src="../assets/webstorm.svg"
-                alt=""
-                class="h-14 filter-blur"
+            <a href="https://vuejs.org/" target="_blank"
+              ><img src="../assets/vue.svg" alt="" class="h-14 filter-blur"
             /></a>
-            <p class="p-0">Webstorm</p>
+            <p class="p-0">Vue.js</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://reactnative.dev/" target="_blank"
+              ><img src="../assets/react.svg" alt="" class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">React&nbsp;Native</p>
           </div>
         </div>
 
@@ -1116,6 +1110,14 @@ onMounted(() => {
         <div
           class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-fifth to-cyan-200"
         >
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://www.python.org/" target="_blank"
+              ><img src="../assets/python.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Python</p>
+          </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
@@ -1139,24 +1141,6 @@ onMounted(() => {
           </div>
 
           <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://react.dev/" target="_blank"
-              ><img src="../assets/react.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">React</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://www.java.com/en/" target="_blank"
-              ><img src="../assets/java.svg" alt="" class="h-16 filter-blur"
-            /></a>
-            <p class="p-0">Java</p>
-          </div>
-
-          <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
             <a href="https://nodejs.org/en" target="_blank">
@@ -1172,32 +1156,10 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <a href="https://www.rust-lang.org/" target="_blank"
-              ><img src="../assets/rust.svg" alt="" class="h-16 filter-blur"
-            /></a>
-            <p class="p-0">Rust</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
             <a href="https://redis.io/" target="_blank"
               ><img src="../assets/redis.svg" alt="" class="h-16 filter-blur"
             /></a>
             <p class="p-0">Redis</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://getbootstrap.com/" target="_blank">
-              <img
-                src="../assets/bootstrap.svg"
-                alt=""
-                class="h-14 filter-blur"
-              />
-            </a>
-            <p class="p-0">Bootstrap</p>
           </div>
 
           <div
@@ -1239,6 +1201,14 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
+            <a href="https://www.java.com/en/" target="_blank"
+              ><img src="../assets/java.svg" alt="" class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">Java</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
             <a href="https://spring.io/projects/spring-boot" target="_blank">
               <img
                 src="../assets/spring-icon.svg"
@@ -1250,12 +1220,12 @@ onMounted(() => {
           </div>
 
           <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <a href="https://www.python.org/" target="_blank"
-              ><img src="../assets/python.svg" alt="" class="h-14 filter-blur"
+            <a href="https://www.rust-lang.org/" target="_blank"
+              ><img src="../assets/rust.svg" alt="" class="h-16 filter-blur"
             /></a>
-            <p class="p-0">Python</p>
+            <p class="p-0">Rust</p>
           </div>
 
           <div
@@ -1274,19 +1244,23 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
           >
-            <a href="https://reactnative.dev/" target="_blank"
-              ><img src="../assets/react.svg" alt="" class="h-16 filter-blur"
-            /></a>
-            <p class="p-0">React&nbsp;Native</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
             <a href="https://webpack.js.org/" target="_blank"
               ><img src="../assets/webpack.svg" alt="" class="h-16 filter-blur"
             /></a>
             <p class="p-0">Webpack</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://getbootstrap.com/" target="_blank">
+              <img
+                src="../assets/bootstrap.svg"
+                alt=""
+                class="h-14 filter-blur"
+              />
+            </a>
+            <p class="p-0">Bootstrap</p>
           </div>
 
           <div
