@@ -218,12 +218,18 @@ onMounted(() => {
                   <img src="../assets/vercel-icon.svg" alt="" class="h-14" />
                 </div>
               </div>
+              <p class="mx-4 text-left text-base">
+                A modern, responsive website for a business owner using React,
+                Tailwind, and Vercel. I also integrated their Google and
+                Squarespace accounts to ensure their existing domain pointed to
+                the new site.
+              </p>
               <img src="../assets/bts-hero.png" alt="" class="rounded-lg" />
             </div>
           </a>
         </div>
 
-        <div class="rounded-lg md:px-12 hide-then-show mt-12">
+        <div class="rounded-lg md:px-12 mt-12 hide-then-show">
           <h2 class="">
             College Savings Calculator - Experiment in Financial Calculations
           </h2>
@@ -239,6 +245,10 @@ onMounted(() => {
                 <div class="max-w-10">
                   <img src="../assets/angular.png" alt="" class="h-10" />
                 </div>
+
+                <div class="max-w-8">
+                  <img src="../assets/ts.svg" alt="" class="h-14" />
+                </div>
                 <div class="max-w-8">
                   <img
                     src="../assets/tailwindcss-icon.svg"
@@ -246,10 +256,13 @@ onMounted(() => {
                     class="h-14"
                   />
                 </div>
-                <div class="max-w-8">
-                  <img src="../assets/git-icon.svg" alt="" class="h-14" />
-                </div>
               </div>
+              <p class="mx-4 border-b-2 mb-4 border-third text-left text-base">
+                A college calculator using Angular and TypeScript to help
+                parents plan for their children's education. Made with reactive
+                forms, clear component architecture, and responsive styling with
+                Tailwind.
+              </p>
               <img src="../assets/calculator.png" alt="" class="rounded-lg" />
             </div>
           </a>
