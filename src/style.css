@@ -85,7 +85,8 @@ li {
 .hide-then-show {
   opacity: 0;
   transition: all 1s;
-  transform: translate(-2rem, 1rem);
+  transform: translateY(1rem);
+  /* transform: translateY(-2rem, 1rem); */
   will-change: opacity, transform;
 }
 
