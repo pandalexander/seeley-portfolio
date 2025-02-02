@@ -223,6 +223,38 @@ onMounted(() => {
           </a>
         </div>
 
+        <div class="rounded-lg md:px-12 hide-then-show mt-12">
+          <h2 class="">
+            College Savings Calculator - Experiment in Financial Calculations
+          </h2>
+          <a
+            href="https://pandalexander.github.io/budget/"
+            target="_blank"
+            class=""
+          >
+            <div
+              class="bg-white border-2 border-white rounded-lg shadow-md transition duration-500 hover:shadow-sky-300 pop"
+            >
+              <div class="ml-2 flex justify-start space-x-5 items-center">
+                <div class="max-w-10">
+                  <img src="../assets/angular.png" alt="" class="h-10" />
+                </div>
+                <div class="max-w-8">
+                  <img
+                    src="../assets/tailwindcss-icon.svg"
+                    alt=""
+                    class="h-14"
+                  />
+                </div>
+                <div class="max-w-8">
+                  <img src="../assets/git-icon.svg" alt="" class="h-14" />
+                </div>
+              </div>
+              <img src="../assets/calculator.png" alt="" class="rounded-lg" />
+            </div>
+          </a>
+        </div>
+
         <h1 class="hide-then-show text-3xl mt-20">Behind the Scenes</h1>
         <hr
           class="hide-then-show border-primary min-w-full mb-20 mt-2"
@@ -495,7 +527,7 @@ onMounted(() => {
           Work
         </h2>
 
-        <Card class="hide-then-show mt-6 border-fourth">
+        <!-- <Card class="hide-then-show mt-6 border-fourth">
           <template #projectTitle>
             <h3>College Savings Calculator</h3>
           </template>
@@ -585,7 +617,7 @@ onMounted(() => {
               </a>
             </div>
           </template>
-        </Card>
+        </Card> -->
 
         <Card class="hide-then-show mt-6 border-fourth">
           <template #projectTitle>
