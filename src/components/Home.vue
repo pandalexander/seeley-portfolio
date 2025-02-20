@@ -1075,6 +1075,15 @@ onMounted(() => {
           </div>
 
           <div
+            class="flex flex-col justify-center items-center p-4 w-1/6 min-w-[100px]"
+          >
+            <a href="https://gsap.com/" target="_blank"
+              ><img src="../assets/gsap.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Greensock</p>
+          </div>
+
+          <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <a href="https://angular.dev/" target="_blank"
@@ -1134,15 +1143,6 @@ onMounted(() => {
             /></a>
             <p class="p-0">Vue.js</p>
           </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://reactnative.dev/" target="_blank"
-              ><img src="../assets/react.svg" alt="" class="h-16 filter-blur"
-            /></a>
-            <p class="p-0">React&nbsp;Native</p>
-          </div>
         </div>
 
         <div class="flex flex-col items-center justify-center mt-16">
@@ -1155,6 +1155,14 @@ onMounted(() => {
         <div
           class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-fifth to-cyan-200"
         >
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://reactnative.dev/" target="_blank"
+              ><img src="../assets/react.svg" alt="" class="h-16 filter-blur"
+            /></a>
+            <p class="p-0">React&nbsp;Native</p>
+          </div>
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
