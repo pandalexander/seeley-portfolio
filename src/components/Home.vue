@@ -201,7 +201,7 @@ onMounted(() => {
           <h2 class="">BTS Consulting - Full Web Development and Deployment</h2>
           <a href="https://www.bts-cos.com/" target="_blank" class="">
             <div
-              class="bg-white border-2 border-white rounded-lg shadow-md transition duration-500 hover:shadow-sky-300 pop"
+              class="bg-white border-2 border-white rounded-lg shadow-md transition-transform duration-300 hover:border-sky-300 hover:-translate-y-1"
             >
               <div class="ml-2 flex justify-start space-x-5 items-center">
                 <div class="max-w-8">
@@ -239,7 +239,7 @@ onMounted(() => {
             class=""
           >
             <div
-              class="bg-white border-2 border-white rounded-lg shadow-md transition duration-500 hover:shadow-sky-300 pop"
+              class="bg-white border-2 border-white rounded-lg shadow-md transition-transform duration-300 hover:border-sky-300 hover:-translate-y-1"
             >
               <div class="ml-2 flex justify-start space-x-5 items-center">
                 <div class="max-w-10">
