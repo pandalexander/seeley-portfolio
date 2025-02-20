@@ -198,7 +198,9 @@ onMounted(() => {
         />
 
         <div class="rounded-lg md:px-12 hide-then-show">
-          <h2 class="">BTS Consulting - Full Web Development and Deployment</h2>
+          <h2 class="">
+            Sandals Discipleship - Modern Web Design & Development
+          </h2>
           <a href="https://www.bts-cos.com/" target="_blank" class="">
             <div
               class="bg-white border-2 border-white rounded-lg shadow-md transition-transform duration-300 hover:border-sky-300 hover:-translate-y-1"
@@ -214,17 +216,21 @@ onMounted(() => {
                     class="h-14"
                   />
                 </div>
+                <div class="max-w-16">
+                  <img src="../assets/gsap.svg" alt="" class="h-14" />
+                </div>
                 <div class="max-w-8">
                   <img src="../assets/vercel-icon.svg" alt="" class="h-14" />
                 </div>
               </div>
               <p class="mx-4 text-left text-base">
-                A modern, responsive website for a business owner using React,
-                Tailwind, and Vercel. I also integrated their Google and
-                Squarespace accounts to ensure their existing domain pointed to
-                the new site.
+                A modern, responsive website for a tech startup using React,
+                Tailwind, and Vercel. I implemented GSAP animations with scroll
+                triggers to create an engaging desktop experience, while
+                optimizing the mobile version with performance-conscious
+                animation patterns.
               </p>
-              <img src="../assets/bts-hero.png" alt="" class="rounded-lg" />
+              <img src="../assets/sandals-home.png" alt="" class="rounded-lg" />
             </div>
           </a>
         </div>
@@ -264,6 +270,38 @@ onMounted(() => {
                 Tailwind.
               </p>
               <img src="../assets/calculator.png" alt="" class="rounded-lg" />
+            </div>
+          </a>
+        </div>
+
+        <div class="rounded-lg mt-12 md:px-12 hide-then-show">
+          <h2 class="">BTS Consulting - Full Web Development and Deployment</h2>
+          <a href="https://www.bts-cos.com/" target="_blank" class="">
+            <div
+              class="bg-white border-2 border-white rounded-lg shadow-md transition-transform duration-300 hover:border-sky-300 hover:-translate-y-1"
+            >
+              <div class="ml-2 flex justify-start space-x-5 items-center">
+                <div class="max-w-8">
+                  <img src="../assets/react.svg" alt="" class="h-14" />
+                </div>
+                <div class="max-w-8">
+                  <img
+                    src="../assets/tailwindcss-icon.svg"
+                    alt=""
+                    class="h-14"
+                  />
+                </div>
+                <div class="max-w-8">
+                  <img src="../assets/vercel-icon.svg" alt="" class="h-14" />
+                </div>
+              </div>
+              <p class="mx-4 text-left text-base">
+                A modern, responsive website for a business owner using React,
+                Tailwind, and Vercel. I also integrated their Google and
+                Squarespace accounts to ensure their existing domain pointed to
+                the new site.
+              </p>
+              <img src="../assets/bts-hero.png" alt="" class="rounded-lg" />
             </div>
           </a>
         </div>
