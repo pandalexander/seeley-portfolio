@@ -201,7 +201,7 @@ onMounted(() => {
           <h2 class="">
             Sandals Discipleship - Modern Web Design & Development
           </h2>
-          <a href="https://www.bts-cos.com/" target="_blank" class="">
+          <a href="https://sandals-site.vercel.app/" target="_blank" class="">
             <div
               class="bg-white border-2 border-white rounded-lg shadow-md transition-transform duration-300 hover:border-sky-300 hover:-translate-y-1"
             >
