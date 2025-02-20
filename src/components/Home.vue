@@ -529,34 +529,45 @@ onMounted(() => {
 
         <Card class="hide-then-show mt-6 border-secondary">
           <template #projectTitle>
-            <h3>Web Development and Content Support</h3>
+            <h3>Main Site Web Development & Support</h3>
           </template>
           <template #projectDescription>
             <p>
-              As a paid intern, I contribute to the team's digital presence
-              through website updates and user interface design. Additionally, I
-              am poised to assist with the team's mobile app development using
-              React Native, further expanding my skillset in cross-platform
-              mobile technologies. My primary responsibilities include:
+              I contribute to the team's digital presence through comprehensive
+              web development and user interface design. I led the development
+              of the company's main website using React, Tailwind CSS, and GSAP
+              animations, creating an engaging desktop experience with
+              scroll-triggered effects while maintaining optimal performance on
+              mobile devices. The site was deployed and maintained through
+              Vercel, demonstrating my ability to handle full-stack development
+              projects. Additionally, I assist with the team's mobile app
+              development using React Native, further expanding my skillset in
+              cross-platform mobile technologies. My primary responsibilities
+              include:
             </p>
           </template>
           <template #projectContent>
             <ul class="list-disc pl-4 py-3">
               <li>
-                Supporting website updates using WordPress and Divi themes
-              </li>
-              <li>
-                Compiling user stories for Azure based on team brainstorming
+                Building and maintaining modern web experiences using React and
+                Tailwind CSS
               </li>
               <li>Designing intuitive dashboard widgets with Vue.js</li>
               <li>
                 Collaborating on the development of responsive web applications
               </li>
+              <li>
+                Compiling user stories for Azure based on team brainstorming
+              </li>
+              <li>
+                Supporting website updates using WordPress and Divi themes
+              </li>
             </ul>
             <p>
               Technologies:
               <span class="text-fourth">
-                Vue.js 💚, React Native⚛️📱, WordPress 📝
+                React ⚛️, Tailwind CSS 💨, GSAP ✨, Vercel 🔺, Vue.js 💚, React
+                Native⚛️📱, WordPress 📝
               </span>
             </p>
             <p>
