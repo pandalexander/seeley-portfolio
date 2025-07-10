@@ -250,7 +250,7 @@ onMounted(() => {
           </a>
         </div>
 
-        <div class="rounded-lg md:px-12 hide-then-show">
+        <div class="rounded-lg md:px-12 mt-12 hide-then-show">
           <h2 class="">Sandals Discipleship - Web Design and Development</h2>
           <a href="https://sandals-site.vercel.app/" target="_blank" class="">
             <div
@@ -1052,9 +1052,14 @@ onMounted(() => {
         <div
           class="hide-then-show flex flex-col justify-center items-center p-6 bg-white shadow-lg rounded-xl mt-24"
         >
-          <h2 class="m-0 mb-6">Current GitHub Contributions</h2>
+          <h2 class="m-0">Current GitHub Contributions</h2>
+          <p class="text-balance text-center">
+            psst - I know my GitHub’s been quiet recently, but that’s just
+            because most of the projects I’ve been working on are set to
+            private... I PROMISE
+          </p>
 
-          <div class="w-full overflow-x-auto relative z-0">
+          <div class="w-full overflow-x-auto relative z-0 mt-6">
             <div class="relative h-48 sm:h-auto sm:max-h-96 min-w-max">
               <img
                 class="h-full w-auto sm:w-full sm:h-auto object-cover"
@@ -1083,6 +1088,36 @@ onMounted(() => {
         <div
           class="hide-then-show flex flex-wrap justify-center gap-4 p-4 pt-7 rounded-xl shadow-neumorphic bg-gradient-to-br from-red-200 to-cyan-200"
         >
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://astro.build/" target="_blank"
+              ><img
+                src="../assets/astro-icon.svg"
+                alt=""
+                class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Astro</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://angular.dev/" target="_blank"
+              ><img src="../assets/angular.png" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Angular</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
+          >
+            <a href="https://vuejs.org/" target="_blank"
+              ><img src="../assets/vue.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Vue.js</p>
+          </div>
+
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
@@ -1143,24 +1178,6 @@ onMounted(() => {
           </div>
 
           <div
-            class="flex flex-col justify-center items-center p-4 w-1/6 min-w-[100px]"
-          >
-            <a href="https://gsap.com/" target="_blank"
-              ><img src="../assets/gsap.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Greensock</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
-          >
-            <a href="https://angular.dev/" target="_blank"
-              ><img src="../assets/angular.png" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Angular</p>
-          </div>
-
-          <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <a href="https://www.typescriptlang.org/" target="_blank"
@@ -1195,6 +1212,15 @@ onMounted(() => {
           </div>
 
           <div
+            class="flex flex-col justify-center items-center p-4 w-1/6 min-w-[100px]"
+          >
+            <a href="https://gsap.com/" target="_blank"
+              ><img src="../assets/gsap.svg" alt="" class="h-14 filter-blur"
+            /></a>
+            <p class="p-0">Greensock</p>
+          </div>
+
+          <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
             <a href="https://vite.dev/" target="_blank"
@@ -1206,10 +1232,14 @@ onMounted(() => {
           <div
             class="flex flex-col justify-center items-center p-4 w-1/5 min-w-[100px]"
           >
-            <a href="https://vuejs.org/" target="_blank"
-              ><img src="../assets/vue.svg" alt="" class="h-14 filter-blur"
-            /></a>
-            <p class="p-0">Vue.js</p>
+            <a href="https://netlify.com/" target="_blank">
+              <img
+                src="../assets/netlify-icon.svg"
+                alt=""
+                class="h-12 filter-blur"
+              />
+            </a>
+            <p class="p-0">Netlify</p>
           </div>
         </div>
 
@@ -1272,6 +1302,19 @@ onMounted(() => {
               />
             </a>
             <p class="p-0">Node.js</p>
+          </div>
+
+          <div
+            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
+          >
+            <a href="https://www.docker.com/" target="_blank">
+              <img
+                src="../assets/docker-icon.svg"
+                alt=""
+                class="h-16 filter-blur"
+              />
+            </a>
+            <p class="p-0">Docker</p>
           </div>
 
           <div
@@ -1347,19 +1390,6 @@ onMounted(() => {
               ><img src="../assets/rust.svg" alt="" class="h-16 filter-blur"
             /></a>
             <p class="p-0">Rust</p>
-          </div>
-
-          <div
-            class="flex flex-col justify-center items-center p-4 w-1/4 min-w-[100px]"
-          >
-            <a href="https://www.docker.com/" target="_blank">
-              <img
-                src="../assets/docker-icon.svg"
-                alt=""
-                class="h-16 filter-blur"
-              />
-            </a>
-            <p class="p-0">Docker</p>
           </div>
 
           <div

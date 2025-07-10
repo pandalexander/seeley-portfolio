@@ -39,7 +39,7 @@ function toggleVisible() {
           :class="{ spun: isActive }"
         />
       </button>
-      <div @click="toggleVisible" class="pl-4">
+      <div @click="toggleVisible" class="pl-4 hover:cursor-pointer">
         <slot name="projectTitle"></slot>
       </div>
     </div>
