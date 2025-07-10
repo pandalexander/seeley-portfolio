@@ -94,14 +94,26 @@ onMounted(() => {
   </div>
 
   <div ref="myScrollElement" id="scrollArea" class="">
+    <!-- This empty div is likely for an anchor link scroll target. It's fine to keep. -->
     <div id="about"></div>
+
+    <!-- 
+  The <header> is now a full-width sticky container. It handles positioning.
+  The <nav> inside it is what gets centered. This is a more robust pattern.
+-->
     <header
-      class="hide-then-show text-primary p-11 sticky top-0 left-0 right-0 opacity-0 z-40 pointer-events-none w-fit mx-auto"
+      class="hide-then-show sticky top-4 left-0 right-0 z-40 opacity-0 pointer-events-none"
     >
-      <nav class="rounded-full">
+      <!-- 
+    This nav is now the centered element. w-fit + mx-auto is a great way to 
+    center a block with an unknown width.
+  -->
+      <nav class="w-fit mx-auto">
         <ul
           class="flex justify-center items-center space-x-4 bg-primary rounded-full py-4 px-7 pointer-events-auto"
         >
+          <!-- The `text-primary` and `text-fifth` classes suggest you have a color system.
+           The links correctly have `text-fifth`. No changes needed here. -->
           <li class="mb-0">
             <a
               href="#about"
@@ -123,7 +135,6 @@ onMounted(() => {
               >Skills</a
             >
           </li>
-
           <li class="mb-0">
             <a
               href="#contact"
@@ -134,9 +145,12 @@ onMounted(() => {
         </ul>
       </nav>
     </header>
+
     <main class="max-w-4xl mx-auto p-4">
       <section>
-        <h1 class="hide-then-show text-center font-primary text-primary mb-12">
+        <h1
+          class="hide-then-show text-center font-primary text-primary pt-6 mb-12"
+        >
           Making the world a nicer place, one
           <span class="italic text-fourth font-mono">&gt;commit</span> at a
           time.
@@ -199,8 +213,45 @@ onMounted(() => {
 
         <div class="rounded-lg md:px-12 hide-then-show">
           <h2 class="">
-            Sandals Discipleship - Modern Web Design & Development
+            Hillside Web Design - Modern Web Design & Development
           </h2>
+          <a href="https://hillsidewebdesign.com" target="_blank" class="">
+            <div
+              class="bg-white border-2 border-white rounded-lg shadow-md transition-transform duration-300 hover:border-sky-300 hover:-translate-y-1"
+            >
+              <div class="ml-2 flex justify-start space-x-5 items-center">
+                <div class="max-w-8 py-2">
+                  <img src="../assets/astro-icon.svg" alt="" class="h-14" />
+                </div>
+                <div class="max-w-8">
+                  <img
+                    src="../assets/tailwindcss-icon.svg"
+                    alt=""
+                    class="h-14"
+                  />
+                </div>
+                <div class="max-w-16 py-2">
+                  <img src="../assets/netlify-icon.svg" alt="" class="h-14" />
+                </div>
+              </div>
+              <p class="mx-4 text-left text-base">
+                A modern, responsive website for my web design company using
+                Astro, Tailwind, and Netlify. I focused on performance
+                optimization, achieving an A+ score on Google PageSpeed, and
+                built SEO- friendly features including a reactive schema prop
+                and a blog powered by Decap CMS for easy content management.
+              </p>
+              <img
+                src="../assets/hillside-home.png"
+                alt=""
+                class="rounded-lg"
+              />
+            </div>
+          </a>
+        </div>
+
+        <div class="rounded-lg md:px-12 hide-then-show">
+          <h2 class="">Sandals Discipleship - Web Design and Development</h2>
           <a href="https://sandals-site.vercel.app/" target="_blank" class="">
             <div
               class="bg-white border-2 border-white rounded-lg shadow-md transition-transform duration-300 hover:border-sky-300 hover:-translate-y-1"
@@ -270,38 +321,6 @@ onMounted(() => {
                 Tailwind.
               </p>
               <img src="../assets/calculator.png" alt="" class="rounded-lg" />
-            </div>
-          </a>
-        </div>
-
-        <div class="rounded-lg mt-12 md:px-12 hide-then-show">
-          <h2 class="">BTS Consulting - Full Web Development and Deployment</h2>
-          <a href="https://www.bts-cos.com/" target="_blank" class="">
-            <div
-              class="bg-white border-2 border-white rounded-lg shadow-md transition-transform duration-300 hover:border-sky-300 hover:-translate-y-1"
-            >
-              <div class="ml-2 flex justify-start space-x-5 items-center">
-                <div class="max-w-8">
-                  <img src="../assets/react.svg" alt="" class="h-14" />
-                </div>
-                <div class="max-w-8">
-                  <img
-                    src="../assets/tailwindcss-icon.svg"
-                    alt=""
-                    class="h-14"
-                  />
-                </div>
-                <div class="max-w-8">
-                  <img src="../assets/vercel-icon.svg" alt="" class="h-14" />
-                </div>
-              </div>
-              <p class="mx-4 text-left text-base">
-                A modern, responsive website for a business owner using React,
-                Tailwind, and Vercel. I also integrated their Google and
-                Squarespace accounts to ensure their existing domain pointed to
-                the new site.
-              </p>
-              <img src="../assets/bts-hero.png" alt="" class="rounded-lg" />
             </div>
           </a>
         </div>
